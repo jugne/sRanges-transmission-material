@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood:sr.evolution.sranges:beast.base.inference.parameter:beast.base.inference:beast.base.evolution.branchratemodel:sr.speciation:sr.evolution.operators:beast.base.evolution.tree:sa.evolution.operators" required="BEAST.base v2.7.5" version="2.7">
+
+    <data
+            id="Georgia_L2"
+            spec="Alignment"
+            name="alignment">
+        <sequence id="seq_104_1" spec="Sequence" taxon="PT0014332_first" totalcount="4" value="-"/>
+		<sequence id="seq_15_1" spec="Sequence" taxon="PT0001705_first" totalcount="4" value="-"/>
+		<sequence id="seq_74_1" spec="Sequence" taxon="PT0009652_first" totalcount="4" value="-"/>
+		<sequence id="seq_115_1" spec="Sequence" taxon="PT0016117_first" totalcount="4" value="-"/>
+		<sequence id="seq_95_1" spec="Sequence" taxon="PT0013537_first" totalcount="4" value="-"/>
+		<sequence id="seq_115_2" spec="Sequence" taxon="PT0016117_2" totalcount="4" value="-"/>
+		<sequence id="seq_8_1" spec="Sequence" taxon="PT0001227_first" totalcount="4" value="-"/>
+		<sequence id="seq_27_1" spec="Sequence" taxon="PT0002445_first" totalcount="4" value="-"/>
+		<sequence id="seq_15_2" spec="Sequence" taxon="PT0001705_2" totalcount="4" value="-"/>
+		<sequence id="seq_12_1" spec="Sequence" taxon="PT0001399_first" totalcount="4" value="-"/>
+		<sequence id="seq_56_1" spec="Sequence" taxon="PT0006597_first" totalcount="4" value="-"/>
+		<sequence id="seq_115_3" spec="Sequence" taxon="PT0016117_3" totalcount="4" value="-"/>
+		<sequence id="seq_104_2" spec="Sequence" taxon="PT0014332_2" totalcount="4" value="-"/>
+		<sequence id="seq_18_1" spec="Sequence" taxon="PT0001815_first" totalcount="4" value="-"/>
+		<sequence id="seq_18_2" spec="Sequence" taxon="PT0001815_2" totalcount="4" value="-"/>
+		<sequence id="seq_86_1" spec="Sequence" taxon="PT0011457_first" totalcount="4" value="-"/>
+		<sequence id="seq_95_2" spec="Sequence" taxon="PT0013537_2" totalcount="4" value="-"/>
+		<sequence id="seq_56_2" spec="Sequence" taxon="PT0006597_last" totalcount="4" value="-"/>
+		<sequence id="seq_78_1" spec="Sequence" taxon="PT0010658_first" totalcount="4" value="-"/>
+		<sequence id="seq_5_1" spec="Sequence" taxon="PT0000920_first" totalcount="4" value="-"/>
+		<sequence id="seq_114_1" spec="Sequence" taxon="PT0015912_first" totalcount="4" value="-"/>
+		<sequence id="seq_103_1" spec="Sequence" taxon="PT0014214_first" totalcount="4" value="-"/>
+		<sequence id="seq_105_1" spec="Sequence" taxon="PT0014349_first" totalcount="4" value="-"/>
+		<sequence id="seq_95_3" spec="Sequence" taxon="PT0013537_3" totalcount="4" value="-"/>
+		<sequence id="seq_61_1" spec="Sequence" taxon="PT0007055_first" totalcount="4" value="-"/>
+		<sequence id="seq_101_1" spec="Sequence" taxon="PT0014046_first" totalcount="4" value="-"/>
+		<sequence id="seq_104_3" spec="Sequence" taxon="PT0014332_3" totalcount="4" value="-"/>
+		<sequence id="seq_93_1" spec="Sequence" taxon="PT0012652_first" totalcount="4" value="-"/>
+		<sequence id="seq_115_4" spec="Sequence" taxon="PT0016117_4" totalcount="4" value="-"/>
+		<sequence id="seq_53_1" spec="Sequence" taxon="PT0005314_first" totalcount="4" value="-"/>
+		<sequence id="seq_78_2" spec="Sequence" taxon="PT0010658_2" totalcount="4" value="-"/>
+		<sequence id="seq_12_2" spec="Sequence" taxon="PT0001399_2" totalcount="4" value="-"/>
+		<sequence id="seq_5_2" spec="Sequence" taxon="PT0000920_2" totalcount="4" value="-"/>
+		<sequence id="seq_18_3" spec="Sequence" taxon="PT0001815_3" totalcount="4" value="-"/>
+		<sequence id="seq_95_4" spec="Sequence" taxon="PT0013537_4" totalcount="4" value="-"/>
+		<sequence id="seq_15_3" spec="Sequence" taxon="PT0001705_last" totalcount="4" value="-"/>
+		<sequence id="seq_27_2" spec="Sequence" taxon="PT0002445_2" totalcount="4" value="-"/>
+		<sequence id="seq_114_2" spec="Sequence" taxon="PT0015912_2" totalcount="4" value="-"/>
+		<sequence id="seq_53_2" spec="Sequence" taxon="PT0005314_2" totalcount="4" value="-"/>
+		<sequence id="seq_104_4" spec="Sequence" taxon="PT0014332_4" totalcount="4" value="-"/>
+		<sequence id="seq_18_4" spec="Sequence" taxon="PT0001815_last" totalcount="4" value="-"/>
+		<sequence id="seq_103_2" spec="Sequence" taxon="PT0014214_2" totalcount="4" value="-"/>
+		<sequence id="seq_105_2" spec="Sequence" taxon="PT0014349_last" totalcount="4" value="-"/>
+		<sequence id="seq_115_5" spec="Sequence" taxon="PT0016117_last" totalcount="4" value="-"/>
+		<sequence id="seq_78_3" spec="Sequence" taxon="PT0010658_3" totalcount="4" value="-"/>
+		<sequence id="seq_93_2" spec="Sequence" taxon="PT0012652_2" totalcount="4" value="-"/>
+		<sequence id="seq_63_1" spec="Sequence" taxon="PT0007348_first" totalcount="4" value="-"/>
+		<sequence id="seq_74_2" spec="Sequence" taxon="PT0009652_2" totalcount="4" value="-"/>
+		<sequence id="seq_8_2" spec="Sequence" taxon="PT0001227_2" totalcount="4" value="-"/>
+		<sequence id="seq_49_1" spec="Sequence" taxon="PT0004947_first" totalcount="4" value="-"/>
+		<sequence id="seq_47_1" spec="Sequence" taxon="PT0004798_first" totalcount="4" value="-"/>
+		<sequence id="seq_26_1" spec="Sequence" taxon="PT0002192_first" totalcount="4" value="-"/>
+		<sequence id="seq_86_2" spec="Sequence" taxon="PT0011457_2" totalcount="4" value="-"/>
+		<sequence id="seq_101_2" spec="Sequence" taxon="PT0014046_2" totalcount="4" value="-"/>
+		<sequence id="seq_104_5" spec="Sequence" taxon="PT0014332_last" totalcount="4" value="-"/>
+		<sequence id="seq_86_3" spec="Sequence" taxon="PT0011457_last" totalcount="4" value="-"/>
+		<sequence id="seq_93_3" spec="Sequence" taxon="PT0012652_3" totalcount="4" value="-"/>
+		<sequence id="seq_11_1" spec="Sequence" taxon="PT0001346_first" totalcount="4" value="-"/>
+		<sequence id="seq_93_4" spec="Sequence" taxon="PT0012652_4" totalcount="4" value="-"/>
+		<sequence id="seq_114_3" spec="Sequence" taxon="PT0015912_last" totalcount="4" value="-"/>
+		<sequence id="seq_76_1" spec="Sequence" taxon="PT0010156_first" totalcount="4" value="-"/>
+		<sequence id="seq_95_5" spec="Sequence" taxon="PT0013537_last" totalcount="4" value="-"/>
+		<sequence id="seq_53_3" spec="Sequence" taxon="PT0005314_last" totalcount="4" value="-"/>
+		<sequence id="seq_28_1" spec="Sequence" taxon="PT0002622_first" totalcount="4" value="-"/>
+		<sequence id="seq_26_2" spec="Sequence" taxon="PT0002192_2" totalcount="4" value="-"/>
+		<sequence id="seq_63_2" spec="Sequence" taxon="PT0007348_2" totalcount="4" value="-"/>
+		<sequence id="seq_74_3" spec="Sequence" taxon="PT0009652_last" totalcount="4" value="-"/>
+		<sequence id="seq_103_3" spec="Sequence" taxon="PT0014214_3" totalcount="4" value="-"/>
+		<sequence id="seq_12_3" spec="Sequence" taxon="PT0001399_last" totalcount="4" value="-"/>
+		<sequence id="seq_5_3" spec="Sequence" taxon="PT0000920_3" totalcount="4" value="-"/>
+		<sequence id="seq_8_3" spec="Sequence" taxon="PT0001227_3" totalcount="4" value="-"/>
+		<sequence id="seq_61_2" spec="Sequence" taxon="PT0007055_last" totalcount="4" value="-"/>
+		<sequence id="seq_27_3" spec="Sequence" taxon="PT0002445_last" totalcount="4" value="-"/>
+		<sequence id="seq_40_1" spec="Sequence" taxon="PT0003898_first" totalcount="4" value="-"/>
+		<sequence id="seq_47_2" spec="Sequence" taxon="PT0004798_last" totalcount="4" value="-"/>
+		<sequence id="seq_8_4" spec="Sequence" taxon="PT0001227_last" totalcount="4" value="-"/>
+		<sequence id="seq_26_3" spec="Sequence" taxon="PT0002192_3" totalcount="4" value="-"/>
+		<sequence id="seq_28_2" spec="Sequence" taxon="PT0002622_last" totalcount="4" value="-"/>
+		<sequence id="seq_26_4" spec="Sequence" taxon="PT0002192_last" totalcount="4" value="-"/>
+		<sequence id="seq_40_2" spec="Sequence" taxon="PT0003898_2" totalcount="4" value="-"/>
+		<sequence id="seq_103_4" spec="Sequence" taxon="PT0014214_last" totalcount="4" value="-"/>
+		<sequence id="seq_49_2" spec="Sequence" taxon="PT0004947_2" totalcount="4" value="-"/>
+		<sequence id="seq_40_3" spec="Sequence" taxon="PT0003898_3" totalcount="4" value="-"/>
+		<sequence id="seq_5_4" spec="Sequence" taxon="PT0000920_last" totalcount="4" value="-"/>
+		<sequence id="seq_101_3" spec="Sequence" taxon="PT0014046_last" totalcount="4" value="-"/>
+		<sequence id="seq_93_5" spec="Sequence" taxon="PT0012652_last" totalcount="4" value="-"/>
+		<sequence id="seq_49_3" spec="Sequence" taxon="PT0004947_last" totalcount="4" value="-"/>
+		<sequence id="seq_85_1" spec="Sequence" taxon="PT0011277_first" totalcount="4" value="-"/>
+		<sequence id="seq_78_4" spec="Sequence" taxon="PT0010658_last" totalcount="4" value="-"/>
+		<sequence id="seq_36_1" spec="Sequence" taxon="PT0003027_first" totalcount="4" value="-"/>
+		<sequence id="seq_108_1" spec="Sequence" taxon="PT0015231_first" totalcount="4" value="-"/>
+		<sequence id="seq_75_1" spec="Sequence" taxon="PT0010043_first" totalcount="4" value="-"/>
+		<sequence id="seq_58_1" spec="Sequence" taxon="PT0006683_first" totalcount="4" value="-"/>
+		<sequence id="seq_63_3" spec="Sequence" taxon="PT0007348_3" totalcount="4" value="-"/>
+		<sequence id="seq_48_1" spec="Sequence" taxon="PT0004830_first" totalcount="4" value="-"/>
+		<sequence id="seq_84_1" spec="Sequence" taxon="PT0011184_first" totalcount="4" value="-"/>
+		<sequence id="seq_85_2" spec="Sequence" taxon="PT0011277_2" totalcount="4" value="-"/>
+		<sequence id="seq_94_1" spec="Sequence" taxon="PT0012685_first" totalcount="4" value="-"/>
+		<sequence id="seq_91_1" spec="Sequence" taxon="PT0012325_first" totalcount="4" value="-"/>
+		<sequence id="seq_84_2" spec="Sequence" taxon="PT0011184_2" totalcount="4" value="-"/>
+		<sequence id="seq_58_2" spec="Sequence" taxon="PT0006683_2" totalcount="4" value="-"/>
+		<sequence id="seq_24_1" spec="Sequence" taxon="PT0002140_first" totalcount="4" value="-"/>
+		<sequence id="seq_48_2" spec="Sequence" taxon="PT0004830_2" totalcount="4" value="-"/>
+		<sequence id="seq_54_1" spec="Sequence" taxon="PT0006080_first" totalcount="4" value="-"/>
+		<sequence id="seq_48_3" spec="Sequence" taxon="PT0004830_3" totalcount="4" value="-"/>
+		<sequence id="seq_58_3" spec="Sequence" taxon="PT0006683_3" totalcount="4" value="-"/>
+		<sequence id="seq_84_3" spec="Sequence" taxon="PT0011184_3" totalcount="4" value="-"/>
+		<sequence id="seq_63_4" spec="Sequence" taxon="PT0007348_4" totalcount="4" value="-"/>
+		<sequence id="seq_76_2" spec="Sequence" taxon="PT0010156_2" totalcount="4" value="-"/>
+		<sequence id="seq_58_4" spec="Sequence" taxon="PT0006683_4" totalcount="4" value="-"/>
+		<sequence id="seq_75_2" spec="Sequence" taxon="PT0010043_2" totalcount="4" value="-"/>
+		<sequence id="seq_48_4" spec="Sequence" taxon="PT0004830_last" totalcount="4" value="-"/>
+		<sequence id="seq_50_1" spec="Sequence" taxon="PT0004964_first" totalcount="4" value="-"/>
+		<sequence id="seq_58_5" spec="Sequence" taxon="PT0006683_last" totalcount="4" value="-"/>
+		<sequence id="seq_102_1" spec="Sequence" taxon="PT0014140_first" totalcount="4" value="-"/>
+		<sequence id="seq_68_1" spec="Sequence" taxon="PT0008933_first" totalcount="4" value="-"/>
+		<sequence id="seq_24_2" spec="Sequence" taxon="PT0002140_2" totalcount="4" value="-"/>
+		<sequence id="seq_85_3" spec="Sequence" taxon="PT0011277_3" totalcount="4" value="-"/>
+		<sequence id="seq_63_5" spec="Sequence" taxon="PT0007348_last" totalcount="4" value="-"/>
+		<sequence id="seq_112_1" spec="Sequence" taxon="PT0015335_first" totalcount="4" value="-"/>
+		<sequence id="seq_30_1" spec="Sequence" taxon="PT0002756_first" totalcount="4" value="-"/>
+		<sequence id="seq_81_1" spec="Sequence" taxon="PT0010750_first" totalcount="4" value="-"/>
+		<sequence id="seq_68_2" spec="Sequence" taxon="PT0008933_last" totalcount="4" value="-"/>
+		<sequence id="seq_9_1" spec="Sequence" taxon="PT0001228_first" totalcount="4" value="-"/>
+		<sequence id="seq_55_1" spec="Sequence" taxon="PT0006547_first" totalcount="4" value="-"/>
+		<sequence id="seq_24_3" spec="Sequence" taxon="PT0002140_last" totalcount="4" value="-"/>
+		<sequence id="seq_21_1" spec="Sequence" taxon="PT0002027_first" totalcount="4" value="-"/>
+		<sequence id="seq_36_2" spec="Sequence" taxon="PT0003027_2" totalcount="4" value="-"/>
+		<sequence id="seq_9_2" spec="Sequence" taxon="PT0001228_2" totalcount="4" value="-"/>
+		<sequence id="seq_25_1" spec="Sequence" taxon="PT0002159_first" totalcount="4" value="-"/>
+		<sequence id="seq_75_3" spec="Sequence" taxon="PT0010043_last" totalcount="4" value="-"/>
+		<sequence id="seq_88_1" spec="Sequence" taxon="PT0011769_first" totalcount="4" value="-"/>
+		<sequence id="seq_21_2" spec="Sequence" taxon="PT0002027_2" totalcount="4" value="-"/>
+		<sequence id="seq_112_2" spec="Sequence" taxon="PT0015335_last" totalcount="4" value="-"/>
+		<sequence id="seq_21_3" spec="Sequence" taxon="PT0002027_3" totalcount="4" value="-"/>
+		<sequence id="seq_65_1" spec="Sequence" taxon="PT0008072_first" totalcount="4" value="-"/>
+		<sequence id="seq_99_1" spec="Sequence" taxon="PT0013996_first" totalcount="4" value="-"/>
+		<sequence id="seq_85_4" spec="Sequence" taxon="PT0011277_4" totalcount="4" value="-"/>
+		<sequence id="seq_81_2" spec="Sequence" taxon="PT0010750_2" totalcount="4" value="-"/>
+		<sequence id="seq_25_2" spec="Sequence" taxon="PT0002159_last" totalcount="4" value="-"/>
+		<sequence id="seq_65_2" spec="Sequence" taxon="PT0008072_2" totalcount="4" value="-"/>
+		<sequence id="seq_37_1" spec="Sequence" taxon="PT0003199_first" totalcount="4" value="-"/>
+		<sequence id="seq_81_3" spec="Sequence" taxon="PT0010750_3" totalcount="4" value="-"/>
+		<sequence id="seq_99_2" spec="Sequence" taxon="PT0013996_2" totalcount="4" value="-"/>
+		<sequence id="seq_36_3" spec="Sequence" taxon="PT0003027_3" totalcount="4" value="-"/>
+		<sequence id="seq_20_1" spec="Sequence" taxon="PT0002014_first" totalcount="4" value="-"/>
+		<sequence id="seq_81_4" spec="Sequence" taxon="PT0010750_4" totalcount="4" value="-"/>
+		<sequence id="seq_85_5" spec="Sequence" taxon="PT0011277_last" totalcount="4" value="-"/>
+		<sequence id="seq_60_1" spec="Sequence" taxon="PT0006954_first" totalcount="4" value="-"/>
+		<sequence id="seq_60_2" spec="Sequence" taxon="PT0006954_2" totalcount="4" value="-"/>
+		<sequence id="seq_88_2" spec="Sequence" taxon="PT0011769_2" totalcount="4" value="-"/>
+		<sequence id="seq_100_1" spec="Sequence" taxon="PT0013998_first" totalcount="4" value="-"/>
+		<sequence id="seq_60_3" spec="Sequence" taxon="PT0006954_3" totalcount="4" value="-"/>
+		<sequence id="seq_30_2" spec="Sequence" taxon="PT0002756_last" totalcount="4" value="-"/>
+		<sequence id="seq_10_1" spec="Sequence" taxon="PT0001268_first" totalcount="4" value="-"/>
+		<sequence id="seq_84_4" spec="Sequence" taxon="PT0011184_4" totalcount="4" value="-"/>
+		<sequence id="seq_21_4" spec="Sequence" taxon="PT0002027_last" totalcount="4" value="-"/>
+		<sequence id="seq_23_1" spec="Sequence" taxon="PT0002122_first" totalcount="4" value="-"/>
+		<sequence id="seq_55_2" spec="Sequence" taxon="PT0006547_last" totalcount="4" value="-"/>
+		<sequence id="seq_72_1" spec="Sequence" taxon="PT0009310_first" totalcount="4" value="-"/>
+		<sequence id="seq_20_2" spec="Sequence" taxon="PT0002014_2" totalcount="4" value="-"/>
+		<sequence id="seq_100_2" spec="Sequence" taxon="PT0013998_2" totalcount="4" value="-"/>
+		<sequence id="seq_84_5" spec="Sequence" taxon="PT0011184_5" totalcount="4" value="-"/>
+		<sequence id="seq_65_3" spec="Sequence" taxon="PT0008072_3" totalcount="4" value="-"/>
+		<sequence id="seq_60_4" spec="Sequence" taxon="PT0006954_last" totalcount="4" value="-"/>
+		<sequence id="seq_36_4" spec="Sequence" taxon="PT0003027_last" totalcount="4" value="-"/>
+		<sequence id="seq_99_3" spec="Sequence" taxon="PT0013996_last" totalcount="4" value="-"/>
+		<sequence id="seq_57_1" spec="Sequence" taxon="PT0006682_first" totalcount="4" value="-"/>
+		<sequence id="seq_88_3" spec="Sequence" taxon="PT0011769_3" totalcount="4" value="-"/>
+		<sequence id="seq_65_4" spec="Sequence" taxon="PT0008072_last" totalcount="4" value="-"/>
+		<sequence id="seq_102_2" spec="Sequence" taxon="PT0014140_2" totalcount="4" value="-"/>
+		<sequence id="seq_70_1" spec="Sequence" taxon="PT0009245_first" totalcount="4" value="-"/>
+		<sequence id="seq_94_2" spec="Sequence" taxon="PT0012685_2" totalcount="4" value="-"/>
+		<sequence id="seq_40_4" spec="Sequence" taxon="PT0003898_4" totalcount="4" value="-"/>
+		<sequence id="seq_70_2" spec="Sequence" taxon="PT0009245_2" totalcount="4" value="-"/>
+		<sequence id="seq_14_1" spec="Sequence" taxon="PT0001619_first" totalcount="4" value="-"/>
+		<sequence id="seq_54_2" spec="Sequence" taxon="PT0006080_2" totalcount="4" value="-"/>
+		<sequence id="seq_81_5" spec="Sequence" taxon="PT0010750_5" totalcount="4" value="-"/>
+		<sequence id="seq_11_2" spec="Sequence" taxon="PT0001346_last" totalcount="4" value="-"/>
+		<sequence id="seq_9_3" spec="Sequence" taxon="PT0001228_last" totalcount="4" value="-"/>
+		<sequence id="seq_97_1" spec="Sequence" taxon="PT0013682_first" totalcount="4" value="-"/>
+		<sequence id="seq_22_1" spec="Sequence" taxon="PT0002095_first" totalcount="4" value="-"/>
+		<sequence id="seq_22_2" spec="Sequence" taxon="PT0002095_2" totalcount="4" value="-"/>
+		<sequence id="seq_76_3" spec="Sequence" taxon="PT0010156_3" totalcount="4" value="-"/>
+		<sequence id="seq_44_1" spec="Sequence" taxon="PT0004375_first" totalcount="4" value="-"/>
+		<sequence id="seq_10_2" spec="Sequence" taxon="PT0001268_2" totalcount="4" value="-"/>
+		<sequence id="seq_76_4" spec="Sequence" taxon="PT0010156_last" totalcount="4" value="-"/>
+		<sequence id="seq_20_3" spec="Sequence" taxon="PT0002014_last" totalcount="4" value="-"/>
+		<sequence id="seq_70_3" spec="Sequence" taxon="PT0009245_3" totalcount="4" value="-"/>
+		<sequence id="seq_110_1" spec="Sequence" taxon="PT0015273_first" totalcount="4" value="-"/>
+		<sequence id="seq_110_2" spec="Sequence" taxon="PT0015273_2" totalcount="4" value="-"/>
+		<sequence id="seq_82_1" spec="Sequence" taxon="PT0010850_first" totalcount="4" value="-"/>
+		<sequence id="seq_54_3" spec="Sequence" taxon="PT0006080_3" totalcount="4" value="-"/>
+		<sequence id="seq_46_1" spec="Sequence" taxon="PT0004684_first" totalcount="4" value="-"/>
+		<sequence id="seq_97_2" spec="Sequence" taxon="PT0013682_2" totalcount="4" value="-"/>
+		<sequence id="seq_10_3" spec="Sequence" taxon="PT0001268_3" totalcount="4" value="-"/>
+		<sequence id="seq_102_3" spec="Sequence" taxon="PT0014140_last" totalcount="4" value="-"/>
+		<sequence id="seq_3_1" spec="Sequence" taxon="PT0000368_first" totalcount="4" value="-"/>
+		<sequence id="seq_54_4" spec="Sequence" taxon="PT0006080_last" totalcount="4" value="-"/>
+		<sequence id="seq_91_2" spec="Sequence" taxon="PT0012325_last" totalcount="4" value="-"/>
+		<sequence id="seq_97_3" spec="Sequence" taxon="PT0013682_last" totalcount="4" value="-"/>
+		<sequence id="seq_10_4" spec="Sequence" taxon="PT0001268_last" totalcount="4" value="-"/>
+		<sequence id="seq_70_4" spec="Sequence" taxon="PT0009245_4" totalcount="4" value="-"/>
+		<sequence id="seq_57_2" spec="Sequence" taxon="PT0006682_last" totalcount="4" value="-"/>
+		<sequence id="seq_81_6" spec="Sequence" taxon="PT0010750_last" totalcount="4" value="-"/>
+		<sequence id="seq_23_2" spec="Sequence" taxon="PT0002122_2" totalcount="4" value="-"/>
+		<sequence id="seq_22_3" spec="Sequence" taxon="PT0002095_3" totalcount="4" value="-"/>
+		<sequence id="seq_82_2" spec="Sequence" taxon="PT0010850_2" totalcount="4" value="-"/>
+		<sequence id="seq_22_4" spec="Sequence" taxon="PT0002095_last" totalcount="4" value="-"/>
+		<sequence id="seq_72_2" spec="Sequence" taxon="PT0009310_last" totalcount="4" value="-"/>
+		<sequence id="seq_37_2" spec="Sequence" taxon="PT0003199_2" totalcount="4" value="-"/>
+		<sequence id="seq_67_1" spec="Sequence" taxon="PT0008576_first" totalcount="4" value="-"/>
+		<sequence id="seq_14_2" spec="Sequence" taxon="PT0001619_2" totalcount="4" value="-"/>
+		<sequence id="seq_64_1" spec="Sequence" taxon="PT0007876_first" totalcount="4" value="-"/>
+		<sequence id="seq_46_2" spec="Sequence" taxon="PT0004684_2" totalcount="4" value="-"/>
+		<sequence id="seq_44_2" spec="Sequence" taxon="PT0004375_last" totalcount="4" value="-"/>
+		<sequence id="seq_70_5" spec="Sequence" taxon="PT0009245_last" totalcount="4" value="-"/>
+		<sequence id="seq_46_3" spec="Sequence" taxon="PT0004684_3" totalcount="4" value="-"/>
+		<sequence id="seq_52_1" spec="Sequence" taxon="PT0005062_first" totalcount="4" value="-"/>
+		<sequence id="seq_110_3" spec="Sequence" taxon="PT0015273_3" totalcount="4" value="-"/>
+		<sequence id="seq_84_6" spec="Sequence" taxon="PT0011184_last" totalcount="4" value="-"/>
+		<sequence id="seq_108_2" spec="Sequence" taxon="PT0015231_last" totalcount="4" value="-"/>
+		<sequence id="seq_23_3" spec="Sequence" taxon="PT0002122_3" totalcount="4" value="-"/>
+		<sequence id="seq_82_3" spec="Sequence" taxon="PT0010850_3" totalcount="4" value="-"/>
+		<sequence id="seq_14_3" spec="Sequence" taxon="PT0001619_3" totalcount="4" value="-"/>
+		<sequence id="seq_40_5" spec="Sequence" taxon="PT0003898_last" totalcount="4" value="-"/>
+		<sequence id="seq_52_2" spec="Sequence" taxon="PT0005062_2" totalcount="4" value="-"/>
+		<sequence id="seq_83_1" spec="Sequence" taxon="PT0010851_first" totalcount="4" value="-"/>
+		<sequence id="seq_46_4" spec="Sequence" taxon="PT0004684_last" totalcount="4" value="-"/>
+		<sequence id="seq_88_4" spec="Sequence" taxon="PT0011769_last" totalcount="4" value="-"/>
+		<sequence id="seq_52_3" spec="Sequence" taxon="PT0005062_3" totalcount="4" value="-"/>
+		<sequence id="seq_67_2" spec="Sequence" taxon="PT0008576_last" totalcount="4" value="-"/>
+		<sequence id="seq_37_3" spec="Sequence" taxon="PT0003199_last" totalcount="4" value="-"/>
+		<sequence id="seq_52_4" spec="Sequence" taxon="PT0005062_4" totalcount="4" value="-"/>
+		<sequence id="seq_90_1" spec="Sequence" taxon="PT0011865_first" totalcount="4" value="-"/>
+		<sequence id="seq_110_4" spec="Sequence" taxon="PT0015273_last" totalcount="4" value="-"/>
+		<sequence id="seq_52_5" spec="Sequence" taxon="PT0005062_5" totalcount="4" value="-"/>
+		<sequence id="seq_100_3" spec="Sequence" taxon="PT0013998_3" totalcount="4" value="-"/>
+		<sequence id="seq_6_1" spec="Sequence" taxon="PT0001013_first" totalcount="4" value="-"/>
+		<sequence id="seq_50_2" spec="Sequence" taxon="PT0004964_last" totalcount="4" value="-"/>
+		<sequence id="seq_64_2" spec="Sequence" taxon="PT0007876_last" totalcount="4" value="-"/>
+		<sequence id="seq_14_4" spec="Sequence" taxon="PT0001619_last" totalcount="4" value="-"/>
+		<sequence id="seq_38_1" spec="Sequence" taxon="PT0003420_first" totalcount="4" value="-"/>
+		<sequence id="seq_38_2" spec="Sequence" taxon="PT0003420_2" totalcount="4" value="-"/>
+		<sequence id="seq_100_4" spec="Sequence" taxon="PT0013998_4" totalcount="4" value="-"/>
+		<sequence id="seq_17_1" spec="Sequence" taxon="PT0001728_first" totalcount="4" value="-"/>
+		<sequence id="seq_38_3" spec="Sequence" taxon="PT0003420_last" totalcount="4" value="-"/>
+		<sequence id="seq_82_4" spec="Sequence" taxon="PT0010850_last" totalcount="4" value="-"/>
+		<sequence id="seq_100_5" spec="Sequence" taxon="PT0013998_last" totalcount="4" value="-"/>
+		<sequence id="seq_113_1" spec="Sequence" taxon="PT0015386_first" totalcount="4" value="-"/>
+		<sequence id="seq_52_6" spec="Sequence" taxon="PT0005062_6" totalcount="4" value="-"/>
+		<sequence id="seq_35_1" spec="Sequence" taxon="PT0002977_first" totalcount="4" value="-"/>
+		<sequence id="seq_69_1" spec="Sequence" taxon="PT0009125_first" totalcount="4" value="-"/>
+		<sequence id="seq_3_2" spec="Sequence" taxon="PT0000368_last" totalcount="4" value="-"/>
+		<sequence id="seq_4_1" spec="Sequence" taxon="PT0000503_first" totalcount="4" value="-"/>
+		<sequence id="seq_6_2" spec="Sequence" taxon="PT0001013_last" totalcount="4" value="-"/>
+		<sequence id="seq_113_2" spec="Sequence" taxon="PT0015386_last" totalcount="4" value="-"/>
+		<sequence id="seq_1_1" spec="Sequence" taxon="PT0000185_first" totalcount="4" value="-"/>
+		<sequence id="seq_73_1" spec="Sequence" taxon="PT0009515_first" totalcount="4" value="-"/>
+		<sequence id="seq_79_1" spec="Sequence" taxon="PT0010703_first" totalcount="4" value="-"/>
+		<sequence id="seq_94_3" spec="Sequence" taxon="PT0012685_last" totalcount="4" value="-"/>
+		<sequence id="seq_52_7" spec="Sequence" taxon="PT0005062_last" totalcount="4" value="-"/>
+		<sequence id="seq_23_4" spec="Sequence" taxon="PT0002122_last" totalcount="4" value="-"/>
+		<sequence id="seq_4_2" spec="Sequence" taxon="PT0000503_2" totalcount="4" value="-"/>
+		<sequence id="seq_66_1" spec="Sequence" taxon="PT0008440_first" totalcount="4" value="-"/>
+		<sequence id="seq_1_2" spec="Sequence" taxon="PT0000185_last" totalcount="4" value="-"/>
+		<sequence id="seq_16_1" spec="Sequence" taxon="PT0001706_first" totalcount="4" value="-"/>
+		<sequence id="seq_83_2" spec="Sequence" taxon="PT0010851_last" totalcount="4" value="-"/>
+		<sequence id="seq_92_1" spec="Sequence" taxon="PT0012611_first" totalcount="4" value="-"/>
+		<sequence id="seq_39_1" spec="Sequence" taxon="PT0003617_first" totalcount="4" value="-"/>
+		<sequence id="seq_16_2" spec="Sequence" taxon="PT0001706_last" totalcount="4" value="-"/>
+		<sequence id="seq_35_2" spec="Sequence" taxon="PT0002977_last" totalcount="4" value="-"/>
+		<sequence id="seq_29_1" spec="Sequence" taxon="PT0002720_first" totalcount="4" value="-"/>
+		<sequence id="seq_7_1" spec="Sequence" taxon="PT0001140_first" totalcount="4" value="-"/>
+		<sequence id="seq_39_2" spec="Sequence" taxon="PT0003617_last" totalcount="4" value="-"/>
+		<sequence id="seq_92_2" spec="Sequence" taxon="PT0012611_last" totalcount="4" value="-"/>
+		<sequence id="seq_19_1" spec="Sequence" taxon="PT0001819_first" totalcount="4" value="-"/>
+		<sequence id="seq_13_1" spec="Sequence" taxon="PT0001515_first" totalcount="4" value="-"/>
+		<sequence id="seq_43_1" spec="Sequence" taxon="PT0004348_first" totalcount="4" value="-"/>
+		<sequence id="seq_29_2" spec="Sequence" taxon="PT0002720_last" totalcount="4" value="-"/>
+		<sequence id="seq_73_2" spec="Sequence" taxon="PT0009515_last" totalcount="4" value="-"/>
+		<sequence id="seq_90_2" spec="Sequence" taxon="PT0011865_last" totalcount="4" value="-"/>
+		<sequence id="seq_13_2" spec="Sequence" taxon="PT0001515_last" totalcount="4" value="-"/>
+		<sequence id="seq_19_2" spec="Sequence" taxon="PT0001819_last" totalcount="4" value="-"/>
+		<sequence id="seq_7_2" spec="Sequence" taxon="PT0001140_last" totalcount="4" value="-"/>
+		<sequence id="seq_62_1" spec="Sequence" taxon="PT0007246_first" totalcount="4" value="-"/>
+		<sequence id="seq_2_1" spec="Sequence" taxon="PT0000310_first" totalcount="4" value="-"/>
+		<sequence id="seq_17_2" spec="Sequence" taxon="PT0001728_last" totalcount="4" value="-"/>
+		<sequence id="seq_4_3" spec="Sequence" taxon="PT0000503_last" totalcount="4" value="-"/>
+		<sequence id="seq_43_2" spec="Sequence" taxon="PT0004348_last" totalcount="4" value="-"/>
+		<sequence id="seq_98_1" spec="Sequence" taxon="PT0013793_first" totalcount="4" value="-"/>
+		<sequence id="seq_31_1" spec="Sequence" taxon="PT0002791_first" totalcount="4" value="-"/>
+		<sequence id="seq_62_2" spec="Sequence" taxon="PT0007246_last" totalcount="4" value="-"/>
+		<sequence id="seq_2_2" spec="Sequence" taxon="PT0000310_last" totalcount="4" value="-"/>
+		<sequence id="seq_96_1" spec="Sequence" taxon="PT0013620_first" totalcount="4" value="-"/>
+		<sequence id="seq_31_2" spec="Sequence" taxon="PT0002791_2" totalcount="4" value="-"/>
+		<sequence id="seq_32_1" spec="Sequence" taxon="PT0002890_first" totalcount="4" value="-"/>
+		<sequence id="seq_41_1" spec="Sequence" taxon="PT0004070_first" totalcount="4" value="-"/>
+		<sequence id="seq_42_1" spec="Sequence" taxon="PT0004163_first" totalcount="4" value="-"/>
+		<sequence id="seq_59_1" spec="Sequence" taxon="PT0006793_first" totalcount="4" value="-"/>
+		<sequence id="seq_79_2" spec="Sequence" taxon="PT0010703_2" totalcount="4" value="-"/>
+		<sequence id="seq_32_2" spec="Sequence" taxon="PT0002890_last" totalcount="4" value="-"/>
+		<sequence id="seq_89_1" spec="Sequence" taxon="PT0011823_first" totalcount="4" value="-"/>
+		<sequence id="seq_96_2" spec="Sequence" taxon="PT0013620_last" totalcount="4" value="-"/>
+		<sequence id="seq_111_1" spec="Sequence" taxon="PT0015309_first" totalcount="4" value="-"/>
+		<sequence id="seq_34_1" spec="Sequence" taxon="PT0002917_first" totalcount="4" value="-"/>
+		<sequence id="seq_87_1" spec="Sequence" taxon="PT0011723_first" totalcount="4" value="-"/>
+		<sequence id="seq_66_2" spec="Sequence" taxon="PT0008440_2" totalcount="4" value="-"/>
+		<sequence id="seq_109_1" spec="Sequence" taxon="PT0015235_first" totalcount="4" value="-"/>
+		<sequence id="seq_79_3" spec="Sequence" taxon="PT0010703_last" totalcount="4" value="-"/>
+		<sequence id="seq_41_2" spec="Sequence" taxon="PT0004070_last" totalcount="4" value="-"/>
+		<sequence id="seq_80_1" spec="Sequence" taxon="PT0010709_first" totalcount="4" value="-"/>
+		<sequence id="seq_69_2" spec="Sequence" taxon="PT0009125_last" totalcount="4" value="-"/>
+		<sequence id="seq_51_1" spec="Sequence" taxon="PT0005001_first" totalcount="4" value="-"/>
+		<sequence id="seq_42_2" spec="Sequence" taxon="PT0004163_2" totalcount="4" value="-"/>
+		<sequence id="seq_59_2" spec="Sequence" taxon="PT0006793_2" totalcount="4" value="-"/>
+		<sequence id="seq_31_3" spec="Sequence" taxon="PT0002791_last" totalcount="4" value="-"/>
+		<sequence id="seq_89_2" spec="Sequence" taxon="PT0011823_2" totalcount="4" value="-"/>
+		<sequence id="seq_77_1" spec="Sequence" taxon="PT0010246_first" totalcount="4" value="-"/>
+		<sequence id="seq_51_2" spec="Sequence" taxon="PT0005001_last" totalcount="4" value="-"/>
+		<sequence id="seq_109_2" spec="Sequence" taxon="PT0015235_last" totalcount="4" value="-"/>
+		<sequence id="seq_89_3" spec="Sequence" taxon="PT0011823_last" totalcount="4" value="-"/>
+		<sequence id="seq_80_2" spec="Sequence" taxon="PT0010709_last" totalcount="4" value="-"/>
+		<sequence id="seq_66_3" spec="Sequence" taxon="PT0008440_last" totalcount="4" value="-"/>
+		<sequence id="seq_111_2" spec="Sequence" taxon="PT0015309_2" totalcount="4" value="-"/>
+		<sequence id="seq_42_3" spec="Sequence" taxon="PT0004163_3" totalcount="4" value="-"/>
+		<sequence id="seq_111_3" spec="Sequence" taxon="PT0015309_last" totalcount="4" value="-"/>
+		<sequence id="seq_77_2" spec="Sequence" taxon="PT0010246_last" totalcount="4" value="-"/>
+		<sequence id="seq_59_3" spec="Sequence" taxon="PT0006793_last" totalcount="4" value="-"/>
+		<sequence id="seq_42_4" spec="Sequence" taxon="PT0004163_last" totalcount="4" value="-"/>
+		<sequence id="seq_34_2" spec="Sequence" taxon="PT0002917_last" totalcount="4" value="-"/>
+		<sequence id="seq_98_2" spec="Sequence" taxon="PT0013793_last" totalcount="4" value="-"/>
+		<sequence id="seq_45_1" spec="Sequence" taxon="PT0004458_first" totalcount="4" value="-"/>
+		<sequence id="seq_87_2" spec="Sequence" taxon="PT0011723_last" totalcount="4" value="-"/>
+		<sequence id="seq_33_1" spec="Sequence" taxon="PT0002893_first" totalcount="4" value="-"/>
+		<sequence id="seq_45_2" spec="Sequence" taxon="PT0004458_last" totalcount="4" value="-"/>
+		<sequence id="seq_33_2" spec="Sequence" taxon="PT0002893_last" totalcount="4" value="-"/>
+		<sequence id="seq_71_1" spec="Sequence" taxon="PT0009255_first" totalcount="4" value="-"/>
+		<sequence id="seq_71_2" spec="Sequence" taxon="PT0009255_last" totalcount="4" value="-"/>
+		<sequence id="seq_122_1" spec="Sequence" taxon="PT0017427_first" totalcount="4" value="-"/>
+		<sequence id="seq_120_1" spec="Sequence" taxon="PT0017345_first" totalcount="4" value="-"/>
+		<sequence id="seq_122_2" spec="Sequence" taxon="PT0017427_last" totalcount="4" value="-"/>
+		<sequence id="seq_106_1" spec="Sequence" taxon="PT0015022_first" totalcount="4" value="-"/>
+		<sequence id="seq_120_2" spec="Sequence" taxon="PT0017345_last" totalcount="4" value="-"/>
+		<sequence id="seq_106_2" spec="Sequence" taxon="PT0015022_2" totalcount="4" value="-"/>
+		<sequence id="seq_124_1" spec="Sequence" taxon="PT0018280_first" totalcount="4" value="-"/>
+		<sequence id="seq_124_2" spec="Sequence" taxon="PT0018280_last" totalcount="4" value="-"/>
+		<sequence id="seq_116_1" spec="Sequence" taxon="PT0016700_first" totalcount="4" value="-"/>
+		<sequence id="seq_116_2" spec="Sequence" taxon="PT0016700_2" totalcount="4" value="-"/>
+		<sequence id="seq_116_3" spec="Sequence" taxon="PT0016700_last" totalcount="4" value="-"/>
+		<sequence id="seq_106_3" spec="Sequence" taxon="PT0015022_last" totalcount="4" value="-"/>
+		<sequence id="seq_123_1" spec="Sequence" taxon="PT0017539_first" totalcount="4" value="-"/>
+		<sequence id="seq_123_2" spec="Sequence" taxon="PT0017539_2" totalcount="4" value="-"/>
+		<sequence id="seq_107_1" spec="Sequence" taxon="PT0015022b_first" totalcount="4" value="-"/>
+		<sequence id="seq_123_3" spec="Sequence" taxon="PT0017539_last" totalcount="4" value="-"/>
+		<sequence id="seq_118_1" spec="Sequence" taxon="PT0016722_first" totalcount="4" value="-"/>
+		<sequence id="seq_118_2" spec="Sequence" taxon="PT0016722_2" totalcount="4" value="-"/>
+		<sequence id="seq_121_1" spec="Sequence" taxon="PT0017365_first" totalcount="4" value="-"/>
+		<sequence id="seq_121_2" spec="Sequence" taxon="PT0017365_2" totalcount="4" value="-"/>
+		<sequence id="seq_107_2" spec="Sequence" taxon="PT0015022b_last" totalcount="4" value="-"/>
+		<sequence id="seq_118_3" spec="Sequence" taxon="PT0016722_3" totalcount="4" value="-"/>
+		<sequence id="seq_121_3" spec="Sequence" taxon="PT0017365_last" totalcount="4" value="-"/>
+		<sequence id="seq_118_4" spec="Sequence" taxon="PT0016722_last" totalcount="4" value="-"/>
+		<sequence id="seq_117_1" spec="Sequence" taxon="PT0016719_first" totalcount="4" value="-"/>
+		<sequence id="seq_117_2" spec="Sequence" taxon="PT0016719_2" totalcount="4" value="-"/>
+		<sequence id="seq_119_1" spec="Sequence" taxon="PT0017314_first" totalcount="4" value="-"/>
+		<sequence id="seq_117_3" spec="Sequence" taxon="PT0016719_3" totalcount="4" value="-"/>
+		<sequence id="seq_119_2" spec="Sequence" taxon="PT0017314_2" totalcount="4" value="-"/>
+		<sequence id="seq_117_4" spec="Sequence" taxon="PT0016719_4" totalcount="4" value="-"/>
+		<sequence id="seq_117_5" spec="Sequence" taxon="PT0016719_5" totalcount="4" value="-"/>
+		<sequence id="seq_119_3" spec="Sequence" taxon="PT0017314_last" totalcount="4" value="-"/>
+		<sequence id="seq_117_6" spec="Sequence" taxon="PT0016719_last" totalcount="4" value="-"/>
+    </data>
+
+    <taxonSet>
+        <taxon id="PT0014332_first" spec="Taxon"/>
+		<taxon id="PT0001705_first" spec="Taxon"/>
+		<taxon id="PT0009652_first" spec="Taxon"/>
+		<taxon id="PT0016117_first" spec="Taxon"/>
+		<taxon id="PT0013537_first" spec="Taxon"/>
+		<taxon id="PT0016117_2" spec="Taxon"/>
+		<taxon id="PT0001227_first" spec="Taxon"/>
+		<taxon id="PT0002445_first" spec="Taxon"/>
+		<taxon id="PT0001705_2" spec="Taxon"/>
+		<taxon id="PT0001399_first" spec="Taxon"/>
+		<taxon id="PT0006597_first" spec="Taxon"/>
+		<taxon id="PT0016117_3" spec="Taxon"/>
+		<taxon id="PT0014332_2" spec="Taxon"/>
+		<taxon id="PT0001815_first" spec="Taxon"/>
+		<taxon id="PT0001815_2" spec="Taxon"/>
+		<taxon id="PT0011457_first" spec="Taxon"/>
+		<taxon id="PT0013537_2" spec="Taxon"/>
+		<taxon id="PT0006597_last" spec="Taxon"/>
+		<taxon id="PT0010658_first" spec="Taxon"/>
+		<taxon id="PT0000920_first" spec="Taxon"/>
+		<taxon id="PT0015912_first" spec="Taxon"/>
+		<taxon id="PT0014214_first" spec="Taxon"/>
+		<taxon id="PT0014349_first" spec="Taxon"/>
+		<taxon id="PT0013537_3" spec="Taxon"/>
+		<taxon id="PT0007055_first" spec="Taxon"/>
+		<taxon id="PT0014046_first" spec="Taxon"/>
+		<taxon id="PT0014332_3" spec="Taxon"/>
+		<taxon id="PT0012652_first" spec="Taxon"/>
+		<taxon id="PT0016117_4" spec="Taxon"/>
+		<taxon id="PT0005314_first" spec="Taxon"/>
+		<taxon id="PT0010658_2" spec="Taxon"/>
+		<taxon id="PT0001399_2" spec="Taxon"/>
+		<taxon id="PT0000920_2" spec="Taxon"/>
+		<taxon id="PT0001815_3" spec="Taxon"/>
+		<taxon id="PT0013537_4" spec="Taxon"/>
+		<taxon id="PT0001705_last" spec="Taxon"/>
+		<taxon id="PT0002445_2" spec="Taxon"/>
+		<taxon id="PT0015912_2" spec="Taxon"/>
+		<taxon id="PT0005314_2" spec="Taxon"/>
+		<taxon id="PT0014332_4" spec="Taxon"/>
+		<taxon id="PT0001815_last" spec="Taxon"/>
+		<taxon id="PT0014214_2" spec="Taxon"/>
+		<taxon id="PT0014349_last" spec="Taxon"/>
+		<taxon id="PT0016117_last" spec="Taxon"/>
+		<taxon id="PT0010658_3" spec="Taxon"/>
+		<taxon id="PT0012652_2" spec="Taxon"/>
+		<taxon id="PT0007348_first" spec="Taxon"/>
+		<taxon id="PT0009652_2" spec="Taxon"/>
+		<taxon id="PT0001227_2" spec="Taxon"/>
+		<taxon id="PT0004947_first" spec="Taxon"/>
+		<taxon id="PT0004798_first" spec="Taxon"/>
+		<taxon id="PT0002192_first" spec="Taxon"/>
+		<taxon id="PT0011457_2" spec="Taxon"/>
+		<taxon id="PT0014046_2" spec="Taxon"/>
+		<taxon id="PT0014332_last" spec="Taxon"/>
+		<taxon id="PT0011457_last" spec="Taxon"/>
+		<taxon id="PT0012652_3" spec="Taxon"/>
+		<taxon id="PT0001346_first" spec="Taxon"/>
+		<taxon id="PT0012652_4" spec="Taxon"/>
+		<taxon id="PT0015912_last" spec="Taxon"/>
+		<taxon id="PT0010156_first" spec="Taxon"/>
+		<taxon id="PT0013537_last" spec="Taxon"/>
+		<taxon id="PT0005314_last" spec="Taxon"/>
+		<taxon id="PT0002622_first" spec="Taxon"/>
+		<taxon id="PT0002192_2" spec="Taxon"/>
+		<taxon id="PT0007348_2" spec="Taxon"/>
+		<taxon id="PT0009652_last" spec="Taxon"/>
+		<taxon id="PT0014214_3" spec="Taxon"/>
+		<taxon id="PT0001399_last" spec="Taxon"/>
+		<taxon id="PT0000920_3" spec="Taxon"/>
+		<taxon id="PT0001227_3" spec="Taxon"/>
+		<taxon id="PT0007055_last" spec="Taxon"/>
+		<taxon id="PT0002445_last" spec="Taxon"/>
+		<taxon id="PT0003898_first" spec="Taxon"/>
+		<taxon id="PT0004798_last" spec="Taxon"/>
+		<taxon id="PT0001227_last" spec="Taxon"/>
+		<taxon id="PT0002192_3" spec="Taxon"/>
+		<taxon id="PT0002622_last" spec="Taxon"/>
+		<taxon id="PT0002192_last" spec="Taxon"/>
+		<taxon id="PT0003898_2" spec="Taxon"/>
+		<taxon id="PT0014214_last" spec="Taxon"/>
+		<taxon id="PT0004947_2" spec="Taxon"/>
+		<taxon id="PT0003898_3" spec="Taxon"/>
+		<taxon id="PT0000920_last" spec="Taxon"/>
+		<taxon id="PT0014046_last" spec="Taxon"/>
+		<taxon id="PT0012652_last" spec="Taxon"/>
+		<taxon id="PT0004947_last" spec="Taxon"/>
+		<taxon id="PT0011277_first" spec="Taxon"/>
+		<taxon id="PT0010658_last" spec="Taxon"/>
+		<taxon id="PT0003027_first" spec="Taxon"/>
+		<taxon id="PT0015231_first" spec="Taxon"/>
+		<taxon id="PT0010043_first" spec="Taxon"/>
+		<taxon id="PT0006683_first" spec="Taxon"/>
+		<taxon id="PT0007348_3" spec="Taxon"/>
+		<taxon id="PT0004830_first" spec="Taxon"/>
+		<taxon id="PT0011184_first" spec="Taxon"/>
+		<taxon id="PT0011277_2" spec="Taxon"/>
+		<taxon id="PT0012685_first" spec="Taxon"/>
+		<taxon id="PT0012325_first" spec="Taxon"/>
+		<taxon id="PT0011184_2" spec="Taxon"/>
+		<taxon id="PT0006683_2" spec="Taxon"/>
+		<taxon id="PT0002140_first" spec="Taxon"/>
+		<taxon id="PT0004830_2" spec="Taxon"/>
+		<taxon id="PT0006080_first" spec="Taxon"/>
+		<taxon id="PT0004830_3" spec="Taxon"/>
+		<taxon id="PT0006683_3" spec="Taxon"/>
+		<taxon id="PT0011184_3" spec="Taxon"/>
+		<taxon id="PT0007348_4" spec="Taxon"/>
+		<taxon id="PT0010156_2" spec="Taxon"/>
+		<taxon id="PT0006683_4" spec="Taxon"/>
+		<taxon id="PT0010043_2" spec="Taxon"/>
+		<taxon id="PT0004830_last" spec="Taxon"/>
+		<taxon id="PT0004964_first" spec="Taxon"/>
+		<taxon id="PT0006683_last" spec="Taxon"/>
+		<taxon id="PT0014140_first" spec="Taxon"/>
+		<taxon id="PT0008933_first" spec="Taxon"/>
+		<taxon id="PT0002140_2" spec="Taxon"/>
+		<taxon id="PT0011277_3" spec="Taxon"/>
+		<taxon id="PT0007348_last" spec="Taxon"/>
+		<taxon id="PT0015335_first" spec="Taxon"/>
+		<taxon id="PT0002756_first" spec="Taxon"/>
+		<taxon id="PT0010750_first" spec="Taxon"/>
+		<taxon id="PT0008933_last" spec="Taxon"/>
+		<taxon id="PT0001228_first" spec="Taxon"/>
+		<taxon id="PT0006547_first" spec="Taxon"/>
+		<taxon id="PT0002140_last" spec="Taxon"/>
+		<taxon id="PT0002027_first" spec="Taxon"/>
+		<taxon id="PT0003027_2" spec="Taxon"/>
+		<taxon id="PT0001228_2" spec="Taxon"/>
+		<taxon id="PT0002159_first" spec="Taxon"/>
+		<taxon id="PT0010043_last" spec="Taxon"/>
+		<taxon id="PT0011769_first" spec="Taxon"/>
+		<taxon id="PT0002027_2" spec="Taxon"/>
+		<taxon id="PT0015335_last" spec="Taxon"/>
+		<taxon id="PT0002027_3" spec="Taxon"/>
+		<taxon id="PT0008072_first" spec="Taxon"/>
+		<taxon id="PT0013996_first" spec="Taxon"/>
+		<taxon id="PT0011277_4" spec="Taxon"/>
+		<taxon id="PT0010750_2" spec="Taxon"/>
+		<taxon id="PT0002159_last" spec="Taxon"/>
+		<taxon id="PT0008072_2" spec="Taxon"/>
+		<taxon id="PT0003199_first" spec="Taxon"/>
+		<taxon id="PT0010750_3" spec="Taxon"/>
+		<taxon id="PT0013996_2" spec="Taxon"/>
+		<taxon id="PT0003027_3" spec="Taxon"/>
+		<taxon id="PT0002014_first" spec="Taxon"/>
+		<taxon id="PT0010750_4" spec="Taxon"/>
+		<taxon id="PT0011277_last" spec="Taxon"/>
+		<taxon id="PT0006954_first" spec="Taxon"/>
+		<taxon id="PT0006954_2" spec="Taxon"/>
+		<taxon id="PT0011769_2" spec="Taxon"/>
+		<taxon id="PT0013998_first" spec="Taxon"/>
+		<taxon id="PT0006954_3" spec="Taxon"/>
+		<taxon id="PT0002756_last" spec="Taxon"/>
+		<taxon id="PT0001268_first" spec="Taxon"/>
+		<taxon id="PT0011184_4" spec="Taxon"/>
+		<taxon id="PT0002027_last" spec="Taxon"/>
+		<taxon id="PT0002122_first" spec="Taxon"/>
+		<taxon id="PT0006547_last" spec="Taxon"/>
+		<taxon id="PT0009310_first" spec="Taxon"/>
+		<taxon id="PT0002014_2" spec="Taxon"/>
+		<taxon id="PT0013998_2" spec="Taxon"/>
+		<taxon id="PT0011184_5" spec="Taxon"/>
+		<taxon id="PT0008072_3" spec="Taxon"/>
+		<taxon id="PT0006954_last" spec="Taxon"/>
+		<taxon id="PT0003027_last" spec="Taxon"/>
+		<taxon id="PT0013996_last" spec="Taxon"/>
+		<taxon id="PT0006682_first" spec="Taxon"/>
+		<taxon id="PT0011769_3" spec="Taxon"/>
+		<taxon id="PT0008072_last" spec="Taxon"/>
+		<taxon id="PT0014140_2" spec="Taxon"/>
+		<taxon id="PT0009245_first" spec="Taxon"/>
+		<taxon id="PT0012685_2" spec="Taxon"/>
+		<taxon id="PT0003898_4" spec="Taxon"/>
+		<taxon id="PT0009245_2" spec="Taxon"/>
+		<taxon id="PT0001619_first" spec="Taxon"/>
+		<taxon id="PT0006080_2" spec="Taxon"/>
+		<taxon id="PT0010750_5" spec="Taxon"/>
+		<taxon id="PT0001346_last" spec="Taxon"/>
+		<taxon id="PT0001228_last" spec="Taxon"/>
+		<taxon id="PT0013682_first" spec="Taxon"/>
+		<taxon id="PT0002095_first" spec="Taxon"/>
+		<taxon id="PT0002095_2" spec="Taxon"/>
+		<taxon id="PT0010156_3" spec="Taxon"/>
+		<taxon id="PT0004375_first" spec="Taxon"/>
+		<taxon id="PT0001268_2" spec="Taxon"/>
+		<taxon id="PT0010156_last" spec="Taxon"/>
+		<taxon id="PT0002014_last" spec="Taxon"/>
+		<taxon id="PT0009245_3" spec="Taxon"/>
+		<taxon id="PT0015273_first" spec="Taxon"/>
+		<taxon id="PT0015273_2" spec="Taxon"/>
+		<taxon id="PT0010850_first" spec="Taxon"/>
+		<taxon id="PT0006080_3" spec="Taxon"/>
+		<taxon id="PT0004684_first" spec="Taxon"/>
+		<taxon id="PT0013682_2" spec="Taxon"/>
+		<taxon id="PT0001268_3" spec="Taxon"/>
+		<taxon id="PT0014140_last" spec="Taxon"/>
+		<taxon id="PT0000368_first" spec="Taxon"/>
+		<taxon id="PT0006080_last" spec="Taxon"/>
+		<taxon id="PT0012325_last" spec="Taxon"/>
+		<taxon id="PT0013682_last" spec="Taxon"/>
+		<taxon id="PT0001268_last" spec="Taxon"/>
+		<taxon id="PT0009245_4" spec="Taxon"/>
+		<taxon id="PT0006682_last" spec="Taxon"/>
+		<taxon id="PT0010750_last" spec="Taxon"/>
+		<taxon id="PT0002122_2" spec="Taxon"/>
+		<taxon id="PT0002095_3" spec="Taxon"/>
+		<taxon id="PT0010850_2" spec="Taxon"/>
+		<taxon id="PT0002095_last" spec="Taxon"/>
+		<taxon id="PT0009310_last" spec="Taxon"/>
+		<taxon id="PT0003199_2" spec="Taxon"/>
+		<taxon id="PT0008576_first" spec="Taxon"/>
+		<taxon id="PT0001619_2" spec="Taxon"/>
+		<taxon id="PT0007876_first" spec="Taxon"/>
+		<taxon id="PT0004684_2" spec="Taxon"/>
+		<taxon id="PT0004375_last" spec="Taxon"/>
+		<taxon id="PT0009245_last" spec="Taxon"/>
+		<taxon id="PT0004684_3" spec="Taxon"/>
+		<taxon id="PT0005062_first" spec="Taxon"/>
+		<taxon id="PT0015273_3" spec="Taxon"/>
+		<taxon id="PT0011184_last" spec="Taxon"/>
+		<taxon id="PT0015231_last" spec="Taxon"/>
+		<taxon id="PT0002122_3" spec="Taxon"/>
+		<taxon id="PT0010850_3" spec="Taxon"/>
+		<taxon id="PT0001619_3" spec="Taxon"/>
+		<taxon id="PT0003898_last" spec="Taxon"/>
+		<taxon id="PT0005062_2" spec="Taxon"/>
+		<taxon id="PT0010851_first" spec="Taxon"/>
+		<taxon id="PT0004684_last" spec="Taxon"/>
+		<taxon id="PT0011769_last" spec="Taxon"/>
+		<taxon id="PT0005062_3" spec="Taxon"/>
+		<taxon id="PT0008576_last" spec="Taxon"/>
+		<taxon id="PT0003199_last" spec="Taxon"/>
+		<taxon id="PT0005062_4" spec="Taxon"/>
+		<taxon id="PT0011865_first" spec="Taxon"/>
+		<taxon id="PT0015273_last" spec="Taxon"/>
+		<taxon id="PT0005062_5" spec="Taxon"/>
+		<taxon id="PT0013998_3" spec="Taxon"/>
+		<taxon id="PT0001013_first" spec="Taxon"/>
+		<taxon id="PT0004964_last" spec="Taxon"/>
+		<taxon id="PT0007876_last" spec="Taxon"/>
+		<taxon id="PT0001619_last" spec="Taxon"/>
+		<taxon id="PT0003420_first" spec="Taxon"/>
+		<taxon id="PT0003420_2" spec="Taxon"/>
+		<taxon id="PT0013998_4" spec="Taxon"/>
+		<taxon id="PT0001728_first" spec="Taxon"/>
+		<taxon id="PT0003420_last" spec="Taxon"/>
+		<taxon id="PT0010850_last" spec="Taxon"/>
+		<taxon id="PT0013998_last" spec="Taxon"/>
+		<taxon id="PT0015386_first" spec="Taxon"/>
+		<taxon id="PT0005062_6" spec="Taxon"/>
+		<taxon id="PT0002977_first" spec="Taxon"/>
+		<taxon id="PT0009125_first" spec="Taxon"/>
+		<taxon id="PT0000368_last" spec="Taxon"/>
+		<taxon id="PT0000503_first" spec="Taxon"/>
+		<taxon id="PT0001013_last" spec="Taxon"/>
+		<taxon id="PT0015386_last" spec="Taxon"/>
+		<taxon id="PT0000185_first" spec="Taxon"/>
+		<taxon id="PT0009515_first" spec="Taxon"/>
+		<taxon id="PT0010703_first" spec="Taxon"/>
+		<taxon id="PT0012685_last" spec="Taxon"/>
+		<taxon id="PT0005062_last" spec="Taxon"/>
+		<taxon id="PT0002122_last" spec="Taxon"/>
+		<taxon id="PT0000503_2" spec="Taxon"/>
+		<taxon id="PT0008440_first" spec="Taxon"/>
+		<taxon id="PT0000185_last" spec="Taxon"/>
+		<taxon id="PT0001706_first" spec="Taxon"/>
+		<taxon id="PT0010851_last" spec="Taxon"/>
+		<taxon id="PT0012611_first" spec="Taxon"/>
+		<taxon id="PT0003617_first" spec="Taxon"/>
+		<taxon id="PT0001706_last" spec="Taxon"/>
+		<taxon id="PT0002977_last" spec="Taxon"/>
+		<taxon id="PT0002720_first" spec="Taxon"/>
+		<taxon id="PT0001140_first" spec="Taxon"/>
+		<taxon id="PT0003617_last" spec="Taxon"/>
+		<taxon id="PT0012611_last" spec="Taxon"/>
+		<taxon id="PT0001819_first" spec="Taxon"/>
+		<taxon id="PT0001515_first" spec="Taxon"/>
+		<taxon id="PT0004348_first" spec="Taxon"/>
+		<taxon id="PT0002720_last" spec="Taxon"/>
+		<taxon id="PT0009515_last" spec="Taxon"/>
+		<taxon id="PT0011865_last" spec="Taxon"/>
+		<taxon id="PT0001515_last" spec="Taxon"/>
+		<taxon id="PT0001819_last" spec="Taxon"/>
+		<taxon id="PT0001140_last" spec="Taxon"/>
+		<taxon id="PT0007246_first" spec="Taxon"/>
+		<taxon id="PT0000310_first" spec="Taxon"/>
+		<taxon id="PT0001728_last" spec="Taxon"/>
+		<taxon id="PT0000503_last" spec="Taxon"/>
+		<taxon id="PT0004348_last" spec="Taxon"/>
+		<taxon id="PT0013793_first" spec="Taxon"/>
+		<taxon id="PT0002791_first" spec="Taxon"/>
+		<taxon id="PT0007246_last" spec="Taxon"/>
+		<taxon id="PT0000310_last" spec="Taxon"/>
+		<taxon id="PT0013620_first" spec="Taxon"/>
+		<taxon id="PT0002791_2" spec="Taxon"/>
+		<taxon id="PT0002890_first" spec="Taxon"/>
+		<taxon id="PT0004070_first" spec="Taxon"/>
+		<taxon id="PT0004163_first" spec="Taxon"/>
+		<taxon id="PT0006793_first" spec="Taxon"/>
+		<taxon id="PT0010703_2" spec="Taxon"/>
+		<taxon id="PT0002890_last" spec="Taxon"/>
+		<taxon id="PT0011823_first" spec="Taxon"/>
+		<taxon id="PT0013620_last" spec="Taxon"/>
+		<taxon id="PT0015309_first" spec="Taxon"/>
+		<taxon id="PT0002917_first" spec="Taxon"/>
+		<taxon id="PT0011723_first" spec="Taxon"/>
+		<taxon id="PT0008440_2" spec="Taxon"/>
+		<taxon id="PT0015235_first" spec="Taxon"/>
+		<taxon id="PT0010703_last" spec="Taxon"/>
+		<taxon id="PT0004070_last" spec="Taxon"/>
+		<taxon id="PT0010709_first" spec="Taxon"/>
+		<taxon id="PT0009125_last" spec="Taxon"/>
+		<taxon id="PT0005001_first" spec="Taxon"/>
+		<taxon id="PT0004163_2" spec="Taxon"/>
+		<taxon id="PT0006793_2" spec="Taxon"/>
+		<taxon id="PT0002791_last" spec="Taxon"/>
+		<taxon id="PT0011823_2" spec="Taxon"/>
+		<taxon id="PT0010246_first" spec="Taxon"/>
+		<taxon id="PT0005001_last" spec="Taxon"/>
+		<taxon id="PT0015235_last" spec="Taxon"/>
+		<taxon id="PT0011823_last" spec="Taxon"/>
+		<taxon id="PT0010709_last" spec="Taxon"/>
+		<taxon id="PT0008440_last" spec="Taxon"/>
+		<taxon id="PT0015309_2" spec="Taxon"/>
+		<taxon id="PT0004163_3" spec="Taxon"/>
+		<taxon id="PT0015309_last" spec="Taxon"/>
+		<taxon id="PT0010246_last" spec="Taxon"/>
+		<taxon id="PT0006793_last" spec="Taxon"/>
+		<taxon id="PT0004163_last" spec="Taxon"/>
+		<taxon id="PT0002917_last" spec="Taxon"/>
+		<taxon id="PT0013793_last" spec="Taxon"/>
+		<taxon id="PT0004458_first" spec="Taxon"/>
+		<taxon id="PT0011723_last" spec="Taxon"/>
+		<taxon id="PT0002893_first" spec="Taxon"/>
+		<taxon id="PT0004458_last" spec="Taxon"/>
+		<taxon id="PT0002893_last" spec="Taxon"/>
+		<taxon id="PT0009255_first" spec="Taxon"/>
+		<taxon id="PT0009255_last" spec="Taxon"/>
+		<taxon id="PT0017427_first" spec="Taxon"/>
+		<taxon id="PT0017345_first" spec="Taxon"/>
+		<taxon id="PT0017427_last" spec="Taxon"/>
+		<taxon id="PT0015022_first" spec="Taxon"/>
+		<taxon id="PT0017345_last" spec="Taxon"/>
+		<taxon id="PT0015022_2" spec="Taxon"/>
+		<taxon id="PT0018280_first" spec="Taxon"/>
+		<taxon id="PT0018280_last" spec="Taxon"/>
+		<taxon id="PT0016700_first" spec="Taxon"/>
+		<taxon id="PT0016700_2" spec="Taxon"/>
+		<taxon id="PT0016700_last" spec="Taxon"/>
+		<taxon id="PT0015022_last" spec="Taxon"/>
+		<taxon id="PT0017539_first" spec="Taxon"/>
+		<taxon id="PT0017539_2" spec="Taxon"/>
+		<taxon id="PT0015022b_first" spec="Taxon"/>
+		<taxon id="PT0017539_last" spec="Taxon"/>
+		<taxon id="PT0016722_first" spec="Taxon"/>
+		<taxon id="PT0016722_2" spec="Taxon"/>
+		<taxon id="PT0017365_first" spec="Taxon"/>
+		<taxon id="PT0017365_2" spec="Taxon"/>
+		<taxon id="PT0015022b_last" spec="Taxon"/>
+		<taxon id="PT0016722_3" spec="Taxon"/>
+		<taxon id="PT0017365_last" spec="Taxon"/>
+		<taxon id="PT0016722_last" spec="Taxon"/>
+		<taxon id="PT0016719_first" spec="Taxon"/>
+		<taxon id="PT0016719_2" spec="Taxon"/>
+		<taxon id="PT0017314_first" spec="Taxon"/>
+		<taxon id="PT0016719_3" spec="Taxon"/>
+		<taxon id="PT0017314_2" spec="Taxon"/>
+		<taxon id="PT0016719_4" spec="Taxon"/>
+		<taxon id="PT0016719_5" spec="Taxon"/>
+		<taxon id="PT0017314_last" spec="Taxon"/>
+		<taxon id="PT0016719_last" spec="Taxon"/>
+    </taxonSet>
+
+    <parameterization id="parameterization" spec="TransmissionParameterization">
+        <origin id="origin" spec="RealParameter" value="70.0"/>
+        <R0 id="R0" spec="RealParameter" value="0.9 0.9"/>
+        <becomeUninfectiousRate id="becomeUninfectiousRate" spec="RealParameter" value="0.2 0.2"/>
+        <samplingProportion id="samplingProportion" spec="RealParameter" value="0 0.4"/>
+        <samplingChangeTime id="samplingChangeTime" spec="RealParameter" value="14.1"/>
+        <removalProb id="removalProbability" spec="RealParameter" value="0.0"/>
+    </parameterization>
+
+    <siteModel gammaCategoryCount="4" id="SiteModel"
+               spec="SiteModel">
+        <parameter dimension="1" id="mutationRate"
+                   name="mutationRate" value="1.0" />
+        <parameter dimension="1" id="gammaShape" name="shape"
+                   value="0.5" lower="0.0" upper="1000.0" />
+        <substModel id="gtr" rateAC="@rateAC" rateGT="@rateGT"
+                    rateAT="@rateAT" rateCG="@rateCG" rateCT="@rateCT" spec="GTR">
+            <parameter dimension="1" id="rateAG" lower="0.0"
+                       name="rateAG" value="1.0" />
+            <frequencies id="empiricalFreqs" spec="Frequencies" data="@data"/>
+        </substModel>
+    </siteModel>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+    <run id="mcmc" spec="MCMC" chainLength="100000000">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="tree" spec="sr.evolution.tree.SRTree" nodetype="sr.evolution.tree.SRNode" name="stateNode">
+                <trait id="dateTrait.t:Georgia_L2" spec="beast.base.evolution.tree.TraitSet" dateFormat="yyyy-M-dd" traitname="date"
+                    value="PT0000185_first=2014-04-02,PT0000185_last=2015-05-04,PT0000310_first=2016-05-25,PT0000310_last=2016-09-08,PT0000368_first=2012-05-08,PT0000368_last=2014-01-13,PT0000503_first=2014-01-30,PT0000503_2=2014-11-12,PT0000503_last=2016-06-08,PT0000920_first=2008-10-28,PT0000920_2=2008-12-24,PT0000920_3=2009-05-07,PT0000920_last=2009-06-10,PT0001013_first=2013-02-15,PT0001013_last=2014-02-27,PT0001140_first=2015-12-11,PT0001140_last=2016-04-15,PT0001227_first=2008-07-28,PT0001227_2=2009-02-25,PT0001227_3=2009-05-07,PT0001227_last=2009-05-18,PT0001228_first=2010-07-08,PT0001228_2=2010-08-12,PT0001228_last=2011-10-12,PT0001268_first=2011-01-14,PT0001268_2=2012-01-25,PT0001268_3=2012-05-01,PT0001268_last=2012-05-25,PT0001346_first=2009-03-19,PT0001346_last=2011-10-06,PT0001399_first=2008-09-09,PT0001399_2=2008-12-17,PT0001399_last=2009-05-06,PT0001515_first=2016-01-20,PT0001515_last=2016-03-30,PT0001619_first=2011-09-30,PT0001619_2=2012-07-10,PT0001619_3=2012-10-16,PT0001619_last=2013-03-19,PT0001705_first=2008-06-03,PT0001705_2=2008-08-29,PT0001705_last=2008-12-29,PT0001706_first=2015-05-05,PT0001706_last=2015-08-21,PT0001728_first=2013-05-16,PT0001728_last=2016-06-06,PT0001815_first=2008-10-03,PT0001815_2=2008-10-06,PT0001815_3=2008-12-24,PT0001815_last=2009-01-27,PT0001819_first=2015-12-30,PT0001819_last=2016-04-07,PT0002014_first=2010-11-09,PT0002014_2=2011-02-08,PT0002014_last=2012-02-09,PT0002027_first=2010-07-15,PT0002027_2=2010-08-24,PT0002027_3=2010-09-07,PT0002027_last=2011-01-17,PT0002095_first=2011-11-02,PT0002095_2=2011-11-22,PT0002095_3=2012-06-08,PT0002095_last=2012-06-19,PT0002122_first=2011-01-18,PT0002122_2=2012-06-06,PT0002122_3=2012-09-20,PT0002122_last=2014-06-20,PT0002140_first=2009-10-22,PT0002140_2=2010-03-18,PT0002140_last=2010-07-13,PT0002159_first=2010-08-12,PT0002159_last=2010-10-15,PT0002192_first=2009-03-16,PT0002192_2=2009-04-27,PT0002192_3=2009-05-22,PT0002192_last=2009-05-25,PT0002445_first=2008-08-04,PT0002445_2=2009-01-09,PT0002445_last=2009-05-08,PT0002622_first=2009-04-24,PT0002622_last=2009-05-22,PT0002720_first=2015-11-30,PT0002720_last=2016-03-10,PT0002756_first=2010-05-28,PT0002756_last=2010-12-30,PT0002791_first=2016-07-05,PT0002791_2=2016-10-04,PT0002791_last=2017-03-09,PT0002890_first=2016-10-24,PT0002890_last=2016-12-06,PT0002893_first=2019-06-02,PT0002893_last=2019-07-12,PT0002917_first=2017-01-20,PT0002917_last=2018-01-25,PT0002977_first=2013-06-26,PT0002977_last=2015-11-12,PT0003027_first=2009-07-13,PT0003027_2=2010-08-10,PT0003027_3=2010-11-05,PT0003027_last=2011-02-25,PT0003199_first=2010-10-25,PT0003199_2=2012-07-02,PT0003199_last=2012-12-25,PT0003420_first=2013-03-22,PT0003420_2=2013-04-25,PT0003420_last=2013-05-24,PT0003617_first=2015-08-18,PT0003617_last=2015-12-15,PT0003898_first=2009-05-13,PT0003898_2=2009-05-27,PT0003898_3=2009-06-04,PT0003898_4=2011-09-16,PT0003898_last=2012-10-30,PT0004070_first=2016-10-28,PT0004070_last=2017-02-08,PT0004163_first=2016-11-03,PT0004163_2=2017-02-27,PT0004163_3=2017-05-31,PT0004163_last=2018-01-18,PT0004348_first=2016-02-22,PT0004348_last=2016-06-28,PT0004375_first=2012-01-23,PT0004375_last=2012-08-03,PT0004458_first=2018-07-11,PT0004458_last=2019-06-24,PT0004684_first=2012-04-18,PT0004684_2=2012-07-24,PT0004684_3=2012-09-05,PT0004684_last=2012-12-04,PT0004798_first=2009-03-13,PT0004798_last=2009-05-15,PT0004830_first=2009-08-25,PT0004830_2=2009-10-23,PT0004830_3=2009-11-13,PT0004830_last=2010-01-18,PT0004947_first=2009-02-27,PT0004947_2=2009-06-01,PT0004947_last=2009-06-15,PT0004964_first=2010-01-25,PT0004964_last=2013-02-19,PT0005001_first=2017-02-22,PT0005001_last=2017-04-19,PT0005062_first=2012-09-10,PT0005062_2=2012-11-08,PT0005062_3=2012-12-11,PT0005062_4=2013-01-11,PT0005062_5=2013-02-07,PT0005062_6=2013-06-13,PT0005062_last=2014-06-11,PT0005314_first=2008-11-21,PT0005314_2=2009-01-21,PT0005314_last=2009-03-30,PT0006080_first=2009-11-03,PT0006080_2=2011-09-30,PT0006080_3=2012-03-28,PT0006080_last=2012-05-10,PT0006547_first=2010-07-09,PT0006547_last=2011-01-27,PT0006597_first=2008-09-10,PT0006597_last=2008-10-22,PT0006682_first=2011-08-17,PT0006682_last=2012-05-31,PT0006683_first=2009-08-19,PT0006683_2=2009-10-16,PT0006683_3=2009-11-20,PT0006683_4=2009-12-21,PT0006683_last=2010-01-27,PT0006793_first=2016-11-17,PT0006793_2=2017-02-28,PT0006793_last=2017-07-26,PT0006954_first=2010-11-22,PT0006954_2=2010-11-26,PT0006954_3=2010-12-24,PT0006954_last=2011-02-24,PT0007055_first=2008-11-12,PT0007055_last=2009-05-07,PT0007246_first=2016-05-13,PT0007246_last=2016-08-15,PT0007348_first=2009-02-19,PT0007348_2=2009-04-30,PT0007348_3=2009-08-19,PT0007348_4=2009-12-04,PT0007348_last=2010-04-15,PT0007876_first=2012-07-20,PT0007876_last=2013-03-15,PT0008072_first=2010-10-05,PT0008072_2=2010-10-19,PT0008072_3=2011-02-18,PT0008072_last=2011-08-24,PT0008440_first=2015-03-02,PT0008440_2=2017-01-23,PT0008440_last=2017-05-25,PT0008576_first=2012-07-03,PT0008576_last=2012-12-24,PT0008933_first=2010-03-12,PT0008933_last=2010-06-25,PT0009125_first=2013-12-26,PT0009125_last=2017-02-15,PT0009245_first=2011-08-26,PT0009245_2=2011-09-28,PT0009245_3=2012-02-17,PT0009245_4=2012-05-25,PT0009245_last=2012-09-03,PT0009255_first=2020-03-16,PT0009255_last=2021-02-11,PT0009310_first=2011-02-02,PT0009310_last=2012-06-21,PT0009515_first=2014-04-04,PT0009515_last=2016-03-14,PT0009652_first=2008-06-19,PT0009652_2=2009-02-23,PT0009652_last=2009-04-30,PT0010043_first=2009-08-18,PT0010043_2=2010-01-05,PT0010043_last=2010-08-17,PT0010156_first=2009-03-24,PT0010156_2=2009-12-07,PT0010156_3=2011-12-02,PT0010156_last=2012-01-27,PT0010246_first=2017-04-06,PT0010246_last=2017-06-26,PT0010658_first=2008-10-23,PT0010658_2=2008-12-12,PT0010658_3=2009-02-18,PT0010658_last=2009-07-09,PT0010703_first=2014-04-14,PT0010703_2=2016-11-24,PT0010703_last=2017-01-31,PT0010709_first=2017-02-13,PT0010709_last=2017-05-22,PT0010750_first=2010-06-18,PT0010750_2=2010-10-13,PT0010750_3=2010-11-04,PT0010750_4=2010-11-11,PT0010750_5=2011-09-30,PT0010750_last=2012-06-05,PT0010850_first=2012-03-22,PT0010850_2=2012-06-17,PT0010850_3=2012-09-24,PT0010850_last=2013-05-24,PT0010851_first=2012-11-16,PT0010851_last=2015-05-28,PT0011184_first=2009-08-26,PT0011184_2=2009-09-23,PT0011184_3=2009-12-01,PT0011184_4=2011-01-14,PT0011184_5=2011-02-17,PT0011184_last=2012-09-17,PT0011277_first=2009-07-03,PT0011277_2=2009-09-04,PT0011277_3=2010-03-24,PT0011277_4=2010-10-08,PT0011277_last=2010-11-16,PT0011457_first=2008-10-07,PT0011457_2=2009-03-16,PT0011457_last=2009-03-18,PT0011723_first=2017-01-20,PT0011723_last=2018-10-03,PT0011769_first=2010-08-20,PT0011769_2=2010-11-29,PT0011769_3=2011-08-23,PT0011769_last=2012-12-04,PT0011823_first=2016-12-06,PT0011823_2=2017-03-16,PT0011823_last=2017-05-15,PT0011865_first=2013-01-11,PT0011865_last=2016-03-28,PT0012325_first=2009-09-14,PT0012325_last=2012-05-18,PT0012611_first=2015-06-09,PT0012611_last=2015-12-22,PT0012652_first=2008-11-18,PT0012652_2=2009-02-18,PT0012652_3=2009-03-18,PT0012652_4=2009-03-20,PT0012652_last=2009-06-11,PT0012685_first=2009-09-04,PT0012685_2=2011-09-01,PT0012685_last=2014-05-01,PT0013537_first=2008-07-10,PT0013537_2=2008-10-15,PT0013537_3=2008-11-10,PT0013537_4=2008-12-25,PT0013537_last=2009-03-27,PT0013620_first=2016-09-15,PT0013620_last=2016-12-08,PT0013682_first=2011-11-01,PT0013682_2=2012-04-20,PT0013682_last=2012-05-21,PT0013793_first=2016-06-30,PT0013793_last=2018-03-01,PT0013996_first=2010-10-07,PT0013996_2=2010-11-04,PT0013996_last=2011-03-10,PT0013998_first=2010-12-23,PT0013998_2=2011-02-15,PT0013998_3=2013-02-11,PT0013998_4=2013-04-26,PT0013998_last=2013-05-24,PT0014046_first=2008-11-12,PT0014046_2=2009-03-16,PT0014046_last=2009-06-10,PT0014140_first=2010-03-09,PT0014140_2=2011-08-25,PT0014140_last=2012-05-01,PT0014214_first=2008-11-05,PT0014214_2=2009-02-04,PT0014214_3=2009-04-30,PT0014214_last=2009-05-29,PT0014332_first=2008-05-14,PT0014332_2=2008-09-29,PT0014332_3=2008-11-12,PT0014332_4=2009-01-22,PT0014332_last=2009-03-16,PT0014349_first=2008-11-06,PT0014349_last=2009-02-06,PT0015022_first=2021-04-13,PT0015022_2=2021-05-11,PT0015022_last=2021-09-15,PT0015022b_first=2021-10-20,PT0015022b_last=2021-11-19,PT0015231_first=2009-07-17,PT0015231_last=2012-09-19,PT0015235_first=2017-01-27,PT0015235_last=2017-04-28,PT0015273_first=2012-02-29,PT0015273_2=2012-03-02,PT0015273_3=2012-09-14,PT0015273_last=2013-01-21,PT0015309_first=2017-01-12,PT0015309_2=2017-05-29,PT0015309_last=2017-06-21,PT0015335_first=2010-05-13,PT0015335_last=2010-09-03,PT0015386_first=2013-06-07,PT0015386_last=2014-04-01,PT0015912_first=2008-10-31,PT0015912_2=2009-01-20,PT0015912_last=2009-03-23,PT0016117_first=2008-06-20,PT0016117_2=2008-07-17,PT0016117_3=2008-09-19,PT0016117_4=2008-11-20,PT0016117_last=2009-02-10,PT0016700_first=2021-08-04,PT0016700_2=2021-08-06,PT0016700_last=2021-09-08,PT0016719_first=2022-03-10,PT0016719_2=2022-03-22,PT0016719_3=2022-03-29,PT0016719_4=2022-04-04,PT0016719_5=2022-04-15,PT0016719_last=2022-06-15,PT0016722_first=2021-11-03,PT0016722_2=2021-11-04,PT0016722_3=2021-12-03,PT0016722_last=2022-02-07,PT0017314_first=2022-03-25,PT0017314_2=2022-04-01,PT0017314_last=2022-04-26,PT0017345_first=2021-03-17,PT0017345_last=2021-04-20,PT0017365_first=2021-11-11,PT0017365_2=2021-11-12,PT0017365_last=2021-12-14,PT0017427_first=2021-02-25,PT0017427_last=2021-03-26,PT0017539_first=2021-09-17,PT0017539_2=2021-09-20,PT0017539_last=2021-10-20,PT0018280_first=2021-06-09,PT0018280_last=2021-07-09">
+                    <taxa id="TaxonSet.Georgia_L2" spec="TaxonSet">
+                        <alignment id="data" spec="FilteredAlignment" filter="-">
+                            <data idref="Georgia_L2"/>
+                            <constantSiteWeights id="IntegerParameter.0" spec="parameter.IntegerParameter" dimension="4" lower="0" upper="0">757797 1449218 1443832 757667</constantSiteWeights>
+                        </alignment>
+                    </taxa>
+                </trait>
+                <taxonset idref="TaxonSet.Georgia_L2"/>
+                <stratigraphicRange id="r1" spec="StratigraphicRange" firstOccurrence="@PT0000185_first" lastOccurrence="@PT0000185_last"/>
+				<stratigraphicRange id="r2" spec="StratigraphicRange" firstOccurrence="@PT0000310_first" lastOccurrence="@PT0000310_last"/>
+				<stratigraphicRange id="r3" spec="StratigraphicRange" firstOccurrence="@PT0000368_first" lastOccurrence="@PT0000368_last"/>
+				<stratigraphicRange id="r4" spec="StratigraphicRange" firstOccurrence="@PT0000503_first" occurenceTaxonSet="@taxset_4" lastOccurrence="@PT0000503_last"/>
+				<stratigraphicRange id="r5" spec="StratigraphicRange" firstOccurrence="@PT0000920_first" occurenceTaxonSet="@taxset_5" lastOccurrence="@PT0000920_last"/>
+				<stratigraphicRange id="r6" spec="StratigraphicRange" firstOccurrence="@PT0001013_first" lastOccurrence="@PT0001013_last"/>
+				<stratigraphicRange id="r7" spec="StratigraphicRange" firstOccurrence="@PT0001140_first" lastOccurrence="@PT0001140_last"/>
+				<stratigraphicRange id="r8" spec="StratigraphicRange" firstOccurrence="@PT0001227_first" occurenceTaxonSet="@taxset_8" lastOccurrence="@PT0001227_last"/>
+				<stratigraphicRange id="r9" spec="StratigraphicRange" firstOccurrence="@PT0001228_first" occurenceTaxonSet="@taxset_9" lastOccurrence="@PT0001228_last"/>
+				<stratigraphicRange id="r10" spec="StratigraphicRange" firstOccurrence="@PT0001268_first" occurenceTaxonSet="@taxset_10" lastOccurrence="@PT0001268_last"/>
+				<stratigraphicRange id="r11" spec="StratigraphicRange" firstOccurrence="@PT0001346_first" lastOccurrence="@PT0001346_last"/>
+				<stratigraphicRange id="r12" spec="StratigraphicRange" firstOccurrence="@PT0001399_first" occurenceTaxonSet="@taxset_12" lastOccurrence="@PT0001399_last"/>
+				<stratigraphicRange id="r13" spec="StratigraphicRange" firstOccurrence="@PT0001515_first" lastOccurrence="@PT0001515_last"/>
+				<stratigraphicRange id="r14" spec="StratigraphicRange" firstOccurrence="@PT0001619_first" occurenceTaxonSet="@taxset_14" lastOccurrence="@PT0001619_last"/>
+				<stratigraphicRange id="r15" spec="StratigraphicRange" firstOccurrence="@PT0001705_first" occurenceTaxonSet="@taxset_15" lastOccurrence="@PT0001705_last"/>
+				<stratigraphicRange id="r16" spec="StratigraphicRange" firstOccurrence="@PT0001706_first" lastOccurrence="@PT0001706_last"/>
+				<stratigraphicRange id="r17" spec="StratigraphicRange" firstOccurrence="@PT0001728_first" lastOccurrence="@PT0001728_last"/>
+				<stratigraphicRange id="r18" spec="StratigraphicRange" firstOccurrence="@PT0001815_first" occurenceTaxonSet="@taxset_18" lastOccurrence="@PT0001815_last"/>
+				<stratigraphicRange id="r19" spec="StratigraphicRange" firstOccurrence="@PT0001819_first" lastOccurrence="@PT0001819_last"/>
+				<stratigraphicRange id="r20" spec="StratigraphicRange" firstOccurrence="@PT0002014_first" occurenceTaxonSet="@taxset_20" lastOccurrence="@PT0002014_last"/>
+				<stratigraphicRange id="r21" spec="StratigraphicRange" firstOccurrence="@PT0002027_first" occurenceTaxonSet="@taxset_21" lastOccurrence="@PT0002027_last"/>
+				<stratigraphicRange id="r22" spec="StratigraphicRange" firstOccurrence="@PT0002095_first" occurenceTaxonSet="@taxset_22" lastOccurrence="@PT0002095_last"/>
+				<stratigraphicRange id="r23" spec="StratigraphicRange" firstOccurrence="@PT0002122_first" occurenceTaxonSet="@taxset_23" lastOccurrence="@PT0002122_last"/>
+				<stratigraphicRange id="r24" spec="StratigraphicRange" firstOccurrence="@PT0002140_first" occurenceTaxonSet="@taxset_24" lastOccurrence="@PT0002140_last"/>
+				<stratigraphicRange id="r25" spec="StratigraphicRange" firstOccurrence="@PT0002159_first" lastOccurrence="@PT0002159_last"/>
+				<stratigraphicRange id="r26" spec="StratigraphicRange" firstOccurrence="@PT0002192_first" occurenceTaxonSet="@taxset_26" lastOccurrence="@PT0002192_last"/>
+				<stratigraphicRange id="r27" spec="StratigraphicRange" firstOccurrence="@PT0002445_first" occurenceTaxonSet="@taxset_27" lastOccurrence="@PT0002445_last"/>
+				<stratigraphicRange id="r28" spec="StratigraphicRange" firstOccurrence="@PT0002622_first" lastOccurrence="@PT0002622_last"/>
+				<stratigraphicRange id="r29" spec="StratigraphicRange" firstOccurrence="@PT0002720_first" lastOccurrence="@PT0002720_last"/>
+				<stratigraphicRange id="r30" spec="StratigraphicRange" firstOccurrence="@PT0002756_first" lastOccurrence="@PT0002756_last"/>
+				<stratigraphicRange id="r31" spec="StratigraphicRange" firstOccurrence="@PT0002791_first" occurenceTaxonSet="@taxset_31" lastOccurrence="@PT0002791_last"/>
+				<stratigraphicRange id="r32" spec="StratigraphicRange" firstOccurrence="@PT0002890_first" lastOccurrence="@PT0002890_last"/>
+				<stratigraphicRange id="r33" spec="StratigraphicRange" firstOccurrence="@PT0002893_first" lastOccurrence="@PT0002893_last"/>
+				<stratigraphicRange id="r34" spec="StratigraphicRange" firstOccurrence="@PT0002917_first" lastOccurrence="@PT0002917_last"/>
+				<stratigraphicRange id="r35" spec="StratigraphicRange" firstOccurrence="@PT0002977_first" lastOccurrence="@PT0002977_last"/>
+				<stratigraphicRange id="r36" spec="StratigraphicRange" firstOccurrence="@PT0003027_first" occurenceTaxonSet="@taxset_36" lastOccurrence="@PT0003027_last"/>
+				<stratigraphicRange id="r37" spec="StratigraphicRange" firstOccurrence="@PT0003199_first" occurenceTaxonSet="@taxset_37" lastOccurrence="@PT0003199_last"/>
+				<stratigraphicRange id="r38" spec="StratigraphicRange" firstOccurrence="@PT0003420_first" occurenceTaxonSet="@taxset_38" lastOccurrence="@PT0003420_last"/>
+				<stratigraphicRange id="r39" spec="StratigraphicRange" firstOccurrence="@PT0003617_first" lastOccurrence="@PT0003617_last"/>
+				<stratigraphicRange id="r40" spec="StratigraphicRange" firstOccurrence="@PT0003898_first" occurenceTaxonSet="@taxset_40" lastOccurrence="@PT0003898_last"/>
+				<stratigraphicRange id="r41" spec="StratigraphicRange" firstOccurrence="@PT0004070_first" lastOccurrence="@PT0004070_last"/>
+				<stratigraphicRange id="r42" spec="StratigraphicRange" firstOccurrence="@PT0004163_first" occurenceTaxonSet="@taxset_42" lastOccurrence="@PT0004163_last"/>
+				<stratigraphicRange id="r43" spec="StratigraphicRange" firstOccurrence="@PT0004348_first" lastOccurrence="@PT0004348_last"/>
+				<stratigraphicRange id="r44" spec="StratigraphicRange" firstOccurrence="@PT0004375_first" lastOccurrence="@PT0004375_last"/>
+				<stratigraphicRange id="r45" spec="StratigraphicRange" firstOccurrence="@PT0004458_first" lastOccurrence="@PT0004458_last"/>
+				<stratigraphicRange id="r46" spec="StratigraphicRange" firstOccurrence="@PT0004684_first" occurenceTaxonSet="@taxset_46" lastOccurrence="@PT0004684_last"/>
+				<stratigraphicRange id="r47" spec="StratigraphicRange" firstOccurrence="@PT0004798_first" lastOccurrence="@PT0004798_last"/>
+				<stratigraphicRange id="r48" spec="StratigraphicRange" firstOccurrence="@PT0004830_first" occurenceTaxonSet="@taxset_48" lastOccurrence="@PT0004830_last"/>
+				<stratigraphicRange id="r49" spec="StratigraphicRange" firstOccurrence="@PT0004947_first" occurenceTaxonSet="@taxset_49" lastOccurrence="@PT0004947_last"/>
+				<stratigraphicRange id="r50" spec="StratigraphicRange" firstOccurrence="@PT0004964_first" lastOccurrence="@PT0004964_last"/>
+				<stratigraphicRange id="r51" spec="StratigraphicRange" firstOccurrence="@PT0005001_first" lastOccurrence="@PT0005001_last"/>
+				<stratigraphicRange id="r52" spec="StratigraphicRange" firstOccurrence="@PT0005062_first" occurenceTaxonSet="@taxset_52" lastOccurrence="@PT0005062_last"/>
+				<stratigraphicRange id="r53" spec="StratigraphicRange" firstOccurrence="@PT0005314_first" occurenceTaxonSet="@taxset_53" lastOccurrence="@PT0005314_last"/>
+				<stratigraphicRange id="r54" spec="StratigraphicRange" firstOccurrence="@PT0006080_first" occurenceTaxonSet="@taxset_54" lastOccurrence="@PT0006080_last"/>
+				<stratigraphicRange id="r55" spec="StratigraphicRange" firstOccurrence="@PT0006547_first" lastOccurrence="@PT0006547_last"/>
+				<stratigraphicRange id="r56" spec="StratigraphicRange" firstOccurrence="@PT0006597_first" lastOccurrence="@PT0006597_last"/>
+				<stratigraphicRange id="r57" spec="StratigraphicRange" firstOccurrence="@PT0006682_first" lastOccurrence="@PT0006682_last"/>
+				<stratigraphicRange id="r58" spec="StratigraphicRange" firstOccurrence="@PT0006683_first" occurenceTaxonSet="@taxset_58" lastOccurrence="@PT0006683_last"/>
+				<stratigraphicRange id="r59" spec="StratigraphicRange" firstOccurrence="@PT0006793_first" occurenceTaxonSet="@taxset_59" lastOccurrence="@PT0006793_last"/>
+				<stratigraphicRange id="r60" spec="StratigraphicRange" firstOccurrence="@PT0006954_first" occurenceTaxonSet="@taxset_60" lastOccurrence="@PT0006954_last"/>
+				<stratigraphicRange id="r61" spec="StratigraphicRange" firstOccurrence="@PT0007055_first" lastOccurrence="@PT0007055_last"/>
+				<stratigraphicRange id="r62" spec="StratigraphicRange" firstOccurrence="@PT0007246_first" lastOccurrence="@PT0007246_last"/>
+				<stratigraphicRange id="r63" spec="StratigraphicRange" firstOccurrence="@PT0007348_first" occurenceTaxonSet="@taxset_63" lastOccurrence="@PT0007348_last"/>
+				<stratigraphicRange id="r64" spec="StratigraphicRange" firstOccurrence="@PT0007876_first" lastOccurrence="@PT0007876_last"/>
+				<stratigraphicRange id="r65" spec="StratigraphicRange" firstOccurrence="@PT0008072_first" occurenceTaxonSet="@taxset_65" lastOccurrence="@PT0008072_last"/>
+				<stratigraphicRange id="r66" spec="StratigraphicRange" firstOccurrence="@PT0008440_first" occurenceTaxonSet="@taxset_66" lastOccurrence="@PT0008440_last"/>
+				<stratigraphicRange id="r67" spec="StratigraphicRange" firstOccurrence="@PT0008576_first" lastOccurrence="@PT0008576_last"/>
+				<stratigraphicRange id="r68" spec="StratigraphicRange" firstOccurrence="@PT0008933_first" lastOccurrence="@PT0008933_last"/>
+				<stratigraphicRange id="r69" spec="StratigraphicRange" firstOccurrence="@PT0009125_first" lastOccurrence="@PT0009125_last"/>
+				<stratigraphicRange id="r70" spec="StratigraphicRange" firstOccurrence="@PT0009245_first" occurenceTaxonSet="@taxset_70" lastOccurrence="@PT0009245_last"/>
+				<stratigraphicRange id="r71" spec="StratigraphicRange" firstOccurrence="@PT0009255_first" lastOccurrence="@PT0009255_last"/>
+				<stratigraphicRange id="r72" spec="StratigraphicRange" firstOccurrence="@PT0009310_first" lastOccurrence="@PT0009310_last"/>
+				<stratigraphicRange id="r73" spec="StratigraphicRange" firstOccurrence="@PT0009515_first" lastOccurrence="@PT0009515_last"/>
+				<stratigraphicRange id="r74" spec="StratigraphicRange" firstOccurrence="@PT0009652_first" occurenceTaxonSet="@taxset_74" lastOccurrence="@PT0009652_last"/>
+				<stratigraphicRange id="r75" spec="StratigraphicRange" firstOccurrence="@PT0010043_first" occurenceTaxonSet="@taxset_75" lastOccurrence="@PT0010043_last"/>
+				<stratigraphicRange id="r76" spec="StratigraphicRange" firstOccurrence="@PT0010156_first" occurenceTaxonSet="@taxset_76" lastOccurrence="@PT0010156_last"/>
+				<stratigraphicRange id="r77" spec="StratigraphicRange" firstOccurrence="@PT0010246_first" lastOccurrence="@PT0010246_last"/>
+				<stratigraphicRange id="r78" spec="StratigraphicRange" firstOccurrence="@PT0010658_first" occurenceTaxonSet="@taxset_78" lastOccurrence="@PT0010658_last"/>
+				<stratigraphicRange id="r79" spec="StratigraphicRange" firstOccurrence="@PT0010703_first" occurenceTaxonSet="@taxset_79" lastOccurrence="@PT0010703_last"/>
+				<stratigraphicRange id="r80" spec="StratigraphicRange" firstOccurrence="@PT0010709_first" lastOccurrence="@PT0010709_last"/>
+				<stratigraphicRange id="r81" spec="StratigraphicRange" firstOccurrence="@PT0010750_first" occurenceTaxonSet="@taxset_81" lastOccurrence="@PT0010750_last"/>
+				<stratigraphicRange id="r82" spec="StratigraphicRange" firstOccurrence="@PT0010850_first" occurenceTaxonSet="@taxset_82" lastOccurrence="@PT0010850_last"/>
+				<stratigraphicRange id="r83" spec="StratigraphicRange" firstOccurrence="@PT0010851_first" lastOccurrence="@PT0010851_last"/>
+				<stratigraphicRange id="r84" spec="StratigraphicRange" firstOccurrence="@PT0011184_first" occurenceTaxonSet="@taxset_84" lastOccurrence="@PT0011184_last"/>
+				<stratigraphicRange id="r85" spec="StratigraphicRange" firstOccurrence="@PT0011277_first" occurenceTaxonSet="@taxset_85" lastOccurrence="@PT0011277_last"/>
+				<stratigraphicRange id="r86" spec="StratigraphicRange" firstOccurrence="@PT0011457_first" occurenceTaxonSet="@taxset_86" lastOccurrence="@PT0011457_last"/>
+				<stratigraphicRange id="r87" spec="StratigraphicRange" firstOccurrence="@PT0011723_first" lastOccurrence="@PT0011723_last"/>
+				<stratigraphicRange id="r88" spec="StratigraphicRange" firstOccurrence="@PT0011769_first" occurenceTaxonSet="@taxset_88" lastOccurrence="@PT0011769_last"/>
+				<stratigraphicRange id="r89" spec="StratigraphicRange" firstOccurrence="@PT0011823_first" occurenceTaxonSet="@taxset_89" lastOccurrence="@PT0011823_last"/>
+				<stratigraphicRange id="r90" spec="StratigraphicRange" firstOccurrence="@PT0011865_first" lastOccurrence="@PT0011865_last"/>
+				<stratigraphicRange id="r91" spec="StratigraphicRange" firstOccurrence="@PT0012325_first" lastOccurrence="@PT0012325_last"/>
+				<stratigraphicRange id="r92" spec="StratigraphicRange" firstOccurrence="@PT0012611_first" lastOccurrence="@PT0012611_last"/>
+				<stratigraphicRange id="r93" spec="StratigraphicRange" firstOccurrence="@PT0012652_first" occurenceTaxonSet="@taxset_93" lastOccurrence="@PT0012652_last"/>
+				<stratigraphicRange id="r94" spec="StratigraphicRange" firstOccurrence="@PT0012685_first" occurenceTaxonSet="@taxset_94" lastOccurrence="@PT0012685_last"/>
+				<stratigraphicRange id="r95" spec="StratigraphicRange" firstOccurrence="@PT0013537_first" occurenceTaxonSet="@taxset_95" lastOccurrence="@PT0013537_last"/>
+				<stratigraphicRange id="r96" spec="StratigraphicRange" firstOccurrence="@PT0013620_first" lastOccurrence="@PT0013620_last"/>
+				<stratigraphicRange id="r97" spec="StratigraphicRange" firstOccurrence="@PT0013682_first" occurenceTaxonSet="@taxset_97" lastOccurrence="@PT0013682_last"/>
+				<stratigraphicRange id="r98" spec="StratigraphicRange" firstOccurrence="@PT0013793_first" lastOccurrence="@PT0013793_last"/>
+				<stratigraphicRange id="r99" spec="StratigraphicRange" firstOccurrence="@PT0013996_first" occurenceTaxonSet="@taxset_99" lastOccurrence="@PT0013996_last"/>
+				<stratigraphicRange id="r100" spec="StratigraphicRange" firstOccurrence="@PT0013998_first" occurenceTaxonSet="@taxset_100" lastOccurrence="@PT0013998_last"/>
+				<stratigraphicRange id="r101" spec="StratigraphicRange" firstOccurrence="@PT0014046_first" occurenceTaxonSet="@taxset_101" lastOccurrence="@PT0014046_last"/>
+				<stratigraphicRange id="r102" spec="StratigraphicRange" firstOccurrence="@PT0014140_first" occurenceTaxonSet="@taxset_102" lastOccurrence="@PT0014140_last"/>
+				<stratigraphicRange id="r103" spec="StratigraphicRange" firstOccurrence="@PT0014214_first" occurenceTaxonSet="@taxset_103" lastOccurrence="@PT0014214_last"/>
+				<stratigraphicRange id="r104" spec="StratigraphicRange" firstOccurrence="@PT0014332_first" occurenceTaxonSet="@taxset_104" lastOccurrence="@PT0014332_last"/>
+				<stratigraphicRange id="r105" spec="StratigraphicRange" firstOccurrence="@PT0014349_first" lastOccurrence="@PT0014349_last"/>
+				<stratigraphicRange id="r106" spec="StratigraphicRange" firstOccurrence="@PT0015022_first" occurenceTaxonSet="@taxset_106" lastOccurrence="@PT0015022_last"/>
+				<stratigraphicRange id="r107" spec="StratigraphicRange" firstOccurrence="@PT0015022b_first" lastOccurrence="@PT0015022b_last"/>
+				<stratigraphicRange id="r108" spec="StratigraphicRange" firstOccurrence="@PT0015231_first" lastOccurrence="@PT0015231_last"/>
+				<stratigraphicRange id="r109" spec="StratigraphicRange" firstOccurrence="@PT0015235_first" lastOccurrence="@PT0015235_last"/>
+				<stratigraphicRange id="r110" spec="StratigraphicRange" firstOccurrence="@PT0015273_first" occurenceTaxonSet="@taxset_110" lastOccurrence="@PT0015273_last"/>
+				<stratigraphicRange id="r111" spec="StratigraphicRange" firstOccurrence="@PT0015309_first" occurenceTaxonSet="@taxset_111" lastOccurrence="@PT0015309_last"/>
+				<stratigraphicRange id="r112" spec="StratigraphicRange" firstOccurrence="@PT0015335_first" lastOccurrence="@PT0015335_last"/>
+				<stratigraphicRange id="r113" spec="StratigraphicRange" firstOccurrence="@PT0015386_first" lastOccurrence="@PT0015386_last"/>
+				<stratigraphicRange id="r114" spec="StratigraphicRange" firstOccurrence="@PT0015912_first" occurenceTaxonSet="@taxset_114" lastOccurrence="@PT0015912_last"/>
+				<stratigraphicRange id="r115" spec="StratigraphicRange" firstOccurrence="@PT0016117_first" occurenceTaxonSet="@taxset_115" lastOccurrence="@PT0016117_last"/>
+				<stratigraphicRange id="r116" spec="StratigraphicRange" firstOccurrence="@PT0016700_first" occurenceTaxonSet="@taxset_116" lastOccurrence="@PT0016700_last"/>
+				<stratigraphicRange id="r117" spec="StratigraphicRange" firstOccurrence="@PT0016719_first" occurenceTaxonSet="@taxset_117" lastOccurrence="@PT0016719_last"/>
+				<stratigraphicRange id="r118" spec="StratigraphicRange" firstOccurrence="@PT0016722_first" occurenceTaxonSet="@taxset_118" lastOccurrence="@PT0016722_last"/>
+				<stratigraphicRange id="r119" spec="StratigraphicRange" firstOccurrence="@PT0017314_first" occurenceTaxonSet="@taxset_119" lastOccurrence="@PT0017314_last"/>
+				<stratigraphicRange id="r120" spec="StratigraphicRange" firstOccurrence="@PT0017345_first" lastOccurrence="@PT0017345_last"/>
+				<stratigraphicRange id="r121" spec="StratigraphicRange" firstOccurrence="@PT0017365_first" occurenceTaxonSet="@taxset_121" lastOccurrence="@PT0017365_last"/>
+				<stratigraphicRange id="r122" spec="StratigraphicRange" firstOccurrence="@PT0017427_first" lastOccurrence="@PT0017427_last"/>
+				<stratigraphicRange id="r123" spec="StratigraphicRange" firstOccurrence="@PT0017539_first" occurenceTaxonSet="@taxset_123" lastOccurrence="@PT0017539_last"/>
+				<stratigraphicRange id="r124" spec="StratigraphicRange" firstOccurrence="@PT0018280_first" lastOccurrence="@PT0018280_last"/>
+            </tree>
+
+            <stateNode idref="origin" />
+            <stateNode idref="R0" />
+            <stateNode idref="becomeUninfectiousRate" />
+            <stateNode idref="samplingProportion" />
+            <stateNode idref="removalProbability" />
+<!--            <stateNode idref="samplingChangeTime" />-->
+        <parameter id="ORCsigma.c:Georgia_L2" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.2</parameter>
+        <parameter id="ORCRates.c:Georgia_L2" spec="parameter.RealParameter" dimension="48" lower="1.0E-100" name="stateNode">0.000005</parameter>
+        <stateNode idref="gammaShape" />
+            <parameter dimension="1" id="rateAC" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateGT" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateAT" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateCG" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateCT" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+        </state>
+
+    <init estimate="false" id="Randomtree" initial="@tree" spec="sr.evolution.tree.RandomTransmissionRangeTree" nodetype="sr.evolution.tree.SRNode">
+        <patientTaxonSets spec="TaxonSet" id="taxset_1"> <taxon idref="PT0000185_first"/> <taxon idref="PT0000185_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_2"> <taxon idref="PT0000310_first"/> <taxon idref="PT0000310_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_3"> <taxon idref="PT0000368_first"/> <taxon idref="PT0000368_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_4"> <taxon idref="PT0000503_first"/> <taxon idref="PT0000503_2"/> <taxon idref="PT0000503_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_5"> <taxon idref="PT0000920_first"/> <taxon idref="PT0000920_2"/> <taxon idref="PT0000920_3"/> <taxon idref="PT0000920_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_6"> <taxon idref="PT0001013_first"/> <taxon idref="PT0001013_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_7"> <taxon idref="PT0001140_first"/> <taxon idref="PT0001140_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_8"> <taxon idref="PT0001227_first"/> <taxon idref="PT0001227_2"/> <taxon idref="PT0001227_3"/> <taxon idref="PT0001227_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_9"> <taxon idref="PT0001228_first"/> <taxon idref="PT0001228_2"/> <taxon idref="PT0001228_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_10"> <taxon idref="PT0001268_first"/> <taxon idref="PT0001268_2"/> <taxon idref="PT0001268_3"/> <taxon idref="PT0001268_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_11"> <taxon idref="PT0001346_first"/> <taxon idref="PT0001346_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_12"> <taxon idref="PT0001399_first"/> <taxon idref="PT0001399_2"/> <taxon idref="PT0001399_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_13"> <taxon idref="PT0001515_first"/> <taxon idref="PT0001515_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_14"> <taxon idref="PT0001619_first"/> <taxon idref="PT0001619_2"/> <taxon idref="PT0001619_3"/> <taxon idref="PT0001619_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_15"> <taxon idref="PT0001705_first"/> <taxon idref="PT0001705_2"/> <taxon idref="PT0001705_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_16"> <taxon idref="PT0001706_first"/> <taxon idref="PT0001706_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_17"> <taxon idref="PT0001728_first"/> <taxon idref="PT0001728_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_18"> <taxon idref="PT0001815_first"/> <taxon idref="PT0001815_2"/> <taxon idref="PT0001815_3"/> <taxon idref="PT0001815_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_19"> <taxon idref="PT0001819_first"/> <taxon idref="PT0001819_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_20"> <taxon idref="PT0002014_first"/> <taxon idref="PT0002014_2"/> <taxon idref="PT0002014_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_21"> <taxon idref="PT0002027_first"/> <taxon idref="PT0002027_2"/> <taxon idref="PT0002027_3"/> <taxon idref="PT0002027_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_22"> <taxon idref="PT0002095_first"/> <taxon idref="PT0002095_2"/> <taxon idref="PT0002095_3"/> <taxon idref="PT0002095_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_23"> <taxon idref="PT0002122_first"/> <taxon idref="PT0002122_2"/> <taxon idref="PT0002122_3"/> <taxon idref="PT0002122_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_24"> <taxon idref="PT0002140_first"/> <taxon idref="PT0002140_2"/> <taxon idref="PT0002140_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_25"> <taxon idref="PT0002159_first"/> <taxon idref="PT0002159_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_26"> <taxon idref="PT0002192_first"/> <taxon idref="PT0002192_2"/> <taxon idref="PT0002192_3"/> <taxon idref="PT0002192_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_27"> <taxon idref="PT0002445_first"/> <taxon idref="PT0002445_2"/> <taxon idref="PT0002445_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_28"> <taxon idref="PT0002622_first"/> <taxon idref="PT0002622_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_29"> <taxon idref="PT0002720_first"/> <taxon idref="PT0002720_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_30"> <taxon idref="PT0002756_first"/> <taxon idref="PT0002756_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_31"> <taxon idref="PT0002791_first"/> <taxon idref="PT0002791_2"/> <taxon idref="PT0002791_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_32"> <taxon idref="PT0002890_first"/> <taxon idref="PT0002890_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_33"> <taxon idref="PT0002893_first"/> <taxon idref="PT0002893_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_34"> <taxon idref="PT0002917_first"/> <taxon idref="PT0002917_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_35"> <taxon idref="PT0002977_first"/> <taxon idref="PT0002977_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_36"> <taxon idref="PT0003027_first"/> <taxon idref="PT0003027_2"/> <taxon idref="PT0003027_3"/> <taxon idref="PT0003027_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_37"> <taxon idref="PT0003199_first"/> <taxon idref="PT0003199_2"/> <taxon idref="PT0003199_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_38"> <taxon idref="PT0003420_first"/> <taxon idref="PT0003420_2"/> <taxon idref="PT0003420_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_39"> <taxon idref="PT0003617_first"/> <taxon idref="PT0003617_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_40"> <taxon idref="PT0003898_first"/> <taxon idref="PT0003898_2"/> <taxon idref="PT0003898_3"/> <taxon idref="PT0003898_4"/> <taxon idref="PT0003898_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_41"> <taxon idref="PT0004070_first"/> <taxon idref="PT0004070_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_42"> <taxon idref="PT0004163_first"/> <taxon idref="PT0004163_2"/> <taxon idref="PT0004163_3"/> <taxon idref="PT0004163_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_43"> <taxon idref="PT0004348_first"/> <taxon idref="PT0004348_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_44"> <taxon idref="PT0004375_first"/> <taxon idref="PT0004375_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_45"> <taxon idref="PT0004458_first"/> <taxon idref="PT0004458_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_46"> <taxon idref="PT0004684_first"/> <taxon idref="PT0004684_2"/> <taxon idref="PT0004684_3"/> <taxon idref="PT0004684_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_47"> <taxon idref="PT0004798_first"/> <taxon idref="PT0004798_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_48"> <taxon idref="PT0004830_first"/> <taxon idref="PT0004830_2"/> <taxon idref="PT0004830_3"/> <taxon idref="PT0004830_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_49"> <taxon idref="PT0004947_first"/> <taxon idref="PT0004947_2"/> <taxon idref="PT0004947_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_50"> <taxon idref="PT0004964_first"/> <taxon idref="PT0004964_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_51"> <taxon idref="PT0005001_first"/> <taxon idref="PT0005001_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_52"> <taxon idref="PT0005062_first"/> <taxon idref="PT0005062_2"/> <taxon idref="PT0005062_3"/> <taxon idref="PT0005062_4"/> <taxon idref="PT0005062_5"/> <taxon idref="PT0005062_6"/> <taxon idref="PT0005062_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_53"> <taxon idref="PT0005314_first"/> <taxon idref="PT0005314_2"/> <taxon idref="PT0005314_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_54"> <taxon idref="PT0006080_first"/> <taxon idref="PT0006080_2"/> <taxon idref="PT0006080_3"/> <taxon idref="PT0006080_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_55"> <taxon idref="PT0006547_first"/> <taxon idref="PT0006547_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_56"> <taxon idref="PT0006597_first"/> <taxon idref="PT0006597_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_57"> <taxon idref="PT0006682_first"/> <taxon idref="PT0006682_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_58"> <taxon idref="PT0006683_first"/> <taxon idref="PT0006683_2"/> <taxon idref="PT0006683_3"/> <taxon idref="PT0006683_4"/> <taxon idref="PT0006683_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_59"> <taxon idref="PT0006793_first"/> <taxon idref="PT0006793_2"/> <taxon idref="PT0006793_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_60"> <taxon idref="PT0006954_first"/> <taxon idref="PT0006954_2"/> <taxon idref="PT0006954_3"/> <taxon idref="PT0006954_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_61"> <taxon idref="PT0007055_first"/> <taxon idref="PT0007055_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_62"> <taxon idref="PT0007246_first"/> <taxon idref="PT0007246_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_63"> <taxon idref="PT0007348_first"/> <taxon idref="PT0007348_2"/> <taxon idref="PT0007348_3"/> <taxon idref="PT0007348_4"/> <taxon idref="PT0007348_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_64"> <taxon idref="PT0007876_first"/> <taxon idref="PT0007876_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_65"> <taxon idref="PT0008072_first"/> <taxon idref="PT0008072_2"/> <taxon idref="PT0008072_3"/> <taxon idref="PT0008072_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_66"> <taxon idref="PT0008440_first"/> <taxon idref="PT0008440_2"/> <taxon idref="PT0008440_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_67"> <taxon idref="PT0008576_first"/> <taxon idref="PT0008576_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_68"> <taxon idref="PT0008933_first"/> <taxon idref="PT0008933_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_69"> <taxon idref="PT0009125_first"/> <taxon idref="PT0009125_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_70"> <taxon idref="PT0009245_first"/> <taxon idref="PT0009245_2"/> <taxon idref="PT0009245_3"/> <taxon idref="PT0009245_4"/> <taxon idref="PT0009245_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_71"> <taxon idref="PT0009255_first"/> <taxon idref="PT0009255_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_72"> <taxon idref="PT0009310_first"/> <taxon idref="PT0009310_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_73"> <taxon idref="PT0009515_first"/> <taxon idref="PT0009515_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_74"> <taxon idref="PT0009652_first"/> <taxon idref="PT0009652_2"/> <taxon idref="PT0009652_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_75"> <taxon idref="PT0010043_first"/> <taxon idref="PT0010043_2"/> <taxon idref="PT0010043_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_76"> <taxon idref="PT0010156_first"/> <taxon idref="PT0010156_2"/> <taxon idref="PT0010156_3"/> <taxon idref="PT0010156_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_77"> <taxon idref="PT0010246_first"/> <taxon idref="PT0010246_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_78"> <taxon idref="PT0010658_first"/> <taxon idref="PT0010658_2"/> <taxon idref="PT0010658_3"/> <taxon idref="PT0010658_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_79"> <taxon idref="PT0010703_first"/> <taxon idref="PT0010703_2"/> <taxon idref="PT0010703_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_80"> <taxon idref="PT0010709_first"/> <taxon idref="PT0010709_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_81"> <taxon idref="PT0010750_first"/> <taxon idref="PT0010750_2"/> <taxon idref="PT0010750_3"/> <taxon idref="PT0010750_4"/> <taxon idref="PT0010750_5"/> <taxon idref="PT0010750_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_82"> <taxon idref="PT0010850_first"/> <taxon idref="PT0010850_2"/> <taxon idref="PT0010850_3"/> <taxon idref="PT0010850_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_83"> <taxon idref="PT0010851_first"/> <taxon idref="PT0010851_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_84"> <taxon idref="PT0011184_first"/> <taxon idref="PT0011184_2"/> <taxon idref="PT0011184_3"/> <taxon idref="PT0011184_4"/> <taxon idref="PT0011184_5"/> <taxon idref="PT0011184_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_85"> <taxon idref="PT0011277_first"/> <taxon idref="PT0011277_2"/> <taxon idref="PT0011277_3"/> <taxon idref="PT0011277_4"/> <taxon idref="PT0011277_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_86"> <taxon idref="PT0011457_first"/> <taxon idref="PT0011457_2"/> <taxon idref="PT0011457_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_87"> <taxon idref="PT0011723_first"/> <taxon idref="PT0011723_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_88"> <taxon idref="PT0011769_first"/> <taxon idref="PT0011769_2"/> <taxon idref="PT0011769_3"/> <taxon idref="PT0011769_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_89"> <taxon idref="PT0011823_first"/> <taxon idref="PT0011823_2"/> <taxon idref="PT0011823_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_90"> <taxon idref="PT0011865_first"/> <taxon idref="PT0011865_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_91"> <taxon idref="PT0012325_first"/> <taxon idref="PT0012325_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_92"> <taxon idref="PT0012611_first"/> <taxon idref="PT0012611_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_93"> <taxon idref="PT0012652_first"/> <taxon idref="PT0012652_2"/> <taxon idref="PT0012652_3"/> <taxon idref="PT0012652_4"/> <taxon idref="PT0012652_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_94"> <taxon idref="PT0012685_first"/> <taxon idref="PT0012685_2"/> <taxon idref="PT0012685_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_95"> <taxon idref="PT0013537_first"/> <taxon idref="PT0013537_2"/> <taxon idref="PT0013537_3"/> <taxon idref="PT0013537_4"/> <taxon idref="PT0013537_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_96"> <taxon idref="PT0013620_first"/> <taxon idref="PT0013620_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_97"> <taxon idref="PT0013682_first"/> <taxon idref="PT0013682_2"/> <taxon idref="PT0013682_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_98"> <taxon idref="PT0013793_first"/> <taxon idref="PT0013793_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_99"> <taxon idref="PT0013996_first"/> <taxon idref="PT0013996_2"/> <taxon idref="PT0013996_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_100"> <taxon idref="PT0013998_first"/> <taxon idref="PT0013998_2"/> <taxon idref="PT0013998_3"/> <taxon idref="PT0013998_4"/> <taxon idref="PT0013998_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_101"> <taxon idref="PT0014046_first"/> <taxon idref="PT0014046_2"/> <taxon idref="PT0014046_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_102"> <taxon idref="PT0014140_first"/> <taxon idref="PT0014140_2"/> <taxon idref="PT0014140_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_103"> <taxon idref="PT0014214_first"/> <taxon idref="PT0014214_2"/> <taxon idref="PT0014214_3"/> <taxon idref="PT0014214_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_104"> <taxon idref="PT0014332_first"/> <taxon idref="PT0014332_2"/> <taxon idref="PT0014332_3"/> <taxon idref="PT0014332_4"/> <taxon idref="PT0014332_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_105"> <taxon idref="PT0014349_first"/> <taxon idref="PT0014349_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_106"> <taxon idref="PT0015022_first"/> <taxon idref="PT0015022_2"/> <taxon idref="PT0015022_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_107"> <taxon idref="PT0015022b_first"/> <taxon idref="PT0015022b_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_108"> <taxon idref="PT0015231_first"/> <taxon idref="PT0015231_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_109"> <taxon idref="PT0015235_first"/> <taxon idref="PT0015235_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_110"> <taxon idref="PT0015273_first"/> <taxon idref="PT0015273_2"/> <taxon idref="PT0015273_3"/> <taxon idref="PT0015273_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_111"> <taxon idref="PT0015309_first"/> <taxon idref="PT0015309_2"/> <taxon idref="PT0015309_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_112"> <taxon idref="PT0015335_first"/> <taxon idref="PT0015335_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_113"> <taxon idref="PT0015386_first"/> <taxon idref="PT0015386_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_114"> <taxon idref="PT0015912_first"/> <taxon idref="PT0015912_2"/> <taxon idref="PT0015912_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_115"> <taxon idref="PT0016117_first"/> <taxon idref="PT0016117_2"/> <taxon idref="PT0016117_3"/> <taxon idref="PT0016117_4"/> <taxon idref="PT0016117_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_116"> <taxon idref="PT0016700_first"/> <taxon idref="PT0016700_2"/> <taxon idref="PT0016700_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_117"> <taxon idref="PT0016719_first"/> <taxon idref="PT0016719_2"/> <taxon idref="PT0016719_3"/> <taxon idref="PT0016719_4"/> <taxon idref="PT0016719_5"/> <taxon idref="PT0016719_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_118"> <taxon idref="PT0016722_first"/> <taxon idref="PT0016722_2"/> <taxon idref="PT0016722_3"/> <taxon idref="PT0016722_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_119"> <taxon idref="PT0017314_first"/> <taxon idref="PT0017314_2"/> <taxon idref="PT0017314_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_120"> <taxon idref="PT0017345_first"/> <taxon idref="PT0017345_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_121"> <taxon idref="PT0017365_first"/> <taxon idref="PT0017365_2"/> <taxon idref="PT0017365_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_122"> <taxon idref="PT0017427_first"/> <taxon idref="PT0017427_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_123"> <taxon idref="PT0017539_first"/> <taxon idref="PT0017539_2"/> <taxon idref="PT0017539_last"/> </patientTaxonSets>
+		<patientTaxonSets spec="TaxonSet" id="taxset_124"> <taxon idref="PT0018280_first"/> <taxon idref="PT0018280_last"/> </patientTaxonSets>
+        <stratigraphicRange idref="r1"/>
+		<stratigraphicRange idref="r2"/>
+		<stratigraphicRange idref="r3"/>
+		<stratigraphicRange idref="r4"/>
+		<stratigraphicRange idref="r5"/>
+		<stratigraphicRange idref="r6"/>
+		<stratigraphicRange idref="r7"/>
+		<stratigraphicRange idref="r8"/>
+		<stratigraphicRange idref="r9"/>
+		<stratigraphicRange idref="r10"/>
+		<stratigraphicRange idref="r11"/>
+		<stratigraphicRange idref="r12"/>
+		<stratigraphicRange idref="r13"/>
+		<stratigraphicRange idref="r14"/>
+		<stratigraphicRange idref="r15"/>
+		<stratigraphicRange idref="r16"/>
+		<stratigraphicRange idref="r17"/>
+		<stratigraphicRange idref="r18"/>
+		<stratigraphicRange idref="r19"/>
+		<stratigraphicRange idref="r20"/>
+		<stratigraphicRange idref="r21"/>
+		<stratigraphicRange idref="r22"/>
+		<stratigraphicRange idref="r23"/>
+		<stratigraphicRange idref="r24"/>
+		<stratigraphicRange idref="r25"/>
+		<stratigraphicRange idref="r26"/>
+		<stratigraphicRange idref="r27"/>
+		<stratigraphicRange idref="r28"/>
+		<stratigraphicRange idref="r29"/>
+		<stratigraphicRange idref="r30"/>
+		<stratigraphicRange idref="r31"/>
+		<stratigraphicRange idref="r32"/>
+		<stratigraphicRange idref="r33"/>
+		<stratigraphicRange idref="r34"/>
+		<stratigraphicRange idref="r35"/>
+		<stratigraphicRange idref="r36"/>
+		<stratigraphicRange idref="r37"/>
+		<stratigraphicRange idref="r38"/>
+		<stratigraphicRange idref="r39"/>
+		<stratigraphicRange idref="r40"/>
+		<stratigraphicRange idref="r41"/>
+		<stratigraphicRange idref="r42"/>
+		<stratigraphicRange idref="r43"/>
+		<stratigraphicRange idref="r44"/>
+		<stratigraphicRange idref="r45"/>
+		<stratigraphicRange idref="r46"/>
+		<stratigraphicRange idref="r47"/>
+		<stratigraphicRange idref="r48"/>
+		<stratigraphicRange idref="r49"/>
+		<stratigraphicRange idref="r50"/>
+		<stratigraphicRange idref="r51"/>
+		<stratigraphicRange idref="r52"/>
+		<stratigraphicRange idref="r53"/>
+		<stratigraphicRange idref="r54"/>
+		<stratigraphicRange idref="r55"/>
+		<stratigraphicRange idref="r56"/>
+		<stratigraphicRange idref="r57"/>
+		<stratigraphicRange idref="r58"/>
+		<stratigraphicRange idref="r59"/>
+		<stratigraphicRange idref="r60"/>
+		<stratigraphicRange idref="r61"/>
+		<stratigraphicRange idref="r62"/>
+		<stratigraphicRange idref="r63"/>
+		<stratigraphicRange idref="r64"/>
+		<stratigraphicRange idref="r65"/>
+		<stratigraphicRange idref="r66"/>
+		<stratigraphicRange idref="r67"/>
+		<stratigraphicRange idref="r68"/>
+		<stratigraphicRange idref="r69"/>
+		<stratigraphicRange idref="r70"/>
+		<stratigraphicRange idref="r71"/>
+		<stratigraphicRange idref="r72"/>
+		<stratigraphicRange idref="r73"/>
+		<stratigraphicRange idref="r74"/>
+		<stratigraphicRange idref="r75"/>
+		<stratigraphicRange idref="r76"/>
+		<stratigraphicRange idref="r77"/>
+		<stratigraphicRange idref="r78"/>
+		<stratigraphicRange idref="r79"/>
+		<stratigraphicRange idref="r80"/>
+		<stratigraphicRange idref="r81"/>
+		<stratigraphicRange idref="r82"/>
+		<stratigraphicRange idref="r83"/>
+		<stratigraphicRange idref="r84"/>
+		<stratigraphicRange idref="r85"/>
+		<stratigraphicRange idref="r86"/>
+		<stratigraphicRange idref="r87"/>
+		<stratigraphicRange idref="r88"/>
+		<stratigraphicRange idref="r89"/>
+		<stratigraphicRange idref="r90"/>
+		<stratigraphicRange idref="r91"/>
+		<stratigraphicRange idref="r92"/>
+		<stratigraphicRange idref="r93"/>
+		<stratigraphicRange idref="r94"/>
+		<stratigraphicRange idref="r95"/>
+		<stratigraphicRange idref="r96"/>
+		<stratigraphicRange idref="r97"/>
+		<stratigraphicRange idref="r98"/>
+		<stratigraphicRange idref="r99"/>
+		<stratigraphicRange idref="r100"/>
+		<stratigraphicRange idref="r101"/>
+		<stratigraphicRange idref="r102"/>
+		<stratigraphicRange idref="r103"/>
+		<stratigraphicRange idref="r104"/>
+		<stratigraphicRange idref="r105"/>
+		<stratigraphicRange idref="r106"/>
+		<stratigraphicRange idref="r107"/>
+		<stratigraphicRange idref="r108"/>
+		<stratigraphicRange idref="r109"/>
+		<stratigraphicRange idref="r110"/>
+		<stratigraphicRange idref="r111"/>
+		<stratigraphicRange idref="r112"/>
+		<stratigraphicRange idref="r113"/>
+		<stratigraphicRange idref="r114"/>
+		<stratigraphicRange idref="r115"/>
+		<stratigraphicRange idref="r116"/>
+		<stratigraphicRange idref="r117"/>
+		<stratigraphicRange idref="r118"/>
+		<stratigraphicRange idref="r119"/>
+		<stratigraphicRange idref="r120"/>
+		<stratigraphicRange idref="r121"/>
+		<stratigraphicRange idref="r122"/>
+		<stratigraphicRange idref="r123"/>
+		<stratigraphicRange idref="r124"/>
+        <taxa idref="Georgia_L2"/>
+    </init>
+
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution spec="SRangesBirthDeathModel" id="birthDeath" tree="@tree"  conditionOnSampling="true" startPeriod="false" integrateOverRanges="false">
+                    <parameterization idref="parameterization"/>
+                </distribution>
+
+                <distribution id="reproductiveNumber.prior" spec="beast.base.inference.distribution.Prior" x="@R0">
+                    <LogNormal name="distr" M="0." S="1." offset="0." />
+                </distribution>
+
+                <distribution id="becomeUninf.prior" spec="beast.base.inference.distribution.Prior" x="@becomeUninfectiousRate">
+                    <LogNormal name="distr" M="0." S="0.5" offset="0." />
+                </distribution>
+
+                <distribution id="samplingProportion.prior" spec="beast.base.inference.distribution.Prior" x="@samplingProportion">
+                    <Uniform name="distr" lower="0." upper="1.0" offset="0." />
+                </distribution>
+
+<!--                <distribution id="removalProbability.prior" spec="beast.base.inference.distribution.Prior" x="@removalProbability">-->
+<!--                    <Uniform name="distr" lower="0.5" upper="1." offset="0." />-->
+<!--                </distribution>-->
+
+                <distribution id='origin.Prior' x="@origin" spec='beast.base.inference.distribution.Prior'>
+                    <Uniform name="distr" lower="0." upper="500." offset="0." />
+                </distribution>
+
+
+                <prior id="ORCRatePriorDistribution.c:Georgia_L2" name="distribution" x="@ORCRates.c:Georgia_L2">
+                    <LogNormal id="LogNormalDistributionModel.0" S="@ORCsigma.c:Georgia_L2" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="M">5.0E-7</parameter>
+                    </LogNormal>
+                </prior>
+
+                <prior id="ORCsigmaPrior.c:Georgia_L2" name="distribution" x="@ORCsigma.c:Georgia_L2">
+                    <Gamma id="Gamma.0" name="distr">
+                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="alpha">5.0</parameter>
+                        <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="beta">0.05</parameter>
+                    </Gamma>
+                </prior>
+
+                <prior id="gammaShape.Prior" name="distribution" x="@gammaShape">
+                    <Exponential name="distr" mean="1."/>
+                </prior>
+
+                <prior id="gtr.rateAC.prior" name="distribution" x="@rateAC">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+                <prior id="gtr.rateAT.prior" name="distribution" x="@rateAT">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+                <prior id="gtr.rateCG.prior" name="distribution" x="@rateCG">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+                <prior id="gtr.rateGT.prior" name="distribution" x="@rateGT">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+
+            </distribution>
+            <distribution id="treeLikelihood" spec="TreeLikelihood">
+                <data idref="data" />
+                <tree idref="tree" />
+                <branchRateModel id="OptimisedRelaxedClock.c:Georgia_L2" spec="beast.base.evolution.branchratemodel.UCRelaxedClockModel" rates="@ORCRates.c:Georgia_L2" tree="@tree">
+                    <LogNormal id="ORCLogNormalDistributionModel.c:Georgia_L2" S="@ORCsigma.c:Georgia_L2" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ORCucldMean.c:Georgia_L2" spec="parameter.RealParameter" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+                <siteModel idref="SiteModel" />
+            </distribution>
+        </distribution>
+
+        <!--        Parameter operators -->
+        <operator id="originScaler" parameter="@origin" scaleFactor="0.75" spec="ScaleOperator" weight="3.0"/>
+        <operator id='R0Operator' spec='ScaleOperator' scaleFactor=".75" weight="3" parameter="@R0"/>
+        <operator id='becomeUninfectiousRateOperator' spec='ScaleOperator' scaleFactor=".75" weight="3" parameter="@becomeUninfectiousRate"/>
+        <operator id='samplingProportionOperator' spec='ScaleOperator' scaleFactor=".75" weight="3" parameter="@samplingProportion"/>
+<!--        <operator id='samplingChangeTimeOperator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@samplingChangeTime"/>-->
+        <!--<operator id='removalProbOperator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@removalProbability"/>-->
+
+        <operator id="ORCAdaptableOperatorSampler_sigma.c:Georgia_L2" spec="AdaptableOperatorSampler" weight="3.0">
+            <parameter idref="ORCsigma.c:Georgia_L2"/>
+            <operator id="ORCucldStdevScaler.c:Georgia_L2" spec="orc.consoperators.UcldScalerOperator" distr="@ORCLogNormalDistributionModel.c:Georgia_L2" rates="@ORCRates.c:Georgia_L2" scaleFactor="0.5" stdev="@ORCsigma.c:Georgia_L2" weight="1.0">
+                <kernel id="KernelDistribution$Bactrian.14" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCUcldStdevRandomWalk.c:Georgia_L2" spec="operator.kernel.BactrianRandomWalkOperator" parameter="@ORCsigma.c:Georgia_L2" scaleFactor="0.1" weight="1.0">
+                <kernelDistribution id="KernelDistribution$Bactrian.15" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCUcldStdevScale.c:Georgia_L2" spec="kernel.BactrianScaleOperator" parameter="@ORCsigma.c:Georgia_L2" scaleFactor="0.5" upper="10.0" weight="1.0">
+                <kernelDistribution id="KernelDistribution$Bactrian.16" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCSampleFromPriorOperator_sigma.c:Georgia_L2" spec="orc.operators.SampleFromPriorOperator" parameter="@ORCsigma.c:Georgia_L2" prior2="@ORCsigmaPrior.c:Georgia_L2" weight="1.0"/>
+        </operator>
+        <operator id="ORCAdaptableOperatorSampler_rates_root.c:Georgia_L2" spec="AdaptableOperatorSampler" weight="1.0">
+            <parameter idref="ORCRates.c:Georgia_L2"/>
+            <tree idref="tree"/>
+            <operator id="ORCRootOperator1.c:Georgia_L2" spec="orc.consoperators.SimpleDistance" clockModel="@OptimisedRelaxedClock.c:Georgia_L2" rates="@ORCRates.c:Georgia_L2" tree="@tree" twindowSize="0.005" weight="1.0">
+                <kernel id="KernelDistribution$Bactrian.17" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCRootOperator2.c:Georgia_L2" spec="orc.consoperators.SmallPulley" clockModel="@OptimisedRelaxedClock.c:Georgia_L2" dwindowSize="0.005" rates="@ORCRates.c:Georgia_L2" tree="@tree" weight="1.0">
+                <kernel id="KernelDistribution$Bactrian.18" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+        </operator>
+        <operator id="ORCAdaptableOperatorSampler_rates_internal.c:Georgia_L2" spec="AdaptableOperatorSampler" weight="20.0">
+            <parameter idref="ORCRates.c:Georgia_L2"/>
+            <tree idref="tree"/>
+            <operator id="ORCInternalnodesOperator.c:Georgia_L2" spec="orc.consoperators.InConstantDistanceOperator" clockModel="@OptimisedRelaxedClock.c:Georgia_L2" rates="@ORCRates.c:Georgia_L2" tree="@tree" twindowSize="0.005" weight="1.0">
+                <kernel id="KernelDistribution$Bactrian.19" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCRatesRandomWalk.c:Georgia_L2" spec="operator.kernel.BactrianRandomWalkOperator" parameter="@ORCRates.c:Georgia_L2" scaleFactor="0.1" weight="1.0">
+                <kernelDistribution id="KernelDistribution$Bactrian.20" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCRatesScale.c:Georgia_L2" spec="kernel.BactrianScaleOperator" parameter="@ORCRates.c:Georgia_L2" scaleFactor="0.5" upper="10.0" weight="1.0">
+                <kernelDistribution id="KernelDistribution$Bactrian.21" spec="operator.kernel.KernelDistribution$Bactrian"/>
+            </operator>
+            <operator id="ORCSampleFromPriorOperator.rates.c:Georgia_L2" spec="orc.operators.SampleFromPriorOperator" parameter="@ORCRates.c:Georgia_L2" prior2="@ORCRatePriorDistribution.c:Georgia_L2" weight="1.0"/>
+        </operator>
+
+        <operator id="updown" spec="UpDownOperator" scaleFactor=".75" weight="10">
+            <up idref="R0" />
+            <down idref="becomeUninfectiousRate" />
+        </operator>
+
+        <operator spec='ScaleOperator' id='scalerAC'
+                  scaleFactor=".75" weight=".2" parameter="@rateAC" />
+        <operator spec='ScaleOperator' id='scalerAT'
+                  scaleFactor=".75" weight=".2" parameter="@rateAT" />
+        <operator spec='ScaleOperator' id='scalerCG'
+                  scaleFactor=".75" weight=".2" parameter="@rateCG" />
+        <operator spec='ScaleOperator' id='scalerCT'
+                  scaleFactor=".75" weight=".2" parameter="@rateCT" />
+        <operator spec='ScaleOperator' id='scalerGT'
+                  scaleFactor=".75" weight=".2" parameter="@rateGT" />
+
+        <operator id='gammaShapeScaler' spec='ScaleOperator'
+                  scaleFactor=".75" weight=".3" parameter="@gammaShape" />
+
+        <!--        Tree operators -->
+        <operator id="SATreeRootScaler" rootOnly="true" scaleFactor="0.95" spec="SAScaleOperator" tree="@tree" weight="3.0" />
+        <operator id="SRWilsonBalding" spec='SRWilsonBalding' weight="70" tree="@tree"/>
+        <operator id="LeftRightChildSwap" spec='LeftRightChildSwap' weight="10" tree="@tree"/>
+        <operator id="LeafToSampledAncestorJump" spec='SRLeafToSampledAncestorJump' weight="10" tree="@tree" />
+        <operator spec="SAUniform" weight="10" tree="@tree"/>
+        <operator id='treeScaler' spec="SAScaleOperator" scaleFactor=".95" weight="10.0" tree="@tree"/>
+
+
+
+        <logger logEvery="20000" fileName="$(filebase).$(seed).log">
+            <distribution idref="posterior" name="log" />
+            <log idref="treeLikelihood"/>
+            <log idref="birthDeath" />
+
+            <log id="TreeHeight" spec="TreeHeightLogger" tree="@tree"/>
+            <log idref="origin"/>
+            <log idref="R0"/>
+            <log idref="becomeUninfectiousRate"/>
+            <log idref="samplingProportion"/>
+            <log idref="removalProbability"/>
+            <log idref="samplingChangeTime"/>
+
+            <log idref="gammaShape" />
+            <log idref="rateAC" />
+            <log idref="rateAG" />
+            <log idref="rateAT" />
+            <log idref="rateCG" />
+            <log idref="rateCT" />
+            <log idref="rateGT" />
+            <log id="ORCRatesStat.c:Georgia_L2" spec="beast.base.evolution.RateStatistic" branchratemodel="@OptimisedRelaxedClock.c:Georgia_L2" tree="@tree"/>
+        </logger>
+
+        <logger fileName="$(filebase).$(seed).trees" id="treelog" logEvery="20000" mode="tree" >
+            <log id="treeWithMetaDataLogger" spec="sr.evolution.tree.TreeWithMetadataLogger"
+                 tree="@tree" branchratemodel="@OptimisedRelaxedClock.c:Georgia_L2"/>
+        </logger>
+
+    </run>
+
+</beast>

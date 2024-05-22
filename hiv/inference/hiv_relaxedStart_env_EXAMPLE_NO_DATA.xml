@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood:sr.evolution.sranges:beast.base.inference.parameter:beast.base.inference:beast.base.evolution.branchratemodel:sr.speciation:sr.evolution.operators:beast.base.evolution.tree" required="BEAST.base v2.7.5" version="2.7">
+
+    <data
+            id="env_consensus"
+            spec="Alignment"
+            name="alignment">
+
+        <sequence id="seq_A00" spec="Sequence" taxon="A_00" totalcount="4" value="-"/>
+
+        <sequence id="seq_A05" spec="Sequence" taxon="A_05" totalcount="4" value="-"/>
+
+        <sequence id="seq_A05_2" spec="Sequence" taxon="A_05_2" totalcount="4" value="-"/>
+
+        <sequence id="seq_A06" spec="Sequence" taxon="A_06" totalcount="4" value="-"/>
+
+        <sequence id="seq_A96" spec="Sequence" taxon="A_96" totalcount="4" value="-"/>
+
+        <sequence id="seq_B90" spec="Sequence" taxon="B_90" totalcount="4" value="-"/>
+
+        <sequence id="seq_B96" spec="Sequence" taxon="B_96" totalcount="4" value="-"/>
+
+        <sequence id="seq_C02" spec="Sequence" taxon="C_02" totalcount="4" value="-"/>
+
+        <sequence id="seq_C03" spec="Sequence" taxon="C_03" totalcount="4" value="-"/>
+
+        <sequence id="seq_C94" spec="Sequence" taxon="C_94" totalcount="4" value="-"/>
+
+        <sequence id="seq_D01" spec="Sequence" taxon="D_01" totalcount="4" value="-"/>
+
+        <sequence id="seq_D03" spec="Sequence" taxon="D_03" totalcount="4" value="-"/>
+
+        <sequence id="seq_D99" spec="Sequence" taxon="D_99" totalcount="4" value="-"/>
+
+        <sequence id="seq_E01" spec="Sequence" taxon="E_01" totalcount="4" value="-"/>
+
+        <sequence id="seq_E05" spec="Sequence" taxon="E_05" totalcount="4" value="-"/>
+
+        <sequence id="seq_E05_2" spec="Sequence" taxon="E_05.2" totalcount="4" value="-"/>
+
+        <sequence id="seq_E06" spec="Sequence" taxon="E_06" totalcount="4" value="-"/>
+
+        <sequence id="seq_F02" spec="Sequence" taxon="F_02" totalcount="4" value="-"/>
+
+        <sequence id="seq_F05" spec="Sequence" taxon="F_05" totalcount="4" value="-"/>
+
+        <sequence id="seq_G02" spec="Sequence" taxon="G_02" totalcount="4" value="-"/>
+
+        <sequence id="seq_H96" spec="Sequence" taxon="H_96" totalcount="4" value="-"/>
+
+        <sequence id="seq_H98" spec="Sequence" taxon="H_98" totalcount="4" value="-"/>
+
+        <sequence id="seq_I99" spec="Sequence" taxon="I_99" totalcount="4" value="-"/>
+
+        <sequence id="seq_K04" spec="Sequence" taxon="K_04" totalcount="4" value="-"/>
+
+        <sequence id="seq_L06" spec="Sequence" taxon="L_06" totalcount="4" value="-"/>
+
+        <sequence id="seq_A_first" spec="Sequence" taxon="A_first" totalcount="4" value="-"/>
+        <sequence id="seq_A_last" spec="Sequence" taxon="A_last" totalcount="4" value="-"/>
+        <sequence id="seq_B_first" spec="Sequence" taxon="B_first" totalcount="4" value="-"/>
+        <sequence id="seq_B_last" spec="Sequence" taxon="B_last" totalcount="4" value="-"/>
+        <sequence id="seq_C_first" spec="Sequence" taxon="C_first" totalcount="4" value="-"/>
+        <sequence id="seq_C_last" spec="Sequence" taxon="C_last" totalcount="4" value="-"/>
+        <sequence id="seq_D_first" spec="Sequence" taxon="D_first" totalcount="4" value="-"/>
+        <sequence id="seq_D_last" spec="Sequence" taxon="D_last" totalcount="4" value="-"/>
+        <sequence id="seq_E_first" spec="Sequence" taxon="E_first" totalcount="4" value="-"/>
+        <sequence id="seq_E_last" spec="Sequence" taxon="E_last" totalcount="4" value="-"/>
+        <sequence id="seq_F_first" spec="Sequence" taxon="F_first" totalcount="4" value="-"/>
+        <sequence id="seq_F_last" spec="Sequence" taxon="F_last" totalcount="4" value="-"/>
+        <sequence id="seq_G_first" spec="Sequence" taxon="G_first" totalcount="4" value="-"/>
+        <sequence id="seq_G_last" spec="Sequence" taxon="G_last" totalcount="4" value="-"/>
+        <sequence id="seq_H_first" spec="Sequence" taxon="H_first" totalcount="4" value="-"/>
+        <sequence id="seq_H_last" spec="Sequence" taxon="H_last" totalcount="4" value="-"/>
+        <sequence id="seq_I_first" spec="Sequence" taxon="I_first" totalcount="4" value="-"/>
+        <sequence id="seq_I_last" spec="Sequence" taxon="I_last" totalcount="4" value="-"/>
+        <sequence id="seq_K_first" spec="Sequence" taxon="K_first" totalcount="4" value="-"/>
+        <sequence id="seq_K_last" spec="Sequence" taxon="K_last" totalcount="4" value="-"/>
+        <sequence id="seq_L_first" spec="Sequence" taxon="L_first" totalcount="4" value="-"/>
+        <sequence id="seq_L_last" spec="Sequence" taxon="L_last" totalcount="4" value="-"/>
+    </data>
+
+    <taxonSet>
+<!--        <taxon id="A_first" spec="Taxon"/>-->
+        <taxon id="A_96" spec="Taxon"/>
+        <taxon id="A_00" spec="Taxon"/>
+        <taxon id="A_05" spec="Taxon"/>
+        <taxon id="A_05_2" spec="Taxon"/>
+        <taxon id="A_06" spec="Taxon"/>
+<!--        <taxon id="A_last" spec="Taxon"/>-->
+
+<!--        <taxon id="B_first" spec="Taxon"/>-->
+        <taxon id="B_90" spec="Taxon"/>
+        <taxon id="B_96" spec="Taxon"/>
+<!--        <taxon id="B_last" spec="Taxon"/>-->
+
+<!--        <taxon id="C_first" spec="Taxon"/>-->
+        <taxon id="C_94" spec="Taxon"/>
+        <taxon id="C_02" spec="Taxon"/>
+        <taxon id="C_03" spec="Taxon"/>
+<!--        <taxon id="C_last" spec="Taxon"/>-->
+
+<!--        <taxon id="D_first" spec="Taxon"/>-->
+        <taxon id="D_99" spec="Taxon"/>
+        <taxon id="D_01" spec="Taxon"/>
+        <taxon id="D_03" spec="Taxon"/>
+<!--        <taxon id="D_last" spec="Taxon"/>-->
+
+<!--        <taxon id="E_first" spec="Taxon"/>-->
+        <taxon id="E_01" spec="Taxon"/>
+        <taxon id="E_05" spec="Taxon"/>
+        <taxon id="E_05.2" spec="Taxon"/>
+        <taxon id="E_06" spec="Taxon"/>
+<!--        <taxon id="E_last" spec="Taxon"/>-->
+
+<!--        <taxon id="F_first" spec="Taxon"/>-->
+        <taxon id="F_02" spec="Taxon"/>
+        <taxon id="F_05" spec="Taxon"/>
+<!--        <taxon id="F_last" spec="Taxon"/>-->
+
+<!--        <taxon id="G_first" spec="Taxon"/>-->
+        <taxon id="G_02" spec="Taxon"/>
+<!--        <taxon id="G_last" spec="Taxon"/>-->
+
+<!--        <taxon id="H_first" spec="Taxon"/>-->
+        <taxon id="H_96" spec="Taxon"/>
+        <taxon id="H_98" spec="Taxon"/>
+<!--        <taxon id="H_last" spec="Taxon"/>-->
+
+<!--        <taxon id="I_first" spec="Taxon"/>-->
+        <taxon id="I_99" spec="Taxon"/>
+<!--        <taxon id="I_last" spec="Taxon"/>-->
+
+<!--        <taxon id="K_first" spec="Taxon"/>-->
+        <taxon id="K_04" spec="Taxon"/>
+<!--        <taxon id="K_last" spec="Taxon"/>-->
+
+<!--        <taxon id="L_first" spec="Taxon"/>-->
+        <taxon id="L_06" spec="Taxon"/>
+        <taxon id="L_last" spec="Taxon"/>
+    </taxonSet>
+
+    <parameterization id="parameterization" spec="TransmissionParameterization">
+        <origin id="origin" spec="RealParameter" value="50.0"/>
+        <R0 id="R0" spec="RealParameter" value="4.0"/>
+        <becomeUninfectiousRate id="becomeUninfectiousRate" spec="RealParameter" value="0.4"/>
+        <samplingProportion id="samplingProportion" spec="RealParameter" value="0 1.0"/>
+        <samplingChangeTime id="samplingChangeTime" spec="RealParameter" value="24"/>
+        <removalProb id="removalProbability" spec="RealParameter" value="0.5"/>
+    </parameterization>
+
+    <siteModel gammaCategoryCount="1" id="SiteModel"
+               spec="SiteModel">
+        <parameter dimension="1" id="mutationRate"
+                   name="mutationRate" value="1.0" />
+        <parameter dimension="1" id="gammaShape" name="shape"
+                   value="0.5" lower="0.0" upper="1000.0" />
+        <substModel id="gtr" rateAC="@rateAC" rateGT="@rateGT"
+                    rateAT="@rateAT" rateCG="@rateCG" rateCT="@rateCT" spec="GTR">
+            <parameter dimension="1" id="rateAG" lower="0.0"
+                       name="rateAG" value="1.0" />
+            <frequencies estimate="true" id="freqs"
+                         spec="Frequencies">
+                <parameter name='frequencies' id='freqParameter'
+                           value='0.25' dimension='4' lower="0." upper="1." />
+            </frequencies>
+        </substModel>
+    </siteModel>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+    <run id="mcmc" spec="MCMC" chainLength="10000000">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="tree" spec="sr.evolution.tree.SRTree" nodetype="sr.evolution.tree.SRNode" name="stateNode">
+                <trait id="dateTrait.t:env_consensus" spec="beast.base.evolution.tree.TraitSet"  traitname="date-forward" units='year' value='L_06=2006.22465753425,
+E_06=2006.14246575342,
+A_06=2006.00547945205,
+A_05_2=2005.84931506849,
+A_05=2005.79178082192,
+F_05=2005.71506849315,
+E_05.2=2005.56712328767,
+E_05=2005.06849315068,
+K_04=2004.74590163934,
+C_03=2003.95342465753,
+D_03=2003.22465753425,
+F_02=2002.2904109589,
+G_02=2002.28767123288,
+C_02=2002.05479452055,
+D_01=2001.24931506849,
+E_01=2001.1397260274,
+A_00=2000.73224043716,
+I_99=1999.76164383562,
+D_99=1999.3698630137,
+H_98=1998.39452054795,
+B_96=1996.6174863388,
+H_96=1996.53551912568,
+A_96=1996.50273224044,
+C_94=1994.02465753425,
+B_90=1990.34520547945,
+A_first=1989.88197808219,
+A_last=2007.10817808219,
+B_first=1984.19987808219,
+C_first=1993.83527808219,
+D_first=1995.32547808219,
+E_first=2000.73077808219,
+F_first=1995.59047808219,
+G_first=2002.24707808219,
+H_first=1995.53947808219,
+I_first=1993.20427808219,
+K_first=2004.56057808219,
+L_first=1994.41407808219,
+B_last=1996.76677808219,
+C_last=2005.78377808219,
+D_last=2004.14127808219,
+E_last=2008.01367808219,
+F_last=2006.81287808219,
+G_last=2004.55397808219,
+H_last=2002.64957808219,
+I_last=2004.43297808219,
+K_last=2005.80857808219,
+L_last=2008.01917808219'>
+                    <taxa id="TaxonSet.env_consensus" spec="TaxonSet">
+                        <alignment idref="env_consensus"/>
+                    </taxa>
+                </trait>
+                <taxonset idref="TaxonSet.env_consensus"/>
+                <stratigraphicRange id="r1" spec="StratigraphicRange" firstOccurrence="@A_first" occurenceTaxonSet="@taxset_1" lastOccurrence="@A_last"/>
+                <stratigraphicRange id="r2" spec="StratigraphicRange" firstOccurrence="@B_first" occurenceTaxonSet="@taxset_2" lastOccurrence="@B_last"/>
+                <stratigraphicRange id="r3" spec="StratigraphicRange" firstOccurrence="@C_first" occurenceTaxonSet="@taxset_3" lastOccurrence="@C_last"/>
+                <stratigraphicRange id="r4" spec="StratigraphicRange" firstOccurrence="@D_first" occurenceTaxonSet="@taxset_4" lastOccurrence="@D_last"/>
+                <stratigraphicRange id="r5" spec="StratigraphicRange" firstOccurrence="@E_first" occurenceTaxonSet="@taxset_5" lastOccurrence="@E_last"/>
+                <stratigraphicRange id="r6" spec="StratigraphicRange" firstOccurrence="@F_first" occurenceTaxonSet="@taxset_6" lastOccurrence="@F_last"/>
+                <stratigraphicRange id="r7" spec="StratigraphicRange" firstOccurrence="@G_first" occurenceTaxonSet="@taxset_7" lastOccurrence="@G_last"/>
+                <stratigraphicRange id="r8" spec="StratigraphicRange" firstOccurrence="@H_first" occurenceTaxonSet="@taxset_8" lastOccurrence="@H_last"/>
+                <stratigraphicRange id="r9" spec="StratigraphicRange" firstOccurrence="@I_first" occurenceTaxonSet="@taxset_9" lastOccurrence="@I_last"/>
+                <stratigraphicRange id="r10" spec="StratigraphicRange" firstOccurrence="@K_first" occurenceTaxonSet="@taxset_10" lastOccurrence="@K_last"/>
+                <stratigraphicRange id="r11" spec="StratigraphicRange" firstOccurrence="@L_first" occurenceTaxonSet="@taxset_11" lastOccurrence="@L_last"/>
+            </tree>
+
+            <stateNode idref="origin" />
+            <stateNode idref="R0" />
+            <stateNode idref="becomeUninfectiousRate" />
+<!--            <stateNode idref="samplingProportion" />-->
+            <stateNode idref="removalProbability" />
+            <stateNode idref="samplingChangeTime" />
+            <parameter id="clockRate" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <stateNode idref="freqParameter" />
+        <stateNode idref="gammaShape" />
+            <parameter dimension="1" id="rateAC" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateGT" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateAT" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateCG" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateCT" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+        </state>
+
+    <init estimate="false" id="Randomtree" initial="@tree" spec="sr.evolution.tree.RandomTransmissionRangeTree" nodetype="sr.evolution.tree.SRNode">
+        <patientTaxonSets spec="TaxonSet" id="taxset_1">
+            <taxon idref="A_first"/>
+            <taxon idref="A_96"/>
+            <taxon idref="A_00"/>
+            <taxon idref="A_05"/>
+            <taxon idref="A_05_2"/>
+            <taxon idref="A_06"/>
+            <taxon idref="A_last"/>
+        </patientTaxonSets>
+        <patientTaxonSets spec="TaxonSet" id="taxset_2">
+            <taxon idref="B_first"/>
+            <taxon idref="B_90"/>
+            <taxon idref="B_96"/>
+            <taxon idref="B_last"/>
+        </patientTaxonSets>
+        <patientTaxonSets spec="TaxonSet" id="taxset_3">
+            <taxon idref="C_first"/>
+            <taxon idref="C_94"/>
+            <taxon idref="C_02"/>
+            <taxon idref="C_03"/>
+            <taxon idref="C_last"/>
+        </patientTaxonSets>
+        <patientTaxonSets spec="TaxonSet" id="taxset_4">
+            <taxon idref="D_first"/>
+            <taxon idref="D_99"/>
+            <taxon idref="D_01"/>
+            <taxon idref="D_03"/>
+            <taxon idref="D_last"/>
+        </patientTaxonSets>
+        <patientTaxonSets spec="TaxonSet" id="taxset_5">
+            <taxon idref="E_first"/>
+            <taxon idref="E_01"/>
+            <taxon idref="E_05"/>
+            <taxon idref="E_05.2"/>
+            <taxon idref="E_06"/>
+            <taxon idref="E_last"/>
+        </patientTaxonSets>
+        <patientTaxonSets spec="TaxonSet" id="taxset_6">
+            <taxon idref="F_first"/>
+            <taxon idref="F_02"/>
+            <taxon idref="F_05"/>
+            <taxon idref="F_last"/>
+        </patientTaxonSets>
+        <patientTaxonSets spec="TaxonSet" id="taxset_7">
+            <taxon idref="G_first"/>
+            <taxon idref="G_02"/>
+            <taxon idref="G_last"/>
+        </patientTaxonSets>
+        <patientTaxonSets spec="TaxonSet" id="taxset_8">
+            <taxon idref="H_first"/>
+            <taxon idref="H_96"/>
+            <taxon idref="H_98"/>
+            <taxon idref="H_last"/>
+        </patientTaxonSets>
+        <patientTaxonSets spec="TaxonSet" id="taxset_9">
+            <taxon idref="I_first"/>
+            <taxon idref="I_99"/>
+            <taxon idref="I_last"/>
+        </patientTaxonSets>
+        <patientTaxonSets spec="TaxonSet" id="taxset_10">
+            <taxon idref="K_first"/>
+            <taxon idref="K_04"/>
+            <taxon idref="K_last"/>
+        </patientTaxonSets>
+        <patientTaxonSets spec="TaxonSet" id="taxset_11">
+            <taxon idref="L_first"/>
+            <taxon idref="L_06"/>
+            <taxon idref="L_last"/>
+        </patientTaxonSets>
+
+
+        <stratigraphicRange idref="r1"/>
+        <stratigraphicRange idref="r2"/>
+        <stratigraphicRange idref="r3"/>
+        <stratigraphicRange idref="r4"/>
+        <stratigraphicRange idref="r5"/>
+        <stratigraphicRange idref="r6"/>
+        <stratigraphicRange idref="r7"/>
+        <stratigraphicRange idref="r8"/>
+        <stratigraphicRange idref="r9"/>
+        <stratigraphicRange idref="r10"/>
+        <stratigraphicRange idref="r11"/>
+
+        <taxa idref="env_consensus"/>
+    </init>
+
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="treeLikelihood" spec="TreeLikelihood">
+                    <data idref="env_consensus" />
+                    <tree idref="tree" />
+                    <branchRateModel id="strictClock" spec="StrictClockModel" clock.rate="@clockRate"/>
+                    <siteModel idref="SiteModel" />
+            </distribution>
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution spec="SRangesBirthDeathModel" id="birthDeath" tree="@tree" rho="1.0"  conditionOnSampling="true" startPeriod="true" endPeriod="true">
+                    <parameterization idref="parameterization"/>
+                </distribution>
+
+                <distribution id="reproductiveNumber.prior" spec="beast.base.inference.distribution.Prior" x="@R0">
+                    <LogNormal name="distr" M="0." S="1." offset="0." />
+                </distribution>
+
+                <distribution id="becomeUninf.prior" spec="beast.base.inference.distribution.Prior" x="@becomeUninfectiousRate">
+                    <LogNormal name="distr" M="0." S="0.5" offset="0." />
+                </distribution>
+
+<!--                <distribution id="samplingProportion.prior" spec="beast.base.inference.distribution.Prior" x="@samplingProportion">-->
+<!--                    <Uniform name="distr" lower="0." upper="0.5" offset="0." />-->
+<!--                </distribution>-->
+
+                <distribution id="samplingChangeTime.prior" spec="beast.base.inference.distribution.Prior" x="@samplingChangeTime">
+                    <Uniform name="distr" lower="0." upper="30" offset="0." />
+                </distribution>
+
+                <distribution id="removalProbability.prior" spec="beast.base.inference.distribution.Prior" x="@removalProbability">
+                    <Uniform name="distr" lower="0.5" upper="1." offset="0." />
+                </distribution>
+
+                <distribution id='origin.Prior' x="@origin" spec='beast.base.inference.distribution.Prior'>
+                    <Uniform name="distr" lower="0." upper="100." offset="0." />
+                </distribution>
+
+
+                <prior id="ClockPrior.c:env_consensus" name="distribution" x="@clockRate">
+
+                    <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+
+                </prior>
+
+                <prior id="gammaShape.Prior" name="distribution" x="@gammaShape">
+                    <Exponential name="distr" mean="1."/>
+                </prior>
+
+                <distribution id="gtr.frequencies.prior" spec="beast.base.inference.distribution.Prior" x="@freqParameter">
+                    <Uniform name="distr" lower="0.0" upper="1.0" />
+                </distribution>
+
+
+                <prior id="gtr.rateAC.prior" name="distribution" x="@rateAC">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+                <prior id="gtr.rateAT.prior" name="distribution" x="@rateAT">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+                <prior id="gtr.rateCG.prior" name="distribution" x="@rateCG">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+                <prior id="gtr.rateGT.prior" name="distribution" x="@rateGT">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+
+            </distribution>
+        </distribution>
+
+        <!--        Parameter operators -->
+        <operator id="originScaler" parameter="@origin" scaleFactor="0.75" spec="ScaleOperator" weight="1.0"/>
+        <operator id='R0Operator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@R0"/>
+        <operator id='becomeUninfectiousRateOperator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@becomeUninfectiousRate"/>
+<!--        <operator id='samplingProportionOperator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@samplingProportion"/>-->
+        <operator id='samplingChangeTimeOperator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@samplingChangeTime"/>
+        <operator id='removalProbOperator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@removalProbability"/>
+
+        <operator id="StrictClockRateScaler.c:env_consensus" spec="ScaleOperator" parameter="@clockRate" weight="3.0"/>
+
+        <operator id="strictClockUpDownOperator.c:env_consensus" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+
+            <up idref="clockRate"/>
+
+            <down idref="tree"/>
+
+        </operator>
+
+         <operator id="updown" spec="UpDownOperator" scaleFactor=".75" weight="10">
+            <up idref="R0" />
+            <down idref="becomeUninfectiousRate" />
+        </operator>
+
+        <operator spec='ScaleOperator' id='scalerAC'
+              scaleFactor=".75" weight=".2" parameter="@rateAC" />
+        <operator spec='ScaleOperator' id='scalerAT'
+              scaleFactor=".75" weight=".2" parameter="@rateAT" />
+        <operator spec='ScaleOperator' id='scalerCG'
+              scaleFactor=".75" weight=".2" parameter="@rateCG" />
+        <operator spec='ScaleOperator' id='scalerCT'
+              scaleFactor=".75" weight=".2" parameter="@rateCT" />
+        <operator spec='ScaleOperator' id='scalerGT'
+              scaleFactor=".75" weight=".2" parameter="@rateGT" />
+
+        <operator id='gammaShapeScaler' spec='ScaleOperator'
+              scaleFactor=".75" weight=".3" parameter="@gammaShape" />
+        <operator autoOptimize="true" delta="0.2"
+              id="FrequenciesExchanger" integer="false"
+              spec="DeltaExchangeOperator" weight="1" parameter="@freqParameter" />
+
+    <!--        Tree operators -->
+    <operator id="SATreeRootScaler" rootOnly="true" scaleFactor="0.95" spec="SAScaleOperator" tree="@tree" weight="3.0" />
+    <operator id="SRWilsonBalding" spec='SRWilsonBalding' weight="20" tree="@tree"/>
+    <operator id="LeftRightChildSwap" spec='LeftRightChildSwap' weight="5" tree="@tree"/>
+    <operator id="LeafToSampledAncestorJump" spec='SRLeafToSampledAncestorJump' weight="20" tree="@tree" />
+    <operator spec="SAUniform" weight="20" tree="@tree"/>
+    <operator id='treeScaler' spec="SAScaleOperator" scaleFactor=".95" weight="10.0" tree="@tree"/>
+
+
+        <operator spec="sa.evolution.operators.SampledNodeDateRandomWalker" windowSize="1"  tree="@tree" weight="10">
+            <taxonset spec="TaxonSet">
+                <taxon id="A_first" spec="Taxon"/>
+                <taxon id="A_last" spec="Taxon"/>
+
+                <taxon id="B_first" spec="Taxon"/>
+                <taxon id="B_last" spec="Taxon"/>
+
+                <taxon id="C_first" spec="Taxon"/>
+                <taxon id="C_last" spec="Taxon"/>
+
+                <taxon id="D_first" spec="Taxon"/>
+                <taxon id="D_last" spec="Taxon"/>
+
+                <taxon id="E_first" spec="Taxon"/>
+                <taxon id="E_last" spec="Taxon"/>
+
+                <taxon id="F_first" spec="Taxon"/>
+                <taxon id="F_last" spec="Taxon"/>
+
+                <taxon id="G_first" spec="Taxon"/>
+                <taxon id="G_last" spec="Taxon"/>
+
+                <taxon id="H_first" spec="Taxon"/>
+                <taxon id="H_last" spec="Taxon"/>
+
+                <taxon id="I_first" spec="Taxon"/>
+                <taxon id="I_last" spec="Taxon"/>
+
+                <taxon id="K_first" spec="Taxon"/>
+                <taxon id="K_last" spec="Taxon"/>
+
+                <taxon id="L_first" spec="Taxon"/>
+            </taxonset>
+            <samplingDates id="samplingDate1.0" spec="sa.evolution.tree.SamplingDate" taxon="@A_first" lower="17.6338616714697" upper="30"/>
+            <samplingDates id="samplingDate1.1" spec="sa.evolution.tree.SamplingDate" taxon="@A_last" lower="0" upper="1.99270072992701"/>
+            <samplingDates id="samplingDate2.0" spec="sa.evolution.tree.SamplingDate" taxon="@B_first" lower="17.6530259365994" upper="30"/>
+            <samplingDates id="samplingDate2.1" spec="sa.evolution.tree.SamplingDate" taxon="@B_last" lower="10.9979466119097" upper="11.3794483049063"/>
+            <samplingDates id="samplingDate3.0" spec="sa.evolution.tree.SamplingDate" taxon="@C_first" lower="13.9733528016061" upper="14.2724161533196"/>
+            <samplingDates id="samplingDate3.1" spec="sa.evolution.tree.SamplingDate" taxon="@C_last" lower="0" upper="4.0456204379562"/>
+            <samplingDates id="samplingDate4.0" spec="sa.evolution.tree.SamplingDate" taxon="@D_first" lower="12.5025420414548" upper="12.7954634337114"/>
+            <samplingDates id="samplingDate4.1" spec="sa.evolution.tree.SamplingDate" taxon="@D_last" lower="0" upper="4.77372262773723"/>
+            <samplingDates id="samplingDate5.0" spec="sa.evolution.tree.SamplingDate" taxon="@E_first" lower="6.91307323750856" upper="7.54379562043796"/>
+            <samplingDates id="samplingDate5.1" spec="sa.evolution.tree.SamplingDate" taxon="@E_last" lower="0" upper="1.85583941605839"/>
+            <samplingDates id="samplingDate6.0" spec="sa.evolution.tree.SamplingDate" taxon="@F_first" lower="12.4149393820884" upper="12.913179507235"/>
+            <samplingDates id="samplingDate6.1" spec="sa.evolution.tree.SamplingDate" taxon="@F_last" lower="0" upper="2.28336755646817"/>
+            <samplingDates id="samplingDate7.0" spec="sa.evolution.tree.SamplingDate" taxon="@G_first" lower="5.71059835745014" upper="5.95698083691826"/>
+            <samplingDates id="samplingDate7.1" spec="sa.evolution.tree.SamplingDate" taxon="@G_last" lower="0" upper="5.71059835745014"/>
+            <samplingDates id="samplingDate8.0" spec="sa.evolution.tree.SamplingDate" taxon="@H_first" lower="12.4395776300352" upper="12.5080172076652"/>
+            <samplingDates id="samplingDate8.1" spec="sa.evolution.tree.SamplingDate" taxon="@H_last" lower="0" upper="9.60378297660528"/>
+            <samplingDates id="samplingDate9.0" spec="sa.evolution.tree.SamplingDate" taxon="@I_first" lower="14.6776180698152" upper="14.9130732375086"/>
+            <samplingDates id="samplingDate9.1" spec="sa.evolution.tree.SamplingDate" taxon="@I_last" lower="0" upper="8.23706542567753"/>
+            <samplingDates id="samplingDate10.0" spec="sa.evolution.tree.SamplingDate" taxon="@K_first" lower="3.29228243021346" upper="3.5823754789272"/>
+            <samplingDates id="samplingDate10.1" spec="sa.evolution.tree.SamplingDate" taxon="@K_last" lower="0" upper="3.2512315270936"/>
+            <samplingDates id="samplingDate11.0" spec="sa.evolution.tree.SamplingDate" taxon="@L_first" lower="1.80656934306569" upper="14.2724161533196"/>
+        </operator>
+
+
+        <logger logEvery="5000" fileName="$(filebase).$(seed).log">
+            <distribution idref="posterior" name="log" />
+            <log idref="treeLikelihood"/>
+            <log idref="birthDeath" />
+
+            <log id="TreeHeight" spec="TreeHeightLogger" tree="@tree"/>
+            <log idref="origin"/>
+            <log idref="R0"/>
+            <log idref="becomeUninfectiousRate"/>
+            <log idref="samplingProportion"/>
+            <log idref="removalProbability"/>
+
+            <log idref="clockRate" />
+            <log idref="gammaShape" />
+            <log idref="freqParameter" />
+            <log idref="rateAC" />
+            <log idref="rateAG" />
+            <log idref="rateAT" />
+            <log idref="rateCG" />
+            <log idref="rateCT" />
+            <log idref="rateGT" />
+        </logger>
+
+        <logger fileName="$(filebase).transmission.log" id="specLog" logEvery="5000" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log spec="sr.evolution.tree.SpeciationLogger" tree="@tree"/>
+        </logger>
+
+        <logger fileName="$(filebase).tipAge.log" id="tipLog" logEvery="5000" sanitiseHeaders="true" sort="smart">
+            <log spec="sr.evolution.tree.TipAgeLogger" tree="@tree"/>
+        </logger>
+
+        <logger fileName="$(filebase).$(seed).trees" id="treelog" logEvery="5000" mode="tree" >
+            <log id="treeWithMetaDataLogger" spec="sr.evolution.tree.TreeWithMetadataLogger"
+                 tree="@tree"/>
+        </logger>
+
+
+    </run>
+
+</beast>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+    <data
+id="Georgia_L2_singleSample_"
+spec="Alignment">
+        <sequence id="seq_104_1" spec="Sequence" taxon="PT0014332_first" totalcount="4" value="-"/>
+        <sequence id="seq_15_1" spec="Sequence" taxon="PT0001705_first" totalcount="4" value="-"/>
+        <sequence id="seq_74_1" spec="Sequence" taxon="PT0009652_first" totalcount="4" value="-"/>
+        <sequence id="seq_115_1" spec="Sequence" taxon="PT0016117_first" totalcount="4" value="-"/>
+        <sequence id="seq_95_1" spec="Sequence" taxon="PT0013537_first" totalcount="4" value="-"/>
+        <sequence id="seq_8_1" spec="Sequence" taxon="PT0001227_first" totalcount="4" value="-"/>
+        <sequence id="seq_27_1" spec="Sequence" taxon="PT0002445_first" totalcount="4" value="-"/>
+        <sequence id="seq_12_1" spec="Sequence" taxon="PT0001399_first" totalcount="4" value="-"/>
+        <sequence id="seq_56_1" spec="Sequence" taxon="PT0006597_first" totalcount="4" value="-"/>
+        <sequence id="seq_18_1" spec="Sequence" taxon="PT0001815_first" totalcount="4" value="-"/>
+        <sequence id="seq_86_1" spec="Sequence" taxon="PT0011457_first" totalcount="4" value="-"/>
+        <sequence id="seq_78_1" spec="Sequence" taxon="PT0010658_first" totalcount="4" value="-"/>
+        <sequence id="seq_5_1" spec="Sequence" taxon="PT0000920_first" totalcount="4" value="-"/>
+        <sequence id="seq_114_1" spec="Sequence" taxon="PT0015912_first" totalcount="4" value="-"/>
+        <sequence id="seq_103_1" spec="Sequence" taxon="PT0014214_first" totalcount="4" value="-"/>
+        <sequence id="seq_105_1" spec="Sequence" taxon="PT0014349_first" totalcount="4" value="-"/>
+        <sequence id="seq_61_1" spec="Sequence" taxon="PT0007055_first" totalcount="4" value="-"/>
+        <sequence id="seq_101_1" spec="Sequence" taxon="PT0014046_first" totalcount="4" value="-"/>
+        <sequence id="seq_93_1" spec="Sequence" taxon="PT0012652_first" totalcount="4" value="-"/>
+        <sequence id="seq_53_1" spec="Sequence" taxon="PT0005314_first" totalcount="4" value="-"/>
+        <sequence id="seq_63_1" spec="Sequence" taxon="PT0007348_first" totalcount="4" value="-"/>
+        <sequence id="seq_49_1" spec="Sequence" taxon="PT0004947_first" totalcount="4" value="-"/>
+        <sequence id="seq_47_1" spec="Sequence" taxon="PT0004798_first" totalcount="4" value="-"/>
+        <sequence id="seq_26_1" spec="Sequence" taxon="PT0002192_first" totalcount="4" value="-"/>
+        <sequence id="seq_11_1" spec="Sequence" taxon="PT0001346_first" totalcount="4" value="-"/>
+        <sequence id="seq_76_1" spec="Sequence" taxon="PT0010156_first" totalcount="4" value="-"/>
+        <sequence id="seq_28_1" spec="Sequence" taxon="PT0002622_first" totalcount="4" value="-"/>
+        <sequence id="seq_40_1" spec="Sequence" taxon="PT0003898_first" totalcount="4" value="-"/>
+        <sequence id="seq_85_1" spec="Sequence" taxon="PT0011277_first" totalcount="4" value="-"/>
+        <sequence id="seq_36_1" spec="Sequence" taxon="PT0003027_first" totalcount="4" value="-"/>
+        <sequence id="seq_108_1" spec="Sequence" taxon="PT0015231_first" totalcount="4" value="-"/>
+        <sequence id="seq_75_1" spec="Sequence" taxon="PT0010043_first" totalcount="4" value="-"/>
+        <sequence id="seq_58_1" spec="Sequence" taxon="PT0006683_first" totalcount="4" value="-"/>
+        <sequence id="seq_48_1" spec="Sequence" taxon="PT0004830_first" totalcount="4" value="-"/>
+        <sequence id="seq_84_1" spec="Sequence" taxon="PT0011184_first" totalcount="4" value="-"/>
+        <sequence id="seq_94_1" spec="Sequence" taxon="PT0012685_first" totalcount="4" value="-"/>
+        <sequence id="seq_91_1" spec="Sequence" taxon="PT0012325_first" totalcount="4" value="-"/>
+        <sequence id="seq_24_1" spec="Sequence" taxon="PT0002140_first" totalcount="4" value="-"/>
+        <sequence id="seq_54_1" spec="Sequence" taxon="PT0006080_first" totalcount="4" value="-"/>
+        <sequence id="seq_50_1" spec="Sequence" taxon="PT0004964_first" totalcount="4" value="-"/>
+        <sequence id="seq_102_1" spec="Sequence" taxon="PT0014140_first" totalcount="4" value="-"/>
+        <sequence id="seq_68_1" spec="Sequence" taxon="PT0008933_first" totalcount="4" value="-"/>
+        <sequence id="seq_112_1" spec="Sequence" taxon="PT0015335_first" totalcount="4" value="-"/>
+        <sequence id="seq_30_1" spec="Sequence" taxon="PT0002756_first" totalcount="4" value="-"/>
+        <sequence id="seq_81_1" spec="Sequence" taxon="PT0010750_first" totalcount="4" value="-"/>
+        <sequence id="seq_9_1" spec="Sequence" taxon="PT0001228_first" totalcount="4" value="-"/>
+        <sequence id="seq_55_1" spec="Sequence" taxon="PT0006547_first" totalcount="4" value="-"/>
+        <sequence id="seq_21_1" spec="Sequence" taxon="PT0002027_first" totalcount="4" value="-"/>
+        <sequence id="seq_25_1" spec="Sequence" taxon="PT0002159_first" totalcount="4" value="-"/>
+        <sequence id="seq_88_1" spec="Sequence" taxon="PT0011769_first" totalcount="4" value="-"/>
+        <sequence id="seq_65_1" spec="Sequence" taxon="PT0008072_first" totalcount="4" value="-"/>
+        <sequence id="seq_99_1" spec="Sequence" taxon="PT0013996_first" totalcount="4" value="-"/>
+        <sequence id="seq_37_1" spec="Sequence" taxon="PT0003199_first" totalcount="4" value="-"/>
+        <sequence id="seq_20_1" spec="Sequence" taxon="PT0002014_first" totalcount="4" value="-"/>
+        <sequence id="seq_60_1" spec="Sequence" taxon="PT0006954_first" totalcount="4" value="-"/>
+        <sequence id="seq_100_1" spec="Sequence" taxon="PT0013998_first" totalcount="4" value="-"/>
+        <sequence id="seq_10_1" spec="Sequence" taxon="PT0001268_first" totalcount="4" value="-"/>
+        <sequence id="seq_23_1" spec="Sequence" taxon="PT0002122_first" totalcount="4" value="-"/>
+        <sequence id="seq_72_1" spec="Sequence" taxon="PT0009310_first" totalcount="4" value="-"/>
+        <sequence id="seq_57_1" spec="Sequence" taxon="PT0006682_first" totalcount="4" value="-"/>
+        <sequence id="seq_70_1" spec="Sequence" taxon="PT0009245_first" totalcount="4" value="-"/>
+        <sequence id="seq_14_1" spec="Sequence" taxon="PT0001619_first" totalcount="4" value="-"/>
+        <sequence id="seq_97_1" spec="Sequence" taxon="PT0013682_first" totalcount="4" value="-"/>
+        <sequence id="seq_22_1" spec="Sequence" taxon="PT0002095_first" totalcount="4" value="-"/>
+        <sequence id="seq_44_1" spec="Sequence" taxon="PT0004375_first" totalcount="4" value="-"/>
+        <sequence id="seq_110_1" spec="Sequence" taxon="PT0015273_first" totalcount="4" value="-"/>
+        <sequence id="seq_82_1" spec="Sequence" taxon="PT0010850_first" totalcount="4" value="-"/>
+        <sequence id="seq_46_1" spec="Sequence" taxon="PT0004684_first" totalcount="4" value="-"/>
+        <sequence id="seq_3_1" spec="Sequence" taxon="PT0000368_first" totalcount="4" value="-"/>
+        <sequence id="seq_67_1" spec="Sequence" taxon="PT0008576_first" totalcount="4" value="-"/>
+        <sequence id="seq_64_1" spec="Sequence" taxon="PT0007876_first" totalcount="4" value="-"/>
+        <sequence id="seq_52_1" spec="Sequence" taxon="PT0005062_first" totalcount="4" value="-"/>
+        <sequence id="seq_83_1" spec="Sequence" taxon="PT0010851_first" totalcount="4" value="-"/>
+        <sequence id="seq_90_1" spec="Sequence" taxon="PT0011865_first" totalcount="4" value="-"/>
+        <sequence id="seq_6_1" spec="Sequence" taxon="PT0001013_first" totalcount="4" value="-"/>
+        <sequence id="seq_38_1" spec="Sequence" taxon="PT0003420_first" totalcount="4" value="-"/>
+        <sequence id="seq_17_1" spec="Sequence" taxon="PT0001728_first" totalcount="4" value="-"/>
+        <sequence id="seq_113_1" spec="Sequence" taxon="PT0015386_first" totalcount="4" value="-"/>
+        <sequence id="seq_35_1" spec="Sequence" taxon="PT0002977_first" totalcount="4" value="-"/>
+        <sequence id="seq_69_1" spec="Sequence" taxon="PT0009125_first" totalcount="4" value="-"/>
+        <sequence id="seq_4_1" spec="Sequence" taxon="PT0000503_first" totalcount="4" value="-"/>
+        <sequence id="seq_1_1" spec="Sequence" taxon="PT0000185_first" totalcount="4" value="-"/>
+        <sequence id="seq_73_1" spec="Sequence" taxon="PT0009515_first" totalcount="4" value="-"/>
+        <sequence id="seq_79_1" spec="Sequence" taxon="PT0010703_first" totalcount="4" value="-"/>
+        <sequence id="seq_66_1" spec="Sequence" taxon="PT0008440_first" totalcount="4" value="-"/>
+        <sequence id="seq_16_1" spec="Sequence" taxon="PT0001706_first" totalcount="4" value="-"/>
+        <sequence id="seq_92_1" spec="Sequence" taxon="PT0012611_first" totalcount="4" value="-"/>
+        <sequence id="seq_39_1" spec="Sequence" taxon="PT0003617_first" totalcount="4" value="-"/>
+        <sequence id="seq_29_1" spec="Sequence" taxon="PT0002720_first" totalcount="4" value="-"/>
+        <sequence id="seq_7_1" spec="Sequence" taxon="PT0001140_first" totalcount="4" value="-"/>
+        <sequence id="seq_19_1" spec="Sequence" taxon="PT0001819_first" totalcount="4" value="-"/>
+        <sequence id="seq_13_1" spec="Sequence" taxon="PT0001515_first" totalcount="4" value="-"/>
+        <sequence id="seq_43_1" spec="Sequence" taxon="PT0004348_first" totalcount="4" value="-"/>
+        <sequence id="seq_62_1" spec="Sequence" taxon="PT0007246_first" totalcount="4" value="-"/>
+        <sequence id="seq_2_1" spec="Sequence" taxon="PT0000310_first" totalcount="4" value="-"/>
+        <sequence id="seq_98_1" spec="Sequence" taxon="PT0013793_first" totalcount="4" value="-"/>
+        <sequence id="seq_31_1" spec="Sequence" taxon="PT0002791_first" totalcount="4" value="-"/>
+        <sequence id="seq_96_1" spec="Sequence" taxon="PT0013620_first" totalcount="4" value="-"/>
+        <sequence id="seq_32_1" spec="Sequence" taxon="PT0002890_first" totalcount="4" value="-"/>
+        <sequence id="seq_41_1" spec="Sequence" taxon="PT0004070_first" totalcount="4" value="-"/>
+        <sequence id="seq_42_1" spec="Sequence" taxon="PT0004163_first" totalcount="4" value="-"/>
+        <sequence id="seq_59_1" spec="Sequence" taxon="PT0006793_first" totalcount="4" value="-"/>
+        <sequence id="seq_89_1" spec="Sequence" taxon="PT0011823_first" totalcount="4" value="-"/>
+        <sequence id="seq_111_1" spec="Sequence" taxon="PT0015309_first" totalcount="4" value="-"/>
+        <sequence id="seq_34_1" spec="Sequence" taxon="PT0002917_first" totalcount="4" value="-"/>
+        <sequence id="seq_87_1" spec="Sequence" taxon="PT0011723_first" totalcount="4" value="-"/>
+        <sequence id="seq_109_1" spec="Sequence" taxon="PT0015235_first" totalcount="4" value="-"/>
+        <sequence id="seq_80_1" spec="Sequence" taxon="PT0010709_first" totalcount="4" value="-"/>
+        <sequence id="seq_51_1" spec="Sequence" taxon="PT0005001_first" totalcount="4" value="-"/>
+        <sequence id="seq_77_1" spec="Sequence" taxon="PT0010246_first" totalcount="4" value="-"/>
+        <sequence id="seq_45_1" spec="Sequence" taxon="PT0004458_first" totalcount="4" value="-"/>
+        <sequence id="seq_33_1" spec="Sequence" taxon="PT0002893_first" totalcount="4" value="-"/>
+        <sequence id="seq_71_1" spec="Sequence" taxon="PT0009255_first" totalcount="4" value="-"/>
+        <sequence id="seq_122_1" spec="Sequence" taxon="PT0017427_first" totalcount="4" value="-"/>
+        <sequence id="seq_120_1" spec="Sequence" taxon="PT0017345_first" totalcount="4" value="-"/>
+        <sequence id="seq_106_1" spec="Sequence" taxon="PT0015022_first" totalcount="4" value="-"/>
+        <sequence id="seq_124_1" spec="Sequence" taxon="PT0018280_first" totalcount="4" value="-"/>
+        <sequence id="seq_116_1" spec="Sequence" taxon="PT0016700_first" totalcount="4" value="-"/>
+        <sequence id="seq_123_1" spec="Sequence" taxon="PT0017539_first" totalcount="4" value="-"/>
+        <sequence id="seq_107_1" spec="Sequence" taxon="PT0015022b_first" totalcount="4" value="-"/>
+        <sequence id="seq_118_1" spec="Sequence" taxon="PT0016722_first" totalcount="4" value="-"/>
+        <sequence id="seq_121_1" spec="Sequence" taxon="PT0017365_first" totalcount="4" value="-"/>
+        <sequence id="seq_117_1" spec="Sequence" taxon="PT0016719_first" totalcount="4" value="-"/>
+        <sequence id="seq_119_1" spec="Sequence" taxon="PT0017314_first" totalcount="4" value="-"/>
+    </data>
+
+
+    
+
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+<run id="mcmc" spec="MCMC" chainLength="60000000" numInitializationAttempts="1000" storeEvery="1000" sampleFromPrior="true">
+    <state id="state" spec="State" storeEvery="1000">
+        <tree id="Tree.t:Georgia_L2_singleSample" spec="beast.evolution.tree.Tree" name="stateNode">
+            <trait id="dateTrait.t:Georgia_L2_singleSample" spec="beast.evolution.tree.TraitSet" dateFormat="yyyy-M-dd" traitname="date"
+                   value="PT0000185_first=2014-04-02,PT0000310_first=2016-05-25,PT0000368_first=2012-05-08,PT0000503_first=2014-01-30,PT0000920_first=2008-10-28,PT0001013_first=2013-02-15,PT0001140_first=2015-12-11,PT0001227_first=2008-07-28,PT0001228_first=2010-07-08,PT0001268_first=2011-01-14,PT0001346_first=2009-03-19,PT0001399_first=2008-09-09,PT0001515_first=2016-01-20,PT0001619_first=2011-09-30,PT0001705_first=2008-06-03,PT0001706_first=2015-05-05,PT0001728_first=2013-05-16,PT0001815_first=2008-10-03,PT0001819_first=2015-12-30,PT0002014_first=2010-11-09,PT0002027_first=2010-07-15,PT0002095_first=2011-11-02,PT0002122_first=2011-01-18,PT0002140_first=2009-10-22,PT0002159_first=2010-08-12,PT0002192_first=2009-03-16,PT0002445_first=2008-08-04,PT0002622_first=2009-04-24,PT0002720_first=2015-11-30,PT0002756_first=2010-05-28,PT0002791_first=2016-07-05,PT0002890_first=2016-10-24,PT0002893_first=2019-06-02,PT0002917_first=2017-01-20,PT0002977_first=2013-06-26,PT0003027_first=2009-07-13,PT0003199_first=2010-10-25,PT0003420_first=2013-03-22,PT0003617_first=2015-08-18,PT0003898_first=2009-05-13,PT0004070_first=2016-10-28,PT0004163_first=2016-11-03,PT0004348_first=2016-02-22,PT0004375_first=2012-01-23,PT0004458_first=2018-07-11,PT0004684_first=2012-04-18,PT0004798_first=2009-03-13,PT0004830_first=2009-08-25,PT0004947_first=2009-02-27,PT0004964_first=2010-01-25,PT0005001_first=2017-02-22,PT0005062_first=2012-09-10,PT0005314_first=2008-11-21,PT0006080_first=2009-11-03,PT0006547_first=2010-07-09,PT0006597_first=2008-09-10,PT0006682_first=2011-08-17,PT0006683_first=2009-08-19,PT0006793_first=2016-11-17,PT0006954_first=2010-11-22,PT0007055_first=2008-11-12,PT0007246_first=2016-05-13,PT0007348_first=2009-02-19,PT0007876_first=2012-07-20,PT0008072_first=2010-10-05,PT0008440_first=2015-03-02,PT0008576_first=2012-07-03,PT0008933_first=2010-03-12,PT0009125_first=2013-12-26,PT0009245_first=2011-08-26,PT0009255_first=2020-03-16,PT0009310_first=2011-02-02,PT0009515_first=2014-04-04,PT0009652_first=2008-06-19,PT0010043_first=2009-08-18,PT0010156_first=2009-03-24,PT0010246_first=2017-04-06,PT0010658_first=2008-10-23,PT0010703_first=2014-04-14,PT0010709_first=2017-02-13,PT0010750_first=2010-06-18,PT0010850_first=2012-03-22,PT0010851_first=2012-11-16,PT0011184_first=2009-08-26,PT0011277_first=2009-07-03,PT0011457_first=2008-10-07,PT0011723_first=2017-01-20,PT0011769_first=2010-08-20,PT0011823_first=2016-12-06,PT0011865_first=2013-01-11,PT0012325_first=2009-09-14,PT0012611_first=2015-06-09,PT0012652_first=2008-11-18,PT0012685_first=2009-09-04,PT0013537_first=2008-07-10,PT0013620_first=2016-09-15,PT0013682_first=2011-11-01,PT0013793_first=2016-06-30,PT0013996_first=2010-10-07,PT0013998_first=2010-12-23,PT0014046_first=2008-11-12,PT0014140_first=2010-03-09,PT0014214_first=2008-11-05,PT0014332_first=2008-05-14,PT0014349_first=2008-11-06,PT0015022_first=2021-04-13,PT0015022b_first=2021-10-20,PT0015231_first=2009-07-17,PT0015235_first=2017-01-27,PT0015273_first=2012-02-29,PT0015309_first=2017-01-12,PT0015335_first=2010-05-13,PT0015386_first=2013-06-07,PT0015912_first=2008-10-31,PT0016117_first=2008-06-20,PT0016700_first=2021-08-04,PT0016719_first=2022-03-10,PT0016722_first=2021-11-03,PT0017314_first=2022-03-25,PT0017345_first=2021-03-17,PT0017365_first=2021-11-11,PT0017427_first=2021-02-25,PT0017539_first=2021-09-17,PT0018280_first=2021-06-09">
+                <taxa id="TaxonSet.Georgia_L2_singleSample" spec="TaxonSet">
+                    <alignment id="Georgia_L2_singleSample" spec="FilteredAlignment" filter="-">
+                        <data idref="Georgia_L2_singleSample_"/>
+                        <constantSiteWeights id="IntegerParameter.0" spec="parameter.IntegerParameter" dimension="4" lower="0" upper="0">757797 1449218 1443832 757667</constantSiteWeights>
+                    </alignment>
+                </taxa>
+            </trait>
+
+            <taxonset idref="TaxonSet.Georgia_L2_singleSample"/>
+        </tree>
+        <parameter id="gammaShape.s:Georgia_L2_singleSample" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="rateAC.s:Georgia_L2_singleSample" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateCT.s:Georgia_L2_singleSample" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateAT.s:Georgia_L2_singleSample" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateCG.s:Georgia_L2_singleSample" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateGT.s:Georgia_L2_singleSample" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="originBDMMPrime.t:Georgia_L2_singleSample" spec="parameter.RealParameter" name="stateNode">70.0</parameter>
+        <parameter id="typeFrequencies.t:Georgia_L2_singleSample" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">1.0</parameter>
+        <parameter id="R0Epi.t:Georgia_L2_singleSample" spec="parameter.RealParameter" name="stateNode">0.9 0.9</parameter>
+        <parameter id="becomeUninfectiousRateEpi.t:Georgia_L2_singleSample" spec="parameter.RealParameter" name="stateNode">0.2 0.2</parameter>
+        <parameter id="samplingProportionEpi.t:Georgia_L2_singleSample" spec="parameter.RealParameter" dimension="2" lower="0.0" name="stateNode" upper="1.0">0.4 0.0</parameter>
+        <parameter id="ORCsigma.c:Georgia_L2" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.2</parameter>
+        <parameter id="ORCRates.c:Georgia_L2" spec="parameter.RealParameter" dimension="48" lower="1.0E-100" name="stateNode">0.000005</parameter>
+<!--        <parameter id="ucldMean.c:Georgia_L2_singleSample" spec="parameter.RealParameter" name="stateNode">1.0</parameter>-->
+<!--        <parameter id="ucldStdev.c:Georgia_L2_singleSample" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.1</parameter>-->
+<!--        <stateNode id="rateCategories.c:Georgia_L2_singleSample" spec="parameter.IntegerParameter" dimension="30">1</stateNode>-->
+    </state>
+    <init id="RandomTree.t:Georgia_L2_singleSample" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Georgia_L2_singleSample" taxa="@Georgia_L2_singleSample">
+        <populationModel id="ConstantPopulation0.t:Georgia_L2_singleSample" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Georgia_L2_singleSample" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BDMMPrime.t:Georgia_L2_singleSample" spec="bdmmprime.distribution.BirthDeathMigrationDistribution" frequencies="@typeFrequencies.t:Georgia_L2_singleSample" tree="@Tree.t:Georgia_L2_singleSample">
+                <parameterization id="EpiBDMMPrimeParameterization.t:Georgia_L2_singleSample" spec="bdmmprime.parameterization.EpiParameterization" processLength="@originBDMMPrime.t:Georgia_L2_singleSample">
+                    <R0 id="R0SVEpi.t:Georgia_L2_singleSample" spec="bdmmprime.parameterization.SkylineVectorParameter" processLength="@originBDMMPrime.t:Georgia_L2_singleSample" skylineValues="@R0Epi.t:Georgia_L2_singleSample" timesAreAges="true" changeTimes="@samplingProportionChangeTimesEpi.t:Georgia_L2_singleSample">
+<!--                        <typeSet id="typeSetBDMMPrime.t:Georgia_L2_singleSample" spec="bdmmprime.parameterization.TypeSet">
+                            <typeTraitSet id="typeTraitSet.t:Georgia_L2_singleSample" spec="bdmmprime.util.InitializedTraitSet" traitname="type" value="G700113/2021-04-28/29=NOT_SET,G700114/2021-03-25/19=NOT_SET,G700115/2021-03-23/17=NOT_SET,G700117/2021-03-16/14=NOT_SET,G700119/2021-03-16/13=NOT_SET,G700121/2021-03-26/8=NOT_SET,G700124/2021-04-13/24=NOT_SET,G700125/2021-03-17/15=NOT_SET,G700126/2021-04-08/22=NOT_SET,G700704/2021-07-15/37=NOT_SET,G700706/2021-09-20/44=NOT_SET,G700707/2021-04-28/28=NOT_SET,G700711/2021-06-24/35=NOT_SET,G700715/2021-07-02/33=NOT_SET,G700716/2021-06-09/34=NOT_SET,G700719/2021-08-06/39=NOT_SET">
+                                <taxa id="TaxonSet.1" spec="TaxonSet" alignment="@Georgia_L2_singleSample"/>
+                            </typeTraitSet>
+                        </typeSet>-->
+                    </R0>
+                    <becomeUninfectiousRate id="becomeUninfectiousRateSVEpi.t:Georgia_L2_singleSample" spec="bdmmprime.parameterization.SkylineVectorParameter" processLength="@originBDMMPrime.t:Georgia_L2_singleSample" skylineValues="@becomeUninfectiousRateEpi.t:Georgia_L2_singleSample" timesAreAges="true" changeTimes="@samplingProportionChangeTimesEpi.t:Georgia_L2_singleSample"/>
+                    <samplingProportion id="samplingProportionSVEpi.t:Georgia_L2_singleSample" spec="bdmmprime.parameterization.SkylineVectorParameter" processLength="@originBDMMPrime.t:Georgia_L2_singleSample" skylineValues="@samplingProportionEpi.t:Georgia_L2_singleSample" timesAreAges="true" >
+                        <parameter id="samplingProportionChangeTimesEpi.t:Georgia_L2_singleSample" spec="parameter.RealParameter" estimate="false" lower="0.0" name="changeTimes">14.1</parameter>
+                    </samplingProportion>
+                    <rhoSampling id="rhoSamplingProbTPEpi.t:Georgia_L2_singleSample" spec="bdmmprime.parameterization.TimedParameter" processLength="@originBDMMPrime.t:Georgia_L2_singleSample" timesAreAges="true" />
+                    <removalProb id="removalProbSVEpi.t:Georgia_L2_singleSample" spec="bdmmprime.parameterization.SkylineVectorParameter" processLength="@originBDMMPrime.t:Georgia_L2_singleSample" timesAreAges="true" >
+                        <parameter id="removalProbEpi.t:Georgia_L2_singleSample" spec="parameter.RealParameter" estimate="false" lower="0.0" name="skylineValues" upper="1.0">0.0</parameter>
+                    </removalProb>
+                </parameterization>
+            </distribution>
+            <distribution id="R0EpiPrior.t:Georgia_L2_singleSample" spec="bdmmprime.util.priors.ZeroExcludingPrior" x="@R0Epi.t:Georgia_L2_singleSample">
+                <LogNormal id="LogNormalDistributionModel.0" name="distr">
+                    <parameter id="RealParameter.16" spec="parameter.RealParameter" estimate="false" name="M">0.0</parameter>
+                    <parameter id="RealParameter.17" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">1.0</parameter>
+                </LogNormal>
+            </distribution>
+            <distribution id="becomeUninfectiousRateEpiPrior.t:Georgia_L2_singleSample" spec="bdmmprime.util.priors.ZeroExcludingPrior" x="@becomeUninfectiousRateEpi.t:Georgia_L2_singleSample">
+                <LogNormal id="LogNormalDistributionModel.1" name="distr">
+                    <parameter id="RealParameter.18" spec="parameter.RealParameter" estimate="false" name="M">0.0</parameter>
+                    <parameter id="RealParameter.19" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.5</parameter>
+                </LogNormal>
+            </distribution>
+            <prior id="GammaShapePrior.s:Georgia_L2_singleSample" name="distribution" x="@gammaShape.s:Georgia_L2_singleSample">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="originBDMMPrimePrior.t:Georgia_L2_singleSample" name="distribution" x="@originBDMMPrime.t:Georgia_L2_singleSample">
+                <Uniform id="Uniform.4" name="distr" upper="500.0"/>
+            </prior>
+            <prior id="RateACPrior.s:Georgia_L2_singleSample" name="distribution" x="@rateAC.s:Georgia_L2_singleSample">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                </Gamma>
+            </prior>
+            <prior id="RateATPrior.s:Georgia_L2_singleSample" name="distribution" x="@rateAT.s:Georgia_L2_singleSample">
+                <Gamma id="Gamma.2" name="distr">
+                    <parameter id="RealParameter.5" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.6" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                </Gamma>
+            </prior>
+            <prior id="RateCGPrior.s:Georgia_L2_singleSample" name="distribution" x="@rateCG.s:Georgia_L2_singleSample">
+                <Gamma id="Gamma.3" name="distr">
+                    <parameter id="RealParameter.7" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                </Gamma>
+            </prior>
+            <prior id="RateCTPrior.s:Georgia_L2_singleSample" name="distribution" x="@rateCT.s:Georgia_L2_singleSample">
+                <Gamma id="Gamma.1" name="distr">
+                    <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="beta">20.0</parameter>
+                </Gamma>
+            </prior>
+            <prior id="RateGTPrior.s:Georgia_L2_singleSample" name="distribution" x="@rateGT.s:Georgia_L2_singleSample">
+                <Gamma id="Gamma.5" name="distr">
+                    <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.12" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                </Gamma>
+            </prior>
+            <distribution id="samplingProportionEpiPrior.t:Georgia_L2_singleSample" spec="bdmmprime.util.priors.ZeroExcludingPrior" x="@samplingProportionEpi.t:Georgia_L2_singleSample">
+                <Uniform id="Uniform.5" name="distr"/>
+            </distribution>
+
+            <prior id="ORCRatePriorDistribution.c:Georgia_L2" name="distribution" x="@ORCRates.c:Georgia_L2">
+                <LogNormal id="LogNormalDistributionModel.5" S="@ORCsigma.c:Georgia_L2" meanInRealSpace="true" name="distr">
+                    <parameter id="RealParameter.22" spec="parameter.RealParameter" estimate="false" name="M">5.0E-7</parameter>
+                </LogNormal>
+            </prior>
+
+            <prior id="ORCsigmaPrior.c:Georgia_L2" name="distribution" x="@ORCsigma.c:Georgia_L2">
+                <Gamma id="Gamma.01" name="distr">
+                    <parameter id="RealParameter.34" spec="parameter.RealParameter" estimate="false" name="alpha">5.0</parameter>
+                    <parameter id="RealParameter.44" spec="parameter.RealParameter" estimate="false" name="beta">0.05</parameter>
+                </Gamma>
+            </prior>
+<!--            <prior id="MeanRatePrior.c:Georgia_L2_singleSample" name="distribution" x="@ucldMean.c:Georgia_L2_singleSample">-->
+<!--                <Uniform id="Uniform.7" name="distr" upper="Infinity"/>-->
+<!--            </prior>-->
+<!--            <prior id="ucldStdevPrior.c:Georgia_L2_singleSample" name="distribution" x="@ucldStdev.c:Georgia_L2_singleSample">-->
+<!--                <Gamma id="Gamma.8" name="distr">-->
+<!--                    <parameter id="RealParameter.34" spec="parameter.RealParameter" estimate="false" name="alpha">0.5396</parameter>-->
+<!--                    <parameter id="RealParameter.35" spec="parameter.RealParameter" estimate="false" name="beta">0.3819</parameter>-->
+<!--                </Gamma>-->
+<!--            </prior>-->
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Georgia_L2_singleSample" spec="ThreadedTreeLikelihood" data="@Georgia_L2_singleSample" tree="@Tree.t:Georgia_L2_singleSample">
+                <siteModel id="SiteModel.s:Georgia_L2_singleSample" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.s:Georgia_L2_singleSample">
+                    <parameter id="mutationRate.s:Georgia_L2_singleSample" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="proportionInvariant.s:Georgia_L2_singleSample" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="gtr.s:Georgia_L2_singleSample" spec="GTR" rateAC="@rateAC.s:Georgia_L2_singleSample" rateAT="@rateAT.s:Georgia_L2_singleSample" rateCG="@rateCG.s:Georgia_L2_singleSample" rateCT="@rateCT.s:Georgia_L2_singleSample" rateGT="@rateGT.s:Georgia_L2_singleSample">
+                        <parameter id="rateAG.s:Georgia_L2_singleSample" spec="parameter.RealParameter" estimate="false" lower="0.0" name="rateAG">1.0</parameter>
+                        <frequencies id="empiricalFreqs.s:Georgia_L2_singleSample" spec="Frequencies" data="@Georgia_L2_singleSample"/>
+                    </substModel>
+                </siteModel>
+                <branchRateModel id="OptimisedRelaxedClock.c:Georgia_L2" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rates="@ORCRates.c:Georgia_L2" tree="@Tree.t:Georgia_L2_singleSample">
+                    <LogNormal id="ORCLogNormalDistributionModel.c:Georgia_L2" S="@ORCsigma.c:Georgia_L2" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.111" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ORCucldMean.c:Georgia_L2" spec="parameter.RealParameter" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+<!--                <branchRateModel id="RelaxedClock.c:Georgia_L2_singleSample" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" clock.rate="@ucldMean.c:Georgia_L2_singleSample" rateCategories="@rateCategories.c:Georgia_L2_singleSample" tree="@Tree.t:Georgia_L2_singleSample">-->
+<!--                    <LogNormal id="LogNormalDistributionModel.c:Georgia_L2_singleSample" S="@ucldStdev.c:Georgia_L2_singleSample" meanInRealSpace="true" name="distr">-->
+<!--                        <parameter id="RealParameter.33" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M" upper="1.0">0.0000005</parameter>-->
+<!--                    </LogNormal>-->
+<!--                </branchRateModel>-->
+            </distribution>
+        </distribution>
+    </distribution>
+    <operator id="gammaShapeScaler.s:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@gammaShape.s:Georgia_L2_singleSample" scaleFactor="0.5" weight="0.1"/>
+    <operator id="RateACScaler.s:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@rateAC.s:Georgia_L2_singleSample" scaleFactor="0.5" weight="0.1"/>
+    <operator id="RateCTScaler.s:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@rateCT.s:Georgia_L2_singleSample" scaleFactor="0.5" weight="0.1"/>
+    <operator id="RateATScaler.s:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@rateAT.s:Georgia_L2_singleSample" scaleFactor="0.5" weight="0.1"/>
+    <operator id="RateCGScaler.s:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@rateCG.s:Georgia_L2_singleSample" scaleFactor="0.5" weight="0.1"/>
+    <operator id="RateGTScaler.s:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@rateGT.s:Georgia_L2_singleSample" scaleFactor="0.5" weight="0.1"/>
+    <operator id="BDMMPrimeLeafToSA.t:Georgia_L2_singleSample" spec="LeafToSampledAncestorJump" tree="@Tree.t:Georgia_L2_singleSample" weight="10.0"/>
+    <operator id="BDMMPrimeSAWilsonBalding.t:Georgia_L2_singleSample" spec="SAWilsonBalding" tree="@Tree.t:Georgia_L2_singleSample" weight="10.0"/>
+    <operator id="BDMMPrimeSAWide.t:Georgia_L2_singleSample" spec="SAExchange" isNarrow="false" tree="@Tree.t:Georgia_L2_singleSample" weight="10.0"/>
+    <operator id="BDMMPrimeSANarrow.t:Georgia_L2_singleSample" spec="SAExchange" tree="@Tree.t:Georgia_L2_singleSample" weight="0.0"/>
+    <operator id="BDMMPrimeSAUniformOperator.t:Georgia_L2_singleSample" spec="SAUniform" tree="@Tree.t:Georgia_L2_singleSample" weight="20.0"/>
+    <operator id="BDMMPrimeSATreeRootScaler.t:Georgia_L2_singleSample" spec="SAScaleOperator" rootOnly="true" scaleFactor="0.95" tree="@Tree.t:Georgia_L2_singleSample" weight="1.0"/>
+    <operator id="BDMMPrimeSATreeScaler.t:Georgia_L2_singleSample" spec="SAScaleOperator" scaleFactor="0.95" tree="@Tree.t:Georgia_L2_singleSample" weight="3.0"/>
+    <operator id="originBDMMPrimeScaler.t:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@originBDMMPrime.t:Georgia_L2_singleSample" weight="3.0"/>
+    <operator id="typeFrequenciesExchanger.t:Georgia_L2_singleSample" spec="DeltaExchangeOperator" delta="0.1" weight="1.0">
+        <parameter idref="typeFrequencies.t:Georgia_L2_singleSample"/>
+    </operator>
+    <operator id="R0EpiScaler.t:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@R0Epi.t:Georgia_L2_singleSample" weight="3.0"/>
+    <operator id="becomeUninfectiousRateEpiScaler.t:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@becomeUninfectiousRateEpi.t:Georgia_L2_singleSample" weight="3.0"/>
+    <operator id="samplingProportionEpiScaler.t:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@samplingProportionEpi.t:Georgia_L2_singleSample" weight="3.0"/>
+<!--    <operator id="ucldMeanScaler.c:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@ucldMean.c:Georgia_L2_singleSample" scaleFactor="0.5" weight="1.0"/>-->
+<!--    <operator id="ucldStdevScaler.c:Georgia_L2_singleSample" spec="ScaleOperator" parameter="@ucldStdev.c:Georgia_L2_singleSample" scaleFactor="0.5" weight="3.0"/>-->
+<!--    <operator id="CategoriesRandomWalk.c:Georgia_L2_singleSample" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Georgia_L2_singleSample" weight="10.0" windowSize="1"/>-->
+<!--    <operator id="CategoriesSwapOperator.c:Georgia_L2_singleSample" spec="SwapOperator" intparameter="@rateCategories.c:Georgia_L2_singleSample" weight="10.0"/>-->
+<!--    <operator id="CategoriesUniform.c:Georgia_L2_singleSample" spec="UniformOperator" parameter="@rateCategories.c:Georgia_L2_singleSample" weight="10.0"/>-->
+<!--    <operator id="relaxedUpDownOperator.c:Georgia_L2_singleSample" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">-->
+<!--        <up idref="ucldMean.c:Georgia_L2_singleSample"/>-->
+<!--        <down idref="Tree.t:Georgia_L2_singleSample"/>-->
+<!--    </operator>-->
+    <operator id="ORCAdaptableOperatorSampler_sigma.c:Georgia_L2" spec="orc.operators.AdaptableOperatorSampler" weight="3.0">
+        <parameter idref="ORCsigma.c:Georgia_L2"/>
+        <operator id="ORCucldStdevScaler.c:Georgia_L2" spec="consoperators.UcldScalerOperator" distr="@ORCLogNormalDistributionModel.c:Georgia_L2" rates="@ORCRates.c:Georgia_L2" scaleFactor="0.5" stdev="@ORCsigma.c:Georgia_L2" weight="1.0">
+            <kernel id="KernelDistribution$Bactrian.14" spec="beast.evolution.operators.KernelDistribution$Bactrian"/>
+        </operator>
+        <operator id="ORCUcldStdevRandomWalk.c:Georgia_L2" spec="beast.evolution.operators.BactrianRandomWalkOperator" parameter="@ORCsigma.c:Georgia_L2" scaleFactor="0.1" weight="1.0">
+            <kernelDistribution id="KernelDistribution$Bactrian.15" spec="beast.evolution.operators.KernelDistribution$Bactrian"/>
+        </operator>
+        <operator id="ORCUcldStdevScale.c:Georgia_L2" spec="beast.evolution.operators.BactrianScaleOperator" parameter="@ORCsigma.c:Georgia_L2" scaleFactor="0.5" upper="10.0" weight="1.0">
+            <kernelDistribution id="KernelDistribution$Bactrian.16" spec="beast.evolution.operators.KernelDistribution$Bactrian"/>
+        </operator>
+        <operator id="ORCSampleFromPriorOperator_sigma.c:Georgia_L2" spec="orc.operators.SampleFromPriorOperator" parameter="@ORCsigma.c:Georgia_L2" prior2="@ORCsigmaPrior.c:Georgia_L2" weight="1.0"/>
+    </operator>
+    <operator id="ORCAdaptableOperatorSampler_rates_root.c:Georgia_L2" spec="orc.operators.AdaptableOperatorSampler" weight="1.0">
+        <parameter idref="ORCRates.c:Georgia_L2"/>
+        <tree idref="Tree.t:Georgia_L2_singleSample"/>
+        <operator id="ORCRootOperator1.c:Georgia_L2" spec="consoperators.SimpleDistance" clockModel="@OptimisedRelaxedClock.c:Georgia_L2" rates="@ORCRates.c:Georgia_L2" tree="@Tree.t:Georgia_L2_singleSample" twindowSize="0.005" weight="1.0">
+            <kernel id="KernelDistribution$Bactrian.17" spec="beast.evolution.operators.KernelDistribution$Bactrian"/>
+        </operator>
+        <operator id="ORCRootOperator2.c:Georgia_L2" spec="consoperators.SmallPulley" clockModel="@OptimisedRelaxedClock.c:Georgia_L2" dwindowSize="0.005" rates="@ORCRates.c:Georgia_L2" tree="@Tree.t:Georgia_L2_singleSample" weight="1.0">
+            <kernel id="KernelDistribution$Bactrian.18" spec="beast.evolution.operators.KernelDistribution$Bactrian"/>
+        </operator>
+    </operator>
+    <operator id="ORCAdaptableOperatorSampler_rates_internal.c:Georgia_L2" spec="orc.operators.AdaptableOperatorSampler" weight="20.0">
+        <parameter idref="ORCRates.c:Georgia_L2"/>
+        <tree idref="Tree.t:Georgia_L2_singleSample"/>
+        <operator id="ORCInternalnodesOperator.c:Georgia_L2" spec="consoperators.InConstantDistanceOperator" clockModel="@OptimisedRelaxedClock.c:Georgia_L2" rates="@ORCRates.c:Georgia_L2" tree="@Tree.t:Georgia_L2_singleSample" twindowSize="0.005" weight="1.0">
+            <kernel id="KernelDistribution$Bactrian.19" spec="beast.evolution.operators.KernelDistribution$Bactrian"/>
+        </operator>
+        <operator id="ORCRatesRandomWalk.c:Georgia_L2" spec="beast.evolution.operators.BactrianRandomWalkOperator" parameter="@ORCRates.c:Georgia_L2" scaleFactor="0.1" weight="1.0">
+            <kernelDistribution id="KernelDistribution$Bactrian.20" spec="beast.evolution.operators.KernelDistribution$Bactrian"/>
+        </operator>
+        <operator id="ORCRatesScale.c:Georgia_L2" spec="beast.evolution.operators.BactrianScaleOperator" parameter="@ORCRates.c:Georgia_L2" scaleFactor="0.5" upper="10.0" weight="1.0">
+            <kernelDistribution id="KernelDistribution$Bactrian.21" spec="beast.evolution.operators.KernelDistribution$Bactrian"/>
+        </operator>
+        <operator id="ORCSampleFromPriorOperator.rates.c:Georgia_L2" spec="orc.operators.SampleFromPriorOperator" parameter="@ORCRates.c:Georgia_L2" prior2="@ORCRatePriorDistribution.c:Georgia_L2" weight="1.0"/>
+    </operator>
+
+
+    <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="BDMMPrime.t:Georgia_L2_singleSample"/>
+        <log idref="treeLikelihood.Georgia_L2_singleSample"/>
+        <log id="TreeHeight.t:Georgia_L2_singleSample" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Georgia_L2_singleSample"/>
+        <log idref="gammaShape.s:Georgia_L2_singleSample"/>
+        <log idref="rateAC.s:Georgia_L2_singleSample"/>
+        <log idref="rateCT.s:Georgia_L2_singleSample"/>
+        <log idref="rateAT.s:Georgia_L2_singleSample"/>
+        <log idref="rateCG.s:Georgia_L2_singleSample"/>
+        <log idref="rateGT.s:Georgia_L2_singleSample"/>
+        <log idref="originBDMMPrime.t:Georgia_L2_singleSample"/>
+        <log idref="typeFrequencies.t:Georgia_L2_singleSample"/>
+<!--        <log id="typedTreeStats.t:Georgia_L2_singleSample" spec="bdmmprime.mapping.TypedTreeStatsLogger" includeRootEdge="true" typeLabel="type" typeSet="@typeSetBDMMPrime.t:Georgia_L2_singleSample">-->
+<!--            <typedTree id="typeMappedTree.t:Georgia_L2_singleSample" spec="bdmmprime.mapping.TypeMappedTree" bdmmDistrib="@BDMMPrime.t:Georgia_L2_singleSample" frequencies="@typeFrequencies.t:Georgia_L2_singleSample" mapOnInit="false" remapOnLog="true" typeLabel="type" typeTraitSet="@typeTraitSet.t:Georgia_L2_singleSample" untypedTree="@Tree.t:Georgia_L2_singleSample"/>-->
+<!--        </log>-->
+        <log idref="R0SVEpi.t:Georgia_L2_singleSample"/>
+        <log idref="becomeUninfectiousRateSVEpi.t:Georgia_L2_singleSample"/>
+        <log idref="samplingProportionSVEpi.t:Georgia_L2_singleSample"/>
+        <log idref="removalProbSVEpi.t:Georgia_L2_singleSample"/>
+        <log idref="rhoSamplingProbTPEpi.t:Georgia_L2_singleSample"/>
+        <log id="ORCRatesStat.c:Georgia_L2" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@OptimisedRelaxedClock.c:Georgia_L2" tree="@Tree.t:Georgia_L2_singleSample"/>
+        <!--        <log idref="ucldMean.c:Georgia_L2_singleSample"/>-->
+<!--        <log idref="ucldStdev.c:Georgia_L2_singleSample"/>-->
+<!--        <log id="rate.c:Georgia_L2_singleSample" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Georgia_L2_singleSample" tree="@Tree.t:Georgia_L2_singleSample"/>-->
+    </logger>
+    <logger id="treelog.t:Georgia_L2_singleSample" spec="Logger" fileName="$(filebase).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Georgia_L2_singleSample" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@OptimisedRelaxedClock.c:Georgia_L2" tree="@Tree.t:Georgia_L2_singleSample"/>
+    </logger>
+<!--    <logger id="typedTreeLogger.t:Georgia_L2_singleSample" spec="bdmmprime.util.OptionalLogger" enableLogger="true" fileName="$(filebase).$(tree).typed.trees" logEvery="1000" mode="tree">-->
+<!--        <log idref="typeMappedTree.t:Georgia_L2_singleSample"/>-->
+<!--    </logger>-->
+<!--    <logger id="nodeTypedTreeLogger.t:Georgia_L2_singleSample" spec="bdmmprime.util.OptionalLogger" enableLogger="true" fileName="$(filebase).$(tree).typed.node.trees" logEvery="1000" mode="tree">-->
+<!--        <log id="nodeTypedTree.t:Georgia_L2_singleSample" spec="bdmmprime.mapping.TypedNodeTreeLogger" typedTree="@typeMappedTree.t:Georgia_L2_singleSample"/>-->
+<!--    </logger>-->
+<!--    <logger id="trajLogger.t:Georgia_L2_singleSample" spec="bdmmprime.util.OptionalLogger" fileName="$(filebase).$(tree).traj" logEvery="1000">-->
+<!--        <log id="typedTraj.t:Georgia_L2_singleSample" spec="bdmmprime.trajectories.SampledTrajectory" bdmmDistrib="@BDMMPrime.t:Georgia_L2_singleSample" frequencies="@typeFrequencies.t:Georgia_L2_singleSample" typeMappedTree="@typeMappedTree.t:Georgia_L2_singleSample" useTauLeaping="true"/>-->
+<!--    </logger>-->
+    <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+</run>
+</beast>

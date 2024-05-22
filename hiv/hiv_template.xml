@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood:sr.evolution.sranges:beast.base.inference.parameter:beast.base.inference:beast.base.evolution.branchratemodel:sr.speciation:sr.evolution.operators:beast.base.evolution.tree" required="BEAST.base v2.7.5" version="2.7">
+
+    <data
+id="Georgia_L2_M3bulk_newid"
+spec="Alignment"
+name="alignment">
+        <insertAlignment/>
+    </data>
+
+    <taxonSet>
+        <insertTaxonSet/>
+    </taxonSet>
+
+    <parameterization id="parameterization" spec="TransmissionParameterization">
+        <origin id="origin" spec="RealParameter" value="50.0"/>
+        <R0 id="R0" spec="RealParameter" value="4.0"/>
+        <becomeUninfectiousRate id="becomeUninfectiousRate" spec="RealParameter" value="0.4"/>
+        <samplingProportion id="samplingProportion" spec="RealParameter" value="0 0.05"/>
+        <samplingChangeTime id="samplingChangeTime" spec="RealParameter" value="14.1"/>
+        <removalProb id="removalProbability" spec="RealParameter" value="0.5"/>
+    </parameterization>
+
+    <siteModel gammaCategoryCount="1" id="SiteModel"
+               spec="SiteModel">
+        <parameter dimension="1" id="mutationRate"
+                   name="mutationRate" value="1.0" />
+        <parameter dimension="1" id="gammaShape" name="shape"
+                   value="0.5" lower="0.0" upper="1000.0" />
+        <substModel id="gtr" rateAC="@rateAC" rateGT="@rateGT"
+                    rateAT="@rateAT" rateCG="@rateCG" rateCT="@rateCT" spec="GTR">
+            <parameter dimension="1" id="rateAG" lower="0.0"
+                       name="rateAG" value="1.0" />
+            <frequencies estimate="true" id="freqs"
+                         spec="Frequencies">
+                <parameter name='frequencies' id='freqParameter'
+                           value='0.25' dimension='4' lower="0." upper="1." />
+            </frequencies>
+        </substModel>
+    </siteModel>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+    <run id="mcmc" spec="MCMC" chainLength="10000000">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="tree" spec="sr.evolution.tree.SRTree" nodetype="sr.evolution.tree.SRNode" name="stateNode">
+                <trait id="dateTrait.t:Georgia_L2_M3bulk_newid" spec="beast.base.evolution.tree.TraitSet" dateFormat="yyyy-M-dd" traitname="date"
+                    <insertDates/>
+                    <taxa id="TaxonSet.Georgia_L2_M3bulk_newid" spec="TaxonSet">
+                        <alignment id="data" spec="FilteredAlignment" filter="-">
+                            <data idref="Georgia_L2_M3bulk_newid"/>
+                            <constantSiteWeights id="IntegerParameter.0" spec="parameter.IntegerParameter" dimension="4" lower="0" upper="0">757797 1449218 1443832 757667</constantSiteWeights>
+                        </alignment>
+                    </taxa>
+                </trait>
+                <taxonset idref="TaxonSet.Georgia_L2_M3bulk_newid"/>
+                <insertStratigraphicRanges/>
+            </tree>
+
+            <stateNode idref="origin" />
+            <stateNode idref="R0" />
+            <stateNode idref="becomeUninfectiousRate" />
+            <stateNode idref="samplingProportion" />
+            <stateNode idref="removalProbability" />
+<!--            <stateNode idref="samplingChangeTime" />-->
+            <parameter id="clockRate" lower="0.0" name="stateNode">0.00005</parameter>
+        <stateNode idref="freqParameter" />
+        <stateNode idref="gammaShape" />
+            <parameter dimension="1" id="rateAC" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateGT" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateAT" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateCG" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+            <parameter dimension="1" id="rateCT" lower="0.0"
+                   upper="100.0" name="stateNode" value="1.0" />
+        </state>
+
+    <init estimate="false" id="Randomtree" initial="@tree" spec="sr.evolution.tree.RandomTransmissionRangeTree" nodetype="sr.evolution.tree.SRNode">
+        <insertTaxonSets/>
+        <insertRangesRefs/>
+        <taxa idref="Georgia_L2_M3bulk_newid"/>
+    </init>
+
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="treeLikelihood" spec="TreeLikelihood">
+                    <data idref="data" />
+                    <tree idref="tree" />
+                    <branchRateModel id="strictClock" spec="StrictClockModel" clock.rate="@clockRate"/>
+                    <siteModel idref="SiteModel" />
+            </distribution>
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution spec="SRangesBirthDeathModel" id="birthDeath" tree="@tree"  conditionOnSampling="true" startPeriod="false" integrateOverRanges="false">
+                    <parameterization idref="parameterization"/>
+                </distribution>
+
+                <distribution id="reproductiveNumber.prior" spec="beast.base.inference.distribution.Prior" x="@R0">
+                    <LogNormal name="distr" M="0." S="1." offset="0." />
+                </distribution>
+
+                <distribution id="becomeUninf.prior" spec="beast.base.inference.distribution.Prior" x="@becomeUninfectiousRate">
+                    <LogNormal name="distr" M="0." S="0.5" offset="0." />
+                </distribution>
+
+                <distribution id="samplingProportion.prior" spec="beast.base.inference.distribution.Prior" x="@samplingProportion">
+                    <Uniform name="distr" lower="0." upper="0.5" offset="0." />
+                </distribution>
+
+<!--                <distribution id="samplingChangeTime.prior" spec="beast.base.inference.distribution.Prior" x="@samplingChangeTime">-->
+<!--                    <Uniform name="distr" lower="0." upper="1.6" offset="0." />-->
+<!--                </distribution>-->
+
+                <distribution id="removalProbability.prior" spec="beast.base.inference.distribution.Prior" x="@removalProbability">
+                    <Uniform name="distr" lower="0.5" upper="1." offset="0." />
+                </distribution>
+
+                <distribution id='origin.Prior' x="@origin" spec='beast.base.inference.distribution.Prior'>
+                    <Uniform name="distr" lower="0." upper="100." offset="0." />
+                </distribution>
+
+
+                <distribution id="clockRate.prior" spec="beast.base.inference.distribution.Prior" x="@clockRate">
+                    <LogNormal name="distr" M="-16." S="1." offset="0." />
+                </distribution>
+
+                <prior id="gammaShape.Prior" name="distribution" x="@gammaShape">
+                    <Exponential name="distr" mean="1."/>
+                </prior>
+
+                <distribution id="gtr.frequencies.prior" spec="beast.base.inference.distribution.Prior" x="@freqParameter">
+                    <Uniform name="distr" lower="0.0" upper="1.0" />
+                </distribution>
+
+
+                <prior id="gtr.rateAC.prior" name="distribution" x="@rateAC">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+                <prior id="gtr.rateAT.prior" name="distribution" x="@rateAT">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+                <prior id="gtr.rateCG.prior" name="distribution" x="@rateCG">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+                <prior id="gtr.rateGT.prior" name="distribution" x="@rateGT">
+                    <Gamma name="distr" alpha="0.05" beta="10."/>
+                </prior>
+
+            </distribution>
+        </distribution>
+
+        <!--        Parameter operators -->
+        <operator id="originScaler" parameter="@origin" scaleFactor="0.75" spec="ScaleOperator" weight="5.0"/>
+        <operator id='R0Operator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@R0"/>
+        <operator id='becomeUninfectiousRateOperator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@becomeUninfectiousRate"/>
+        <operator id='samplingProportionOperator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@samplingProportion"/>
+<!--        <operator id='samplingChangeTimeOperator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@samplingChangeTime"/>-->
+        <operator id='removalProbOperator' spec='ScaleOperator' scaleFactor=".75" weight="5" parameter="@removalProbability"/>
+
+        <operator id="updown" spec="UpDownOperator" scaleFactor=".75" weight="10">
+            <up idref="R0" />
+            <down idref="becomeUninfectiousRate" />
+        </operator>
+
+        <operator spec='ScaleOperator' id='scalerAC'
+                  scaleFactor=".75" weight=".2" parameter="@rateAC" />
+        <operator spec='ScaleOperator' id='scalerAT'
+                  scaleFactor=".75" weight=".2" parameter="@rateAT" />
+        <operator spec='ScaleOperator' id='scalerCG'
+                  scaleFactor=".75" weight=".2" parameter="@rateCG" />
+        <operator spec='ScaleOperator' id='scalerCT'
+                  scaleFactor=".75" weight=".2" parameter="@rateCT" />
+        <operator spec='ScaleOperator' id='scalerGT'
+                  scaleFactor=".75" weight=".2" parameter="@rateGT" />
+
+        <operator id='gammaShapeScaler' spec='ScaleOperator'
+                  scaleFactor=".75" weight=".3" parameter="@gammaShape" />
+        <operator autoOptimize="true" delta="0.2"
+                  id="FrequenciesExchanger" integer="false"
+                  spec="DeltaExchangeOperator" weight="1" parameter="@freqParameter" />
+
+    <!--        Tree operators -->
+    <operator id="SATreeRootScaler" rootOnly="true" scaleFactor="0.95" spec="SAScaleOperator" tree="@tree" weight="3.0" />
+    <operator id="SRWilsonBalding" spec='SRWilsonBalding' weight="10" tree="@tree"/>
+    <operator id="LeftRightChildSwap" spec='LeftRightChildSwap' weight="5" tree="@tree"/>
+    <operator id="LeafToSampledAncestorJump" spec='SRLeafToSampledAncestorJump' weight="10" tree="@tree" />
+    <operator spec="SAUniform" weight="10" tree="@tree"/>
+    <operator id='treeScaler' spec="SAScaleOperator" scaleFactor=".95" weight="10.0" tree="@tree"/>
+
+
+
+
+
+        <logger logEvery="1000" fileName="$(filebase).$(seed).log">
+            <distribution idref="posterior" name="log" />
+            <log idref="treeLikelihood"/>
+            <log idref="birthDeath" />
+
+            <log id="TreeHeight" spec="TreeHeightLogger" tree="@tree"/>
+            <log idref="origin"/>
+            <log idref="R0"/>
+            <log idref="becomeUninfectiousRate"/>
+            <log idref="samplingProportion"/>
+            <log idref="removalProbability"/>
+            <log idref="samplingChangeTime"/>
+
+            <log idref="clockRate" />
+            <log idref="gammaShape" />
+            <log idref="freqParameter" />
+            <log idref="rateAC" />
+            <log idref="rateAG" />
+            <log idref="rateAT" />
+            <log idref="rateCG" />
+            <log idref="rateCT" />
+            <log idref="rateGT" />
+        </logger>
+
+        <logger fileName="$(filebase).$(seed).trees" id="treelog" logEvery="1000" mode="tree" >
+            <log id="treeWithMetaDataLogger" spec="sr.evolution.tree.TreeWithMetadataLogger"
+                 tree="@tree"/>
+        </logger>
+
+
+    </run>
+
+</beast>
